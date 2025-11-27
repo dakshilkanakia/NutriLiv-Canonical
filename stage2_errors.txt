@@ -1,0 +1,248 @@
+================================================================================
+STAGE 2 PROCESSING ERROR REPORT
+Generated: 2025-11-27 14:17:35
+================================================================================
+
+Total ingredients processed: 115
+✓ Successful: 22 (19.1%)
+✗ Failed: 93 (80.9%)
+
+================================================================================
+MISSING INGREDIENTS (31)
+================================================================================
+Recipe 127, Line 8: "1 tsp maca root powder"
+  → Candidate name: maca root powder
+  → Error: NO_MATCH
+  → Action: Add ingredient to Ingredient Table
+
+Recipe 129, Line 1: "1 cup Coconut Kefir"
+  → Candidate name: coconut kefir
+  → Error: NO_MATCH
+  → Action: Add ingredient to Ingredient Table
+
+Recipe 129, Line 4: "1 tsp frozen apple juice concentrate"
+  → Candidate name: apple juice concentrate
+  → Error: NO_MATCH
+  → Action: Add ingredient to Ingredient Table
+
+Recipe 129, Line 5: "1/8 tsp ground nutmeg"
+  → Candidate name: ground nutmeg
+  → Error: NO_MATCH
+  → Action: Add ingredient to Ingredient Table
+
+Recipe 129, Line 6: "2 tbsp chopped fresh mint leaves"
+  → Candidate name: mint leav
+  → Error: NO_MATCH
+  → Action: Add ingredient to Ingredient Table
+
+Recipe 130, Line 1: "½ bunch dinosaur kale roughly chopped"
+  → Candidate name: dinosaur kale
+  → Error: NO_MATCH
+  → Action: Add ingredient to Ingredient Table
+
+Recipe 130, Line 2: "4 stalks celery cut into ½-inch pieces"
+  → Candidate name: celery ½-inch
+  → Error: NO_MATCH
+  → Action: Add ingredient to Ingredient Table
+
+Recipe 130, Line 4: "2½ tbsp coconut butter"
+  → Candidate name: coconut butter
+  → Error: NO_MATCH
+  → Action: Add ingredient to Ingredient Table
+
+Recipe 130, Line 6: "1 cup water plus more as needed"
+  → Candidate name: water
+  → Error: NO_MATCH
+  → Action: Add ingredient to Ingredient Table
+
+Recipe 130, Line 7: "Juice of ½ lemon"
+  → Candidate name: juice of ½ lemon
+  → Error: NO_MATCH
+  → Action: Add ingredient to Ingredient Table
+
+Recipe 131, Line 1: "2 cups buckwheat groats"
+  → Candidate name: buckwheat groat
+  → Error: NO_MATCH
+  → Action: Add ingredient to Ingredient Table
+
+Recipe 131, Line 2: "8 cups water"
+  → Candidate name: water
+  → Error: NO_MATCH
+  → Action: Add ingredient to Ingredient Table
+
+Recipe 131, Line 5: "1 (1-inch) piece fresh ginger sliced thin"
+  → Candidate name: (1-inch) piece ginger thin
+  → Error: NO_MATCH
+  → Action: Add ingredient to Ingredient Table
+
+Recipe 133, Line 1: "2 tbsp water"
+  → Candidate name: water
+  → Error: NO_MATCH
+  → Action: Add ingredient to Ingredient Table
+
+Recipe 133, Line 5: "½ bunch dinosaur kale"
+  → Candidate name: dinosaur kale
+  → Error: NO_MATCH
+  → Action: Add ingredient to Ingredient Table
+
+Recipe 133, Line 7: "¼ cup toasted sea palm"
+  → Candidate name: toasted sea palm
+  → Error: NO_MATCH
+  → Action: Add ingredient to Ingredient Table
+
+Recipe 133, Line 9: "1 tsp cider vinegar"
+  → Candidate name: cider vinegar
+  → Error: NO_MATCH
+  → Action: Add ingredient to Ingredient Table
+
+Recipe 133, Line 11: "¼ cup mung bean sprouts"
+  → Candidate name: mung bean sprout
+  → Error: NO_MATCH
+  → Action: Add ingredient to Ingredient Table
+
+Recipe 134, Line 2: "4½ cups water"
+  → Candidate name: water
+  → Error: NO_MATCH
+  → Action: Add ingredient to Ingredient Table
+
+Recipe 136, Line 4: "1 tbsp water"
+  → Candidate name: water
+  → Error: NO_MATCH
+  → Action: Add ingredient to Ingredient Table
+
+Recipe 136, Line 5: "1 heaping tbsp raw ground almonds"
+  → Candidate name: heaping tbsp ground almond
+  → Error: NO_MATCH
+  → Action: Add ingredient to Ingredient Table
+
+Recipe 137, Line 1: "1 cup amaranth"
+  → Candidate name: amaranth
+  → Error: NO_MATCH
+  → Action: Add ingredient to Ingredient Table
+
+Recipe 137, Line 3: "2 cups water"
+  → Candidate name: water
+  → Error: NO_MATCH
+  → Action: Add ingredient to Ingredient Table
+
+Recipe 137, Line 4: "4 dried figs chopped"
+  → Candidate name: dried fig
+  → Error: NO_MATCH
+  → Action: Add ingredient to Ingredient Table
+
+Recipe 137, Line 7: "molasses taste"
+  → Candidate name: molasses taste
+  → Error: NO_MATCH
+  → Action: Add ingredient to Ingredient Table
+
+Recipe 139, Line 1: "2 cups raw dried sea vegetables"
+  → Candidate name: dried sea vegetabl
+  → Error: NO_MATCH
+  → Action: Add ingredient to Ingredient Table
+
+Recipe 139, Line 2: "4 cups water"
+  → Candidate name: water
+  → Error: NO_MATCH
+  → Action: Add ingredient to Ingredient Table
+
+Recipe 139, Line 5: "4 large red radishes grated"
+  → Candidate name: red radishes
+  → Error: NO_MATCH
+  → Action: Add ingredient to Ingredient Table
+
+Recipe 139, Line 10: "2 tbsp cider vinegar"
+  → Candidate name: cider vinegar
+  → Error: NO_MATCH
+  → Action: Add ingredient to Ingredient Table
+
+Recipe 139, Line 12: "juice of 2 oranges"
+  → Candidate name: juice of 2 orang
+  → Error: NO_MATCH
+  → Action: Add ingredient to Ingredient Table
+
+Recipe 139, Line 15: "2 cups arugula greens"
+  → Candidate name: arugula green
+  → Error: NO_MATCH
+  → Action: Add ingredient to Ingredient Table
+
+================================================================================
+MISSING DENSITIES (10)
+================================================================================
+Recipe 127, Line 2: "1 tbsp dried goji berries"
+  → Ingredient: Dried goji berries (INGR_01497)
+  → Form: FORM_DRIED
+  → Conversion needed: vol→mass
+  → Action: Add density for INGR_01497 + FORM_DRIED
+
+Recipe 127, Line 4: "½ cup Coconut Milk"
+  → Ingredient: Coconut milk (INGR_00238)
+  → Form: FORM_CANNED
+  → Conversion needed: vol→mass
+  → Action: Add density for INGR_00238 + FORM_CANNED
+
+Recipe 127, Line 6: "1/8 tsp ground cinnamon"
+  → Ingredient: Cinnamon (INGR_00189)
+  → Form: FORM_GROUND
+  → Conversion needed: vol→mass
+  → Action: Add density for INGR_00189 + FORM_GROUND
+
+Recipe 131, Line 3: "1 cup coconut milk"
+  → Ingredient: Coconut milk (INGR_00238)
+  → Form: FORM_CANNED
+  → Conversion needed: vol→mass
+  → Action: Add density for INGR_00238 + FORM_CANNED
+
+Recipe 133, Line 10: "1 tsp nutritional yeast flakes"
+  → Ingredient: Nutritional yeast flakes (INGR_01264)
+  → Form: FORM_DRY
+  → Conversion needed: vol→mass
+  → Action: Add density for INGR_01264 + FORM_DRY
+
+Recipe 134, Line 3: "1 tsp salt"
+  → Ingredient: Salt (INGR_00185)
+  → Form: FORM_GROUND
+  → Conversion needed: vol→mass
+  → Action: Add density for INGR_00185 + FORM_GROUND
+
+Recipe 137, Line 2: "1 tsp ground cinnamon"
+  → Ingredient: Cinnamon (INGR_00189)
+  → Form: FORM_GROUND
+  → Conversion needed: vol→mass
+  → Action: Add density for INGR_00189 + FORM_GROUND
+
+Recipe 139, Line 9: "¼ cup slivered raw almonds"
+  → Ingredient: Baharat (INGR_01387)
+  → Form: FORM_POWDER
+  → Conversion needed: vol→mass
+  → Action: Add density for INGR_01387 + FORM_POWDER
+
+Recipe 139, Line 13: "1 tbsp miso"
+  → Ingredient: Miso paste (INGR_00274)
+  → Form: FORM_PASTE
+  → Conversion needed: vol→mass
+  → Action: Add density for INGR_00274 + FORM_PASTE
+
+Recipe 139, Line 14: "½ tsp salt"
+  → Ingredient: Salt (INGR_00185)
+  → Form: FORM_GROUND
+  → Conversion needed: vol→mass
+  → Action: Add density for INGR_00185 + FORM_GROUND
+
+================================================================================
+MULTI-INGREDIENT LINES (5)
+================================================================================
+Recipe 127, Line 3: "2½ tbsp unsweetened shredded dried coconut or coconut flakes"
+  → Action: Split into separate ingredient lines in Stage 1
+
+Recipe 130, Line 3: "1 (1-inch) piece fresh ginger peeled and minced"
+  → Action: Split into separate ingredient lines in Stage 1
+
+Recipe 133, Line 6: "1 (½-inch) piece fresh ginger peeled and minced"
+  → Action: Split into separate ingredient lines in Stage 1
+
+Recipe 139, Line 6: "1 small jicama peeled and diced"
+  → Action: Split into separate ingredient lines in Stage 1
+
+Recipe 139, Line 7: "1 (2-inch) piece fresh ginger peeled and minced"
+  → Action: Split into separate ingredient lines in Stage 1
+

@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+*.egg-info/
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary output files (optional - you might want to keep these)
+# stage2_output.jsonl
+# stage2_errors.txt
+# stage2_errors.json
+
+# Compressed archives
+*.tar.gz
+*.zip
+
