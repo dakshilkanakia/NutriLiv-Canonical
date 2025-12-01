@@ -17,9 +17,9 @@ A complete, production-ready Stage 2 processor that:
 
 Put these in `/mnt/project/` (or same directory as script):
 - ✅ Your Stage 1 JSONL file (e.g., `recipe_sample_251105__1_.jsonl`)
-- ✅ `Ingredient_Table_Populated_Master_251105.xlsx`
+- ✅ `Ingredient_Table_Populated_Master_251130.xlsx`
 - ✅ `Form_Table_Populated_Complete.xlsx`
-- ✅ `Density_Table_Populated__Final_251126.xlsx`
+- ✅ `Density_Table_Populated__Final_251130.xlsx`
 - ✅ `Unit_Conversion_Constants_Table_Populated.xlsx`
 - ✅ `Meaning-carrying_tokens_-_allow_list.txt`
 

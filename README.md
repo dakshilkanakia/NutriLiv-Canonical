@@ -15,9 +15,9 @@ This processor takes Stage 1 parsed ingredient data (JSONL format) and converts 
 ### Prerequisites
 - Python 3.6+
 - Required Excel reference files in `/mnt/project/`:
-  - `Ingredient_Table_Populated_Master_251105.xlsx`
+  - `Ingredient_Table_Populated_Master_251130.xlsx`
   - `Form_Table_Populated_Complete.xlsx`
-  - `Density_Table_Populated__Final_251126.xlsx`
+  - `Density_Table_Populated__Final_251130.xlsx`
   - `Unit_Conversion_Constants_Table_Populated.xlsx`
   - `Meaning-carrying_tokens_-_allow_list.txt`
 
@@ -209,7 +209,7 @@ ERROR_TXT_FILE = "stage2_errors.txt"
 ERROR_JSON_FILE = "stage2_errors.json"
 
 # Reference tables
-INGREDIENT_TABLE = "Ingredient_Table_Populated_Master_251105.xlsx"
+INGREDIENT_TABLE = "Ingredient_Table_Populated_Master_251130.xlsx"
 FORM_TABLE = "Form_Table_Populated_Complete.xlsx"
 # ... etc
 

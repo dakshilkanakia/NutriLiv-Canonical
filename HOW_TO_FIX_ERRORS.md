@@ -28,7 +28,7 @@ Recipe 127, Line 8: "1 tsp maca root powder"
 
 ### Step-by-Step Fix:
 
-1. **Open** `Ingredient_Table_Populated_Master_251105.xlsx`
+1. **Open** `Ingredient_Table_Populated_Master 251130.xlsx`
 
 2. **Find the last ingredient ID**
    - Scroll to bottom
@@ -110,7 +110,7 @@ Recipe 127, Line 1: "1/2 cup chia seeds"
    g/mL = 0.719
    ```
 
-3. **Open** `Density_Table_Populated__Final_251126.xlsx`
+3. **Open** `Density_Table_Populated__Final_251130.xlsx`
 
 4. **Find last density ID**
    - Scroll to bottom

@@ -1,272 +1,26 @@
 {
-  "generated_at": "2025-11-27T14:17:35.066581",
+  "generated_at": "2025-12-01T00:27:19.474927",
   "summary": {
-    "total": 115,
-    "successful": 22,
-    "failed": 93,
-    "success_rate": 0.19130434782608696,
+    "total": 72,
+    "successful": 62,
+    "failed": 10,
+    "success_rate": 0.8611111111111112,
     "error_counts": {
-      "missing_ingredients": 31,
-      "missing_densities": 10,
-      "parsing_failures": 47,
-      "multi_ingredient_lines": 5
+      "missing_densities": 2,
+      "parsing_failures": 7,
+      "multi_ingredient_lines": 1
     }
   },
   "errors": {
-    "missing_ingredients": [
+    "missing_ingredients": [],
+    "missing_densities": [
       {
         "recipe_id": "127",
         "line_number": 8,
         "original_text": "1 tsp maca root powder",
-        "candidate_name": "maca root powder",
-        "error": "NO_MATCH"
-      },
-      {
-        "recipe_id": "129",
-        "line_number": 1,
-        "original_text": "1 cup Coconut Kefir",
-        "candidate_name": "coconut kefir",
-        "error": "NO_MATCH"
-      },
-      {
-        "recipe_id": "129",
-        "line_number": 4,
-        "original_text": "1 tsp frozen apple juice concentrate",
-        "candidate_name": "apple juice concentrate",
-        "error": "NO_MATCH"
-      },
-      {
-        "recipe_id": "129",
-        "line_number": 5,
-        "original_text": "1/8 tsp ground nutmeg",
-        "candidate_name": "ground nutmeg",
-        "error": "NO_MATCH"
-      },
-      {
-        "recipe_id": "129",
-        "line_number": 6,
-        "original_text": "2 tbsp chopped fresh mint leaves",
-        "candidate_name": "mint leav",
-        "error": "NO_MATCH"
-      },
-      {
-        "recipe_id": "130",
-        "line_number": 1,
-        "original_text": "½ bunch dinosaur kale roughly chopped",
-        "candidate_name": "dinosaur kale",
-        "error": "NO_MATCH"
-      },
-      {
-        "recipe_id": "130",
-        "line_number": 2,
-        "original_text": "4 stalks celery cut into ½-inch pieces",
-        "candidate_name": "celery ½-inch",
-        "error": "NO_MATCH"
-      },
-      {
-        "recipe_id": "130",
-        "line_number": 4,
-        "original_text": "2½ tbsp coconut butter",
-        "candidate_name": "coconut butter",
-        "error": "NO_MATCH"
-      },
-      {
-        "recipe_id": "130",
-        "line_number": 6,
-        "original_text": "1 cup water plus more as needed",
-        "candidate_name": "water",
-        "error": "NO_MATCH"
-      },
-      {
-        "recipe_id": "130",
-        "line_number": 7,
-        "original_text": "Juice of ½ lemon",
-        "candidate_name": "juice of ½ lemon",
-        "error": "NO_MATCH"
-      },
-      {
-        "recipe_id": "131",
-        "line_number": 1,
-        "original_text": "2 cups buckwheat groats",
-        "candidate_name": "buckwheat groat",
-        "error": "NO_MATCH"
-      },
-      {
-        "recipe_id": "131",
-        "line_number": 2,
-        "original_text": "8 cups water",
-        "candidate_name": "water",
-        "error": "NO_MATCH"
-      },
-      {
-        "recipe_id": "131",
-        "line_number": 5,
-        "original_text": "1 (1-inch) piece fresh ginger sliced thin",
-        "candidate_name": "(1-inch) piece ginger thin",
-        "error": "NO_MATCH"
-      },
-      {
-        "recipe_id": "133",
-        "line_number": 1,
-        "original_text": "2 tbsp water",
-        "candidate_name": "water",
-        "error": "NO_MATCH"
-      },
-      {
-        "recipe_id": "133",
-        "line_number": 5,
-        "original_text": "½ bunch dinosaur kale",
-        "candidate_name": "dinosaur kale",
-        "error": "NO_MATCH"
-      },
-      {
-        "recipe_id": "133",
-        "line_number": 7,
-        "original_text": "¼ cup toasted sea palm",
-        "candidate_name": "toasted sea palm",
-        "error": "NO_MATCH"
-      },
-      {
-        "recipe_id": "133",
-        "line_number": 9,
-        "original_text": "1 tsp cider vinegar",
-        "candidate_name": "cider vinegar",
-        "error": "NO_MATCH"
-      },
-      {
-        "recipe_id": "133",
-        "line_number": 11,
-        "original_text": "¼ cup mung bean sprouts",
-        "candidate_name": "mung bean sprout",
-        "error": "NO_MATCH"
-      },
-      {
-        "recipe_id": "134",
-        "line_number": 2,
-        "original_text": "4½ cups water",
-        "candidate_name": "water",
-        "error": "NO_MATCH"
-      },
-      {
-        "recipe_id": "136",
-        "line_number": 4,
-        "original_text": "1 tbsp water",
-        "candidate_name": "water",
-        "error": "NO_MATCH"
-      },
-      {
-        "recipe_id": "136",
-        "line_number": 5,
-        "original_text": "1 heaping tbsp raw ground almonds",
-        "candidate_name": "heaping tbsp ground almond",
-        "error": "NO_MATCH"
-      },
-      {
-        "recipe_id": "137",
-        "line_number": 1,
-        "original_text": "1 cup amaranth",
-        "candidate_name": "amaranth",
-        "error": "NO_MATCH"
-      },
-      {
-        "recipe_id": "137",
-        "line_number": 3,
-        "original_text": "2 cups water",
-        "candidate_name": "water",
-        "error": "NO_MATCH"
-      },
-      {
-        "recipe_id": "137",
-        "line_number": 4,
-        "original_text": "4 dried figs chopped",
-        "candidate_name": "dried fig",
-        "error": "NO_MATCH"
-      },
-      {
-        "recipe_id": "137",
-        "line_number": 7,
-        "original_text": "molasses taste",
-        "candidate_name": "molasses taste",
-        "error": "NO_MATCH"
-      },
-      {
-        "recipe_id": "139",
-        "line_number": 1,
-        "original_text": "2 cups raw dried sea vegetables",
-        "candidate_name": "dried sea vegetabl",
-        "error": "NO_MATCH"
-      },
-      {
-        "recipe_id": "139",
-        "line_number": 2,
-        "original_text": "4 cups water",
-        "candidate_name": "water",
-        "error": "NO_MATCH"
-      },
-      {
-        "recipe_id": "139",
-        "line_number": 5,
-        "original_text": "4 large red radishes grated",
-        "candidate_name": "red radishes",
-        "error": "NO_MATCH"
-      },
-      {
-        "recipe_id": "139",
-        "line_number": 10,
-        "original_text": "2 tbsp cider vinegar",
-        "candidate_name": "cider vinegar",
-        "error": "NO_MATCH"
-      },
-      {
-        "recipe_id": "139",
-        "line_number": 12,
-        "original_text": "juice of 2 oranges",
-        "candidate_name": "juice of 2 orang",
-        "error": "NO_MATCH"
-      },
-      {
-        "recipe_id": "139",
-        "line_number": 15,
-        "original_text": "2 cups arugula greens",
-        "candidate_name": "arugula green",
-        "error": "NO_MATCH"
-      }
-    ],
-    "missing_densities": [
-      {
-        "recipe_id": "127",
-        "line_number": 2,
-        "original_text": "1 tbsp dried goji berries",
-        "ingredient_id": "INGR_01497",
-        "ingredient_name": "Dried goji berries",
-        "form_id": "FORM_DRIED",
-        "conversion_needed": "vol→mass"
-      },
-      {
-        "recipe_id": "127",
-        "line_number": 4,
-        "original_text": "½ cup Coconut Milk",
-        "ingredient_id": "INGR_00238",
-        "ingredient_name": "Coconut milk",
-        "form_id": "FORM_CANNED",
-        "conversion_needed": "vol→mass"
-      },
-      {
-        "recipe_id": "127",
-        "line_number": 6,
-        "original_text": "1/8 tsp ground cinnamon",
-        "ingredient_id": "INGR_00189",
-        "ingredient_name": "Cinnamon",
-        "form_id": "FORM_GROUND",
-        "conversion_needed": "vol→mass"
-      },
-      {
-        "recipe_id": "131",
-        "line_number": 3,
-        "original_text": "1 cup coconut milk",
-        "ingredient_id": "INGR_00238",
-        "ingredient_name": "Coconut milk",
-        "form_id": "FORM_CANNED",
+        "ingredient_id": "INGR_01499",
+        "ingredient_name": "Maca root powder",
+        "form_id": "FORM_POWDER",
         "conversion_needed": "vol→mass"
       },
       {
@@ -277,141 +31,21 @@
         "ingredient_name": "Nutritional yeast flakes",
         "form_id": "FORM_DRY",
         "conversion_needed": "vol→mass"
-      },
-      {
-        "recipe_id": "134",
-        "line_number": 3,
-        "original_text": "1 tsp salt",
-        "ingredient_id": "INGR_00185",
-        "ingredient_name": "Salt",
-        "form_id": "FORM_GROUND",
-        "conversion_needed": "vol→mass"
-      },
-      {
-        "recipe_id": "137",
-        "line_number": 2,
-        "original_text": "1 tsp ground cinnamon",
-        "ingredient_id": "INGR_00189",
-        "ingredient_name": "Cinnamon",
-        "form_id": "FORM_GROUND",
-        "conversion_needed": "vol→mass"
-      },
-      {
-        "recipe_id": "139",
-        "line_number": 9,
-        "original_text": "¼ cup slivered raw almonds",
-        "ingredient_id": "INGR_01387",
-        "ingredient_name": "Baharat",
-        "form_id": "FORM_POWDER",
-        "conversion_needed": "vol→mass"
-      },
-      {
-        "recipe_id": "139",
-        "line_number": 13,
-        "original_text": "1 tbsp miso",
-        "ingredient_id": "INGR_00274",
-        "ingredient_name": "Miso paste",
-        "form_id": "FORM_PASTE",
-        "conversion_needed": "vol→mass"
-      },
-      {
-        "recipe_id": "139",
-        "line_number": 14,
-        "original_text": "½ tsp salt",
-        "ingredient_id": "INGR_00185",
-        "ingredient_name": "Salt",
-        "form_id": "FORM_GROUND",
-        "conversion_needed": "vol→mass"
       }
     ],
     "parsing_failures": [
       {
         "recipe_id": "127",
-        "line_number": 2,
-        "original_text": "1 tbsp dried goji berries",
-        "conversion_notes": "missing_density"
-      },
-      {
-        "recipe_id": "127",
         "line_number": 3,
         "original_text": "2½ tbsp unsweetened shredded dried coconut or coconut flakes",
-        "candidate_name": "unsweetened dried coconut or coconut flak",
+        "candidate_name": "unsweetened dried coconut or coconut flake",
         "error": "MULTI_INGREDIENT_LINE"
-      },
-      {
-        "recipe_id": "127",
-        "line_number": 4,
-        "original_text": "½ cup Coconut Milk",
-        "conversion_notes": "missing_density"
-      },
-      {
-        "recipe_id": "127",
-        "line_number": 6,
-        "original_text": "1/8 tsp ground cinnamon",
-        "conversion_notes": "missing_density"
       },
       {
         "recipe_id": "127",
         "line_number": 8,
         "original_text": "1 tsp maca root powder",
-        "candidate_name": "maca root powder",
-        "error": "NO_MATCH"
-      },
-      {
-        "recipe_id": "129",
-        "line_number": 1,
-        "original_text": "1 cup Coconut Kefir",
-        "candidate_name": "coconut kefir",
-        "error": "NO_MATCH"
-      },
-      {
-        "recipe_id": "129",
-        "line_number": 4,
-        "original_text": "1 tsp frozen apple juice concentrate",
-        "candidate_name": "apple juice concentrate",
-        "error": "NO_MATCH"
-      },
-      {
-        "recipe_id": "129",
-        "line_number": 5,
-        "original_text": "1/8 tsp ground nutmeg",
-        "candidate_name": "ground nutmeg",
-        "error": "NO_MATCH"
-      },
-      {
-        "recipe_id": "129",
-        "line_number": 6,
-        "original_text": "2 tbsp chopped fresh mint leaves",
-        "candidate_name": "mint leav",
-        "error": "NO_MATCH"
-      },
-      {
-        "recipe_id": "130",
-        "line_number": 1,
-        "original_text": "½ bunch dinosaur kale roughly chopped",
-        "candidate_name": "dinosaur kale",
-        "error": "NO_MATCH"
-      },
-      {
-        "recipe_id": "130",
-        "line_number": 2,
-        "original_text": "4 stalks celery cut into ½-inch pieces",
-        "candidate_name": "celery ½-inch",
-        "error": "NO_MATCH"
-      },
-      {
-        "recipe_id": "130",
-        "line_number": 3,
-        "original_text": "1 (1-inch) piece fresh ginger peeled and minced",
-        "candidate_name": "(1-inch) piece ginger and",
-        "error": "MULTI_INGREDIENT_LINE"
-      },
-      {
-        "recipe_id": "130",
-        "line_number": 4,
-        "original_text": "2½ tbsp coconut butter",
-        "candidate_name": "coconut butter",
-        "error": "NO_MATCH"
+        "conversion_notes": "missing_density"
       },
       {
         "recipe_id": "130",
@@ -421,79 +55,9 @@
       },
       {
         "recipe_id": "130",
-        "line_number": 6,
-        "original_text": "1 cup water plus more as needed",
-        "candidate_name": "water",
-        "error": "NO_MATCH"
-      },
-      {
-        "recipe_id": "130",
         "line_number": 7,
         "original_text": "Juice of ½ lemon",
-        "candidate_name": "juice of ½ lemon",
-        "error": "NO_MATCH"
-      },
-      {
-        "recipe_id": "131",
-        "line_number": 1,
-        "original_text": "2 cups buckwheat groats",
-        "candidate_name": "buckwheat groat",
-        "error": "NO_MATCH"
-      },
-      {
-        "recipe_id": "131",
-        "line_number": 2,
-        "original_text": "8 cups water",
-        "candidate_name": "water",
-        "error": "NO_MATCH"
-      },
-      {
-        "recipe_id": "131",
-        "line_number": 3,
-        "original_text": "1 cup coconut milk",
-        "conversion_notes": "missing_density"
-      },
-      {
-        "recipe_id": "131",
-        "line_number": 5,
-        "original_text": "1 (1-inch) piece fresh ginger sliced thin",
-        "candidate_name": "(1-inch) piece ginger thin",
-        "error": "NO_MATCH"
-      },
-      {
-        "recipe_id": "133",
-        "line_number": 1,
-        "original_text": "2 tbsp water",
-        "candidate_name": "water",
-        "error": "NO_MATCH"
-      },
-      {
-        "recipe_id": "133",
-        "line_number": 5,
-        "original_text": "½ bunch dinosaur kale",
-        "candidate_name": "dinosaur kale",
-        "error": "NO_MATCH"
-      },
-      {
-        "recipe_id": "133",
-        "line_number": 6,
-        "original_text": "1 (½-inch) piece fresh ginger peeled and minced",
-        "candidate_name": "(½-inch) piece ginger and",
-        "error": "MULTI_INGREDIENT_LINE"
-      },
-      {
-        "recipe_id": "133",
-        "line_number": 7,
-        "original_text": "¼ cup toasted sea palm",
-        "candidate_name": "toasted sea palm",
-        "error": "NO_MATCH"
-      },
-      {
-        "recipe_id": "133",
-        "line_number": 9,
-        "original_text": "1 tsp cider vinegar",
-        "candidate_name": "cider vinegar",
-        "error": "NO_MATCH"
+        "conversion_notes": "missing_quantity"
       },
       {
         "recipe_id": "133",
@@ -502,146 +66,16 @@
         "conversion_notes": "missing_density"
       },
       {
-        "recipe_id": "133",
-        "line_number": 11,
-        "original_text": "¼ cup mung bean sprouts",
-        "candidate_name": "mung bean sprout",
-        "error": "NO_MATCH"
-      },
-      {
-        "recipe_id": "134",
-        "line_number": 2,
-        "original_text": "4½ cups water",
-        "candidate_name": "water",
-        "error": "NO_MATCH"
-      },
-      {
-        "recipe_id": "134",
-        "line_number": 3,
-        "original_text": "1 tsp salt",
-        "conversion_notes": "missing_density"
-      },
-      {
-        "recipe_id": "136",
-        "line_number": 4,
-        "original_text": "1 tbsp water",
-        "candidate_name": "water",
-        "error": "NO_MATCH"
-      },
-      {
-        "recipe_id": "136",
-        "line_number": 5,
-        "original_text": "1 heaping tbsp raw ground almonds",
-        "candidate_name": "heaping tbsp ground almond",
-        "error": "NO_MATCH"
-      },
-      {
-        "recipe_id": "137",
-        "line_number": 1,
-        "original_text": "1 cup amaranth",
-        "candidate_name": "amaranth",
-        "error": "NO_MATCH"
-      },
-      {
-        "recipe_id": "137",
-        "line_number": 2,
-        "original_text": "1 tsp ground cinnamon",
-        "conversion_notes": "missing_density"
-      },
-      {
-        "recipe_id": "137",
-        "line_number": 3,
-        "original_text": "2 cups water",
-        "candidate_name": "water",
-        "error": "NO_MATCH"
-      },
-      {
-        "recipe_id": "137",
-        "line_number": 4,
-        "original_text": "4 dried figs chopped",
-        "candidate_name": "dried fig",
-        "error": "NO_MATCH"
-      },
-      {
         "recipe_id": "137",
         "line_number": 7,
         "original_text": "molasses taste",
-        "candidate_name": "molasses taste",
-        "error": "NO_MATCH"
-      },
-      {
-        "recipe_id": "139",
-        "line_number": 1,
-        "original_text": "2 cups raw dried sea vegetables",
-        "candidate_name": "dried sea vegetabl",
-        "error": "NO_MATCH"
-      },
-      {
-        "recipe_id": "139",
-        "line_number": 2,
-        "original_text": "4 cups water",
-        "candidate_name": "water",
-        "error": "NO_MATCH"
-      },
-      {
-        "recipe_id": "139",
-        "line_number": 5,
-        "original_text": "4 large red radishes grated",
-        "candidate_name": "red radishes",
-        "error": "NO_MATCH"
-      },
-      {
-        "recipe_id": "139",
-        "line_number": 6,
-        "original_text": "1 small jicama peeled and diced",
-        "candidate_name": "jicama and",
-        "error": "MULTI_INGREDIENT_LINE"
-      },
-      {
-        "recipe_id": "139",
-        "line_number": 7,
-        "original_text": "1 (2-inch) piece fresh ginger peeled and minced",
-        "candidate_name": "(2-inch) piece ginger and",
-        "error": "MULTI_INGREDIENT_LINE"
-      },
-      {
-        "recipe_id": "139",
-        "line_number": 9,
-        "original_text": "¼ cup slivered raw almonds",
-        "conversion_notes": "missing_density"
-      },
-      {
-        "recipe_id": "139",
-        "line_number": 10,
-        "original_text": "2 tbsp cider vinegar",
-        "candidate_name": "cider vinegar",
-        "error": "NO_MATCH"
+        "conversion_notes": "missing_quantity"
       },
       {
         "recipe_id": "139",
         "line_number": 12,
         "original_text": "juice of 2 oranges",
-        "candidate_name": "juice of 2 orang",
-        "error": "NO_MATCH"
-      },
-      {
-        "recipe_id": "139",
-        "line_number": 13,
-        "original_text": "1 tbsp miso",
-        "conversion_notes": "missing_density"
-      },
-      {
-        "recipe_id": "139",
-        "line_number": 14,
-        "original_text": "½ tsp salt",
-        "conversion_notes": "missing_density"
-      },
-      {
-        "recipe_id": "139",
-        "line_number": 15,
-        "original_text": "2 cups arugula greens",
-        "candidate_name": "arugula green",
-        "error": "NO_MATCH"
+        "conversion_notes": "missing_quantity"
       }
     ],
     "unit_not_recognized": [],
@@ -650,35 +84,7 @@
         "recipe_id": "127",
         "line_number": 3,
         "original_text": "2½ tbsp unsweetened shredded dried coconut or coconut flakes",
-        "candidate_name": "unsweetened dried coconut or coconut flak",
-        "error": "MULTI_INGREDIENT_LINE"
-      },
-      {
-        "recipe_id": "130",
-        "line_number": 3,
-        "original_text": "1 (1-inch) piece fresh ginger peeled and minced",
-        "candidate_name": "(1-inch) piece ginger and",
-        "error": "MULTI_INGREDIENT_LINE"
-      },
-      {
-        "recipe_id": "133",
-        "line_number": 6,
-        "original_text": "1 (½-inch) piece fresh ginger peeled and minced",
-        "candidate_name": "(½-inch) piece ginger and",
-        "error": "MULTI_INGREDIENT_LINE"
-      },
-      {
-        "recipe_id": "139",
-        "line_number": 6,
-        "original_text": "1 small jicama peeled and diced",
-        "candidate_name": "jicama and",
-        "error": "MULTI_INGREDIENT_LINE"
-      },
-      {
-        "recipe_id": "139",
-        "line_number": 7,
-        "original_text": "1 (2-inch) piece fresh ginger peeled and minced",
-        "candidate_name": "(2-inch) piece ginger and",
+        "candidate_name": "unsweetened dried coconut or coconut flake",
         "error": "MULTI_INGREDIENT_LINE"
       }
     ],

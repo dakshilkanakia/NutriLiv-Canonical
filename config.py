@@ -13,9 +13,9 @@ ERROR_TXT_FILE = "stage2_errors.txt"
 ERROR_JSON_FILE = "stage2_errors.json"
 
 # Reference table paths
-INGREDIENT_TABLE = "Ingredient_Table_Populated_Master 251105.xlsx"
+INGREDIENT_TABLE = "Ingredient_Table_Populated_Master 251130.xlsx"
 FORM_TABLE = "Form_Table_Populated_Complete.xlsx"
-DENSITY_TABLE = "Density_Table_Populated - Final 251126.xlsx"
+DENSITY_TABLE = "Density_Table_Populated - Final 251130.xlsx"
 CONVERSION_TABLE = "Unit_Conversion_Constants_Table_Populated.xlsx"
 MEANING_TOKENS_FILE = "Meaning-carrying tokens - allow list.txt"
 
@@ -188,8 +188,8 @@ FORM_TOKEN_MAP = {
 # MATCHING THRESHOLDS
 # ============================================================================
 
-FUZZY_MATCH_THRESHOLD_ACCEPT = 0.92
-FUZZY_MATCH_THRESHOLD_REVIEW = 0.80
+FUZZY_MATCH_THRESHOLD_ACCEPT = 0.88  # Lowered from 0.92 for better matching
+FUZZY_MATCH_THRESHOLD_REVIEW = 0.75  # Lowered from 0.80
 
 # ============================================================================
 # PRECISION SETTINGS
