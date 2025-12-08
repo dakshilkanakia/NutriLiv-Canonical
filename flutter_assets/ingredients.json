@@ -1,0 +1,6333 @@
+{
+  "INGR_00001": {
+    "name": "Apple",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": [
+      "apples"
+    ]
+  },
+  "INGR_00002": {
+    "name": "Apricot",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_00003": {
+    "name": "Artichoke",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_00004": {
+    "name": "Arugula",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": [
+      "rocket",
+      "arugula greens",
+      "arugula leaves"
+    ]
+  },
+  "INGR_00005": {
+    "name": "Asparagus",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_00006": {
+    "name": "Avocado",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_00007": {
+    "name": "Banana",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_00008": {
+    "name": "Basil",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": [
+      "sweet basil"
+    ]
+  },
+  "INGR_00009": {
+    "name": "Beetroot",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": [
+      "beet"
+    ]
+  },
+  "INGR_00010": {
+    "name": "Bell pepper",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": [
+      "capsicum",
+      "sweet pepper"
+    ]
+  },
+  "INGR_00011": {
+    "name": "Blackberry",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_00012": {
+    "name": "Blueberry",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_00013": {
+    "name": "Broccoli",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_00014": {
+    "name": "Brussels sprouts",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_00015": {
+    "name": "Butternut squash",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_00016": {
+    "name": "Cabbage",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_00017": {
+    "name": "Cantaloupe",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": [
+      "rockmelon"
+    ]
+  },
+  "INGR_00018": {
+    "name": "Carrot",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_00019": {
+    "name": "Cauliflower",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_00020": {
+    "name": "Celery",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_00021": {
+    "name": "Chard",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": [
+      "Swiss chard"
+    ]
+  },
+  "INGR_00022": {
+    "name": "Chili pepper",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": [
+      "chilli",
+      "hot pepper"
+    ]
+  },
+  "INGR_00023": {
+    "name": "Chive",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": [
+      "chives"
+    ]
+  },
+  "INGR_00024": {
+    "name": "Cilantro",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": [
+      "coriander leaves"
+    ]
+  },
+  "INGR_00025": {
+    "name": "Corn",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": [
+      "sweet corn",
+      "maize"
+    ]
+  },
+  "INGR_00026": {
+    "name": "Cranberry",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_00027": {
+    "name": "Cucumber",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_00028": {
+    "name": "Currants",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_00029": {
+    "name": "Daikon",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": [
+      "mooli"
+    ]
+  },
+  "INGR_00030": {
+    "name": "Dates",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_00031": {
+    "name": "Dill",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_00032": {
+    "name": "Dragon fruit",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": [
+      "pitaya"
+    ]
+  },
+  "INGR_00033": {
+    "name": "Eggplant",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": [
+      "aubergine",
+      "brinjal"
+    ]
+  },
+  "INGR_00034": {
+    "name": "Endive",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_00035": {
+    "name": "Fennel bulb",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": [
+      "fennel"
+    ]
+  },
+  "INGR_00036": {
+    "name": "Fig",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": [
+      "figs",
+      "dried figs",
+      "dried fig"
+    ]
+  },
+  "INGR_00037": {
+    "name": "Garlic",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": [
+      "garlic cloves"
+    ]
+  },
+  "INGR_00038": {
+    "name": "Ginger",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": [
+      "fresh ginger"
+    ]
+  },
+  "INGR_00039": {
+    "name": "Grape",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": [
+      "grapes"
+    ]
+  },
+  "INGR_00040": {
+    "name": "Grapefruit",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_00041": {
+    "name": "Green bean",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": [
+      "string bean",
+      "French bean"
+    ]
+  },
+  "INGR_00042": {
+    "name": "Green onion",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": [
+      "scallion",
+      "spring onion"
+    ]
+  },
+  "INGR_00043": {
+    "name": "Horseradish",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_00044": {
+    "name": "Jalapeño",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": [
+      "jalapeno"
+    ]
+  },
+  "INGR_00045": {
+    "name": "Kale",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": [
+      "dinosaur kale"
+    ]
+  },
+  "INGR_00046": {
+    "name": "Kiwi",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": [
+      "kiwifruit"
+    ]
+  },
+  "INGR_00047": {
+    "name": "Leek",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_00048": {
+    "name": "Lemon",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": [
+      "lemon juice"
+    ]
+  },
+  "INGR_00049": {
+    "name": "Lettuce",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_00050": {
+    "name": "Lime",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_00051": {
+    "name": "Lychee",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_00052": {
+    "name": "Mango",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_00053": {
+    "name": "Mushroom",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": [
+      "button mushroom"
+    ]
+  },
+  "INGR_00054": {
+    "name": "Nectarine",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_00055": {
+    "name": "Okra",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": [
+      "ladies' fingers",
+      "bhindi"
+    ]
+  },
+  "INGR_00056": {
+    "name": "Green Olives",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_00057": {
+    "name": "Onion",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": [
+      "yellow onion"
+    ]
+  },
+  "INGR_00058": {
+    "name": "Orange",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_00059": {
+    "name": "Papaya",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_00060": {
+    "name": "Parsley",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_00061": {
+    "name": "Parsnip",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_00062": {
+    "name": "Peach",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_00063": {
+    "name": "Pear",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_00064": {
+    "name": "Peas",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": [
+      "green peas"
+    ]
+  },
+  "INGR_00065": {
+    "name": "Pineapple",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_00066": {
+    "name": "Plantain",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_00067": {
+    "name": "Pomegranate",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_00068": {
+    "name": "Potato",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_00069": {
+    "name": "Pumpkin",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_00070": {
+    "name": "Radish",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": [
+      "radishes",
+      "red radish",
+      "red radishes"
+    ]
+  },
+  "INGR_00071": {
+    "name": "Raisin",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": [
+      "raisins"
+    ]
+  },
+  "INGR_00072": {
+    "name": "Raspberry",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_00073": {
+    "name": "Red onion",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_00074": {
+    "name": "Rhubarb",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_00075": {
+    "name": "Rosemary",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_00076": {
+    "name": "Sage",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_00077": {
+    "name": "Spinach",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_00078": {
+    "name": "Strawberry",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_00079": {
+    "name": "Sweet potato",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": [
+      "kumara"
+    ]
+  },
+  "INGR_00080": {
+    "name": "Tomatillo",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_00081": {
+    "name": "Tomato",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_00082": {
+    "name": "Turnip",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_00083": {
+    "name": "Watercress",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_00084": {
+    "name": "Watermelon",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_00085": {
+    "name": "Zucchini",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": [
+      "courgette"
+    ]
+  },
+  "INGR_00086": {
+    "name": "Beef chuck",
+    "category": "Meat",
+    "default_form": "FORM_RAW",
+    "aliases": [
+      "beef"
+    ]
+  },
+  "INGR_00087": {
+    "name": "Beef sirloin",
+    "category": "Meat",
+    "default_form": "FORM_RAW",
+    "aliases": []
+  },
+  "INGR_00088": {
+    "name": "Beef ground",
+    "category": "Meat",
+    "default_form": "FORM_RAW",
+    "aliases": [
+      "ground beef",
+      "minced beef"
+    ]
+  },
+  "INGR_00089": {
+    "name": "Pork loin",
+    "category": "Meat",
+    "default_form": "FORM_RAW",
+    "aliases": [
+      "pork"
+    ]
+  },
+  "INGR_00090": {
+    "name": "Pork shoulder",
+    "category": "Meat",
+    "default_form": "FORM_RAW",
+    "aliases": []
+  },
+  "INGR_00091": {
+    "name": "Pork belly",
+    "category": "Meat",
+    "default_form": "FORM_RAW",
+    "aliases": []
+  },
+  "INGR_00092": {
+    "name": "Bacon",
+    "category": "Meat",
+    "default_form": "FORM_RAW",
+    "aliases": []
+  },
+  "INGR_00093": {
+    "name": "Ham",
+    "category": "Meat",
+    "default_form": "FORM_COOKED",
+    "aliases": []
+  },
+  "INGR_00094": {
+    "name": "Lamb leg",
+    "category": "Meat",
+    "default_form": "FORM_RAW",
+    "aliases": [
+      "lamb"
+    ]
+  },
+  "INGR_00095": {
+    "name": "Lamb shoulder",
+    "category": "Meat",
+    "default_form": "FORM_RAW",
+    "aliases": []
+  },
+  "INGR_00096": {
+    "name": "Chicken breast",
+    "category": "Meat",
+    "default_form": "FORM_RAW",
+    "aliases": [
+      "chicken"
+    ]
+  },
+  "INGR_00097": {
+    "name": "Chicken thigh",
+    "category": "Meat",
+    "default_form": "FORM_RAW",
+    "aliases": []
+  },
+  "INGR_00098": {
+    "name": "Chicken drumstick",
+    "category": "Meat",
+    "default_form": "FORM_RAW",
+    "aliases": []
+  },
+  "INGR_00099": {
+    "name": "Chicken wings",
+    "category": "Meat",
+    "default_form": "FORM_RAW",
+    "aliases": []
+  },
+  "INGR_00100": {
+    "name": "Turkey breast",
+    "category": "Meat",
+    "default_form": "FORM_RAW",
+    "aliases": [
+      "turkey"
+    ]
+  },
+  "INGR_00101": {
+    "name": "Turkey ground",
+    "category": "Meat",
+    "default_form": "FORM_RAW",
+    "aliases": [
+      "minced turkey"
+    ]
+  },
+  "INGR_00102": {
+    "name": "Duck breast",
+    "category": "Meat",
+    "default_form": "FORM_RAW",
+    "aliases": [
+      "duck"
+    ]
+  },
+  "INGR_00103": {
+    "name": "Goat meat",
+    "category": "Meat",
+    "default_form": "FORM_RAW",
+    "aliases": [
+      "mutton (goat)"
+    ]
+  },
+  "INGR_00104": {
+    "name": "Veal cutlet",
+    "category": "Meat",
+    "default_form": "FORM_RAW",
+    "aliases": [
+      "veal"
+    ]
+  },
+  "INGR_00105": {
+    "name": "Sausage",
+    "category": "Meat",
+    "default_form": "FORM_RAW",
+    "aliases": [
+      "pork sausage",
+      "beef sausage"
+    ]
+  },
+  "INGR_00106": {
+    "name": "Salmon fillet",
+    "category": "Seafood",
+    "default_form": "FORM_RAW",
+    "aliases": [
+      "salmon"
+    ]
+  },
+  "INGR_00107": {
+    "name": "Tuna",
+    "category": "Seafood",
+    "default_form": "FORM_RAW",
+    "aliases": []
+  },
+  "INGR_00108": {
+    "name": "Cod",
+    "category": "Seafood",
+    "default_form": "FORM_RAW",
+    "aliases": []
+  },
+  "INGR_00109": {
+    "name": "Haddock",
+    "category": "Seafood",
+    "default_form": "FORM_RAW",
+    "aliases": []
+  },
+  "INGR_00110": {
+    "name": "Halibut",
+    "category": "Seafood",
+    "default_form": "FORM_RAW",
+    "aliases": []
+  },
+  "INGR_00111": {
+    "name": "Tilapia",
+    "category": "Seafood",
+    "default_form": "FORM_RAW",
+    "aliases": []
+  },
+  "INGR_00112": {
+    "name": "Sardines",
+    "category": "Seafood",
+    "default_form": "FORM_RAW",
+    "aliases": [
+      "sardine"
+    ]
+  },
+  "INGR_00113": {
+    "name": "Anchovies",
+    "category": "Seafood",
+    "default_form": "FORM_PACKED",
+    "aliases": [
+      "anchovy"
+    ]
+  },
+  "INGR_00114": {
+    "name": "Shrimp",
+    "category": "Seafood",
+    "default_form": "FORM_RAW",
+    "aliases": [
+      "prawns"
+    ]
+  },
+  "INGR_00115": {
+    "name": "Scallops",
+    "category": "Seafood",
+    "default_form": "FORM_RAW",
+    "aliases": [
+      "scallop"
+    ]
+  },
+  "INGR_00116": {
+    "name": "Mussels",
+    "category": "Seafood",
+    "default_form": "FORM_RAW",
+    "aliases": [
+      "mussel"
+    ]
+  },
+  "INGR_00117": {
+    "name": "Clams",
+    "category": "Seafood",
+    "default_form": "FORM_RAW",
+    "aliases": [
+      "clam"
+    ]
+  },
+  "INGR_00118": {
+    "name": "Octopus",
+    "category": "Seafood",
+    "default_form": "FORM_RAW",
+    "aliases": []
+  },
+  "INGR_00119": {
+    "name": "Squid",
+    "category": "Seafood",
+    "default_form": "FORM_RAW",
+    "aliases": [
+      "calamari"
+    ]
+  },
+  "INGR_00120": {
+    "name": "Crab",
+    "category": "Seafood",
+    "default_form": "FORM_RAW",
+    "aliases": []
+  },
+  "INGR_00121": {
+    "name": "Lobster",
+    "category": "Seafood",
+    "default_form": "FORM_RAW",
+    "aliases": []
+  },
+  "INGR_00122": {
+    "name": "Mackerel",
+    "category": "Seafood",
+    "default_form": "FORM_RAW",
+    "aliases": []
+  },
+  "INGR_00123": {
+    "name": "Seabass",
+    "category": "Seafood",
+    "default_form": "FORM_RAW",
+    "aliases": [
+      "sea bass"
+    ]
+  },
+  "INGR_00124": {
+    "name": "Snapper",
+    "category": "Seafood",
+    "default_form": "FORM_RAW",
+    "aliases": []
+  },
+  "INGR_00125": {
+    "name": "Trout",
+    "category": "Seafood",
+    "default_form": "FORM_RAW",
+    "aliases": []
+  },
+  "INGR_00126": {
+    "name": "Butter",
+    "category": "Refrigerated & Dairy",
+    "default_form": "FORM_SOLID",
+    "aliases": [
+      "unsalted butter"
+    ]
+  },
+  "INGR_00127": {
+    "name": "Ghee",
+    "category": "Refrigerated & Dairy",
+    "default_form": "FORM_LIQUID",
+    "aliases": []
+  },
+  "INGR_00128": {
+    "name": "Milk",
+    "category": "Refrigerated & Dairy",
+    "default_form": "FORM_LIQUID",
+    "aliases": [
+      "whole milk"
+    ]
+  },
+  "INGR_00129": {
+    "name": "Yogurt",
+    "category": "Refrigerated & Dairy",
+    "default_form": "FORM_SEMI",
+    "aliases": [
+      "plain yogurt"
+    ]
+  },
+  "INGR_00130": {
+    "name": "Greek yogurt",
+    "category": "Refrigerated & Dairy",
+    "default_form": "FORM_SEMI",
+    "aliases": []
+  },
+  "INGR_00131": {
+    "name": "Cream",
+    "category": "Refrigerated & Dairy",
+    "default_form": "FORM_LIQUID",
+    "aliases": [
+      "heavy cream"
+    ]
+  },
+  "INGR_00132": {
+    "name": "Sour cream",
+    "category": "Refrigerated & Dairy",
+    "default_form": "FORM_SEMI",
+    "aliases": []
+  },
+  "INGR_00133": {
+    "name": "Buttermilk",
+    "category": "Refrigerated & Dairy",
+    "default_form": "FORM_LIQUID",
+    "aliases": []
+  },
+  "INGR_00134": {
+    "name": "Cheddar cheese",
+    "category": "Refrigerated & Dairy",
+    "default_form": "FORM_SOLID",
+    "aliases": [
+      "cheddar"
+    ]
+  },
+  "INGR_00135": {
+    "name": "Mozzarella",
+    "category": "Refrigerated & Dairy",
+    "default_form": "FORM_SOLID",
+    "aliases": []
+  },
+  "INGR_00136": {
+    "name": "Parmesan",
+    "category": "Refrigerated & Dairy",
+    "default_form": "FORM_SOLID",
+    "aliases": [
+      "parmigiano reggiano"
+    ]
+  },
+  "INGR_00137": {
+    "name": "Feta",
+    "category": "Refrigerated & Dairy",
+    "default_form": "FORM_SOLID",
+    "aliases": []
+  },
+  "INGR_00138": {
+    "name": "Goat cheese",
+    "category": "Refrigerated & Dairy",
+    "default_form": "FORM_SOLID",
+    "aliases": [
+      "chèvre"
+    ]
+  },
+  "INGR_00139": {
+    "name": "Cottage cheese",
+    "category": "Refrigerated & Dairy",
+    "default_form": "FORM_SEMI",
+    "aliases": []
+  },
+  "INGR_00140": {
+    "name": "Ricotta",
+    "category": "Refrigerated & Dairy",
+    "default_form": "FORM_SEMI",
+    "aliases": []
+  },
+  "INGR_00141": {
+    "name": "Cream cheese",
+    "category": "Refrigerated & Dairy",
+    "default_form": "FORM_SEMI",
+    "aliases": []
+  },
+  "INGR_00142": {
+    "name": "Paneer",
+    "category": "Refrigerated & Dairy",
+    "default_form": "FORM_SOLID",
+    "aliases": []
+  },
+  "INGR_00143": {
+    "name": "Halloumi",
+    "category": "Refrigerated & Dairy",
+    "default_form": "FORM_SOLID",
+    "aliases": []
+  },
+  "INGR_00144": {
+    "name": "Eggs",
+    "category": "Refrigerated & Dairy",
+    "default_form": "FORM_WHOLE",
+    "aliases": [
+      "egg"
+    ]
+  },
+  "INGR_00145": {
+    "name": "White rice",
+    "category": "Grains & Pasta",
+    "default_form": "FORM_RAW",
+    "aliases": [
+      "long grain rice"
+    ]
+  },
+  "INGR_00146": {
+    "name": "Brown rice",
+    "category": "Grains & Pasta",
+    "default_form": "FORM_RAW",
+    "aliases": []
+  },
+  "INGR_00147": {
+    "name": "Basmati rice",
+    "category": "Grains & Pasta",
+    "default_form": "FORM_RAW",
+    "aliases": []
+  },
+  "INGR_00148": {
+    "name": "Jasmine rice",
+    "category": "Grains & Pasta",
+    "default_form": "FORM_RAW",
+    "aliases": []
+  },
+  "INGR_00149": {
+    "name": "Quinoa",
+    "category": "Grains & Pasta",
+    "default_form": "FORM_RAW",
+    "aliases": []
+  },
+  "INGR_00150": {
+    "name": "Couscous",
+    "category": "Grains & Pasta",
+    "default_form": "FORM_RAW",
+    "aliases": []
+  },
+  "INGR_00151": {
+    "name": "Bulgur",
+    "category": "Grains & Pasta",
+    "default_form": "FORM_RAW",
+    "aliases": []
+  },
+  "INGR_00152": {
+    "name": "Polenta",
+    "category": "Grains & Pasta",
+    "default_form": "FORM_POWDER",
+    "aliases": [
+      "cornmeal"
+    ]
+  },
+  "INGR_00153": {
+    "name": "Barley",
+    "category": "Grains & Pasta",
+    "default_form": "FORM_RAW",
+    "aliases": []
+  },
+  "INGR_00154": {
+    "name": "Millet",
+    "category": "Grains & Pasta",
+    "default_form": "FORM_RAW",
+    "aliases": []
+  },
+  "INGR_00155": {
+    "name": "Buckwheat",
+    "category": "Grains & Pasta",
+    "default_form": "FORM_RAW",
+    "aliases": [
+      "buckwheat groats",
+      "buckwheat groat"
+    ]
+  },
+  "INGR_00156": {
+    "name": "Oats",
+    "category": "Grains & Pasta",
+    "default_form": "FORM_RAW",
+    "aliases": [
+      "rolled oats"
+    ]
+  },
+  "INGR_00157": {
+    "name": "Pasta spaghetti",
+    "category": "Grains & Pasta",
+    "default_form": "FORM_RAW",
+    "aliases": [
+      "spaghetti"
+    ]
+  },
+  "INGR_00158": {
+    "name": "Pasta penne",
+    "category": "Grains & Pasta",
+    "default_form": "FORM_RAW",
+    "aliases": [
+      "penne"
+    ]
+  },
+  "INGR_00159": {
+    "name": "Pasta fusilli",
+    "category": "Grains & Pasta",
+    "default_form": "FORM_RAW",
+    "aliases": [
+      "fusilli"
+    ]
+  },
+  "INGR_00160": {
+    "name": "Soba noodles",
+    "category": "Grains & Pasta",
+    "default_form": "FORM_RAW",
+    "aliases": []
+  },
+  "INGR_00161": {
+    "name": "Udon noodles",
+    "category": "Grains & Pasta",
+    "default_form": "FORM_RAW",
+    "aliases": []
+  },
+  "INGR_00162": {
+    "name": "Rice noodles",
+    "category": "Grains & Pasta",
+    "default_form": "FORM_RAW",
+    "aliases": []
+  },
+  "INGR_00163": {
+    "name": "Vermicelli",
+    "category": "Grains & Pasta",
+    "default_form": "FORM_RAW",
+    "aliases": []
+  },
+  "INGR_00164": {
+    "name": "Ramen noodles",
+    "category": "Grains & Pasta",
+    "default_form": "FORM_RAW",
+    "aliases": [
+      "ramen"
+    ]
+  },
+  "INGR_00165": {
+    "name": "Chickpeas",
+    "category": "Legumes & Nuts",
+    "default_form": "FORM_RAW",
+    "aliases": [
+      "garbanzo beans"
+    ]
+  },
+  "INGR_00166": {
+    "name": "Lentils green",
+    "category": "Legumes & Nuts",
+    "default_form": "FORM_RAW",
+    "aliases": [
+      "green lentils"
+    ]
+  },
+  "INGR_00167": {
+    "name": "Lentils red",
+    "category": "Legumes & Nuts",
+    "default_form": "FORM_RAW",
+    "aliases": [
+      "red lentils"
+    ]
+  },
+  "INGR_00168": {
+    "name": "Black beans",
+    "category": "Legumes & Nuts",
+    "default_form": "FORM_RAW",
+    "aliases": []
+  },
+  "INGR_00169": {
+    "name": "Kidney beans",
+    "category": "Legumes & Nuts",
+    "default_form": "FORM_RAW",
+    "aliases": []
+  },
+  "INGR_00170": {
+    "name": "Pinto beans",
+    "category": "Legumes & Nuts",
+    "default_form": "FORM_RAW",
+    "aliases": []
+  },
+  "INGR_00171": {
+    "name": "Cannellini beans",
+    "category": "Legumes & Nuts",
+    "default_form": "FORM_RAW",
+    "aliases": [
+      "white beans"
+    ]
+  },
+  "INGR_00172": {
+    "name": "Soybeans",
+    "category": "Legumes & Nuts",
+    "default_form": "FORM_RAW",
+    "aliases": [
+      "soya beans"
+    ]
+  },
+  "INGR_00173": {
+    "name": "Edamame",
+    "category": "Legumes & Nuts",
+    "default_form": "FORM_RAW",
+    "aliases": []
+  },
+  "INGR_00174": {
+    "name": "Peas dried",
+    "category": "Legumes & Nuts",
+    "default_form": "FORM_RAW",
+    "aliases": [
+      "split peas"
+    ]
+  },
+  "INGR_00175": {
+    "name": "Almonds",
+    "category": "Legumes & Nuts",
+    "default_form": "FORM_WHOLE",
+    "aliases": [
+      "almond",
+      "ground almonds",
+      "sliced almonds",
+      "slivered almonds"
+    ]
+  },
+  "INGR_00176": {
+    "name": "Cashews",
+    "category": "Legumes & Nuts",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_00177": {
+    "name": "Walnuts",
+    "category": "Legumes & Nuts",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_00178": {
+    "name": "Pecans",
+    "category": "Legumes & Nuts",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_00179": {
+    "name": "Pistachios",
+    "category": "Legumes & Nuts",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_00180": {
+    "name": "Hazelnuts",
+    "category": "Legumes & Nuts",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_00181": {
+    "name": "Peanuts",
+    "category": "Legumes & Nuts",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_00182": {
+    "name": "Pine nuts",
+    "category": "Legumes & Nuts",
+    "default_form": "FORM_WHOLE",
+    "aliases": [
+      "pignoli"
+    ]
+  },
+  "INGR_00183": {
+    "name": "Macadamia nuts",
+    "category": "Legumes & Nuts",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_00184": {
+    "name": "Sesame seeds",
+    "category": "Legumes & Nuts",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_00185": {
+    "name": "Salt",
+    "category": "Spices & Seasonings",
+    "default_form": "FORM_GROUND",
+    "aliases": [
+      "kosher salt",
+      "sea salt"
+    ]
+  },
+  "INGR_00186": {
+    "name": "Black pepper",
+    "category": "Spices & Seasonings",
+    "default_form": "FORM_GROUND",
+    "aliases": [
+      "pepper"
+    ]
+  },
+  "INGR_00187": {
+    "name": "Cumin",
+    "category": "Spices & Seasonings",
+    "default_form": "FORM_GROUND",
+    "aliases": [
+      "ground cumin",
+      "jeera"
+    ]
+  },
+  "INGR_00188": {
+    "name": "Coriander seed",
+    "category": "Spices & Seasonings",
+    "default_form": "FORM_GROUND",
+    "aliases": [
+      "dhania"
+    ]
+  },
+  "INGR_00189": {
+    "name": "Cinnamon",
+    "category": "Spices & Seasonings",
+    "default_form": "FORM_GROUND",
+    "aliases": [
+      "ground cinnamon"
+    ]
+  },
+  "INGR_00190": {
+    "name": "Cardamom",
+    "category": "Spices & Seasonings",
+    "default_form": "FORM_GROUND",
+    "aliases": []
+  },
+  "INGR_00191": {
+    "name": "Cloves",
+    "category": "Spices & Seasonings",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_00192": {
+    "name": "Star anise",
+    "category": "Spices & Seasonings",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_00193": {
+    "name": "Turmeric",
+    "category": "Spices & Seasonings",
+    "default_form": "FORM_GROUND",
+    "aliases": [
+      "haldi"
+    ]
+  },
+  "INGR_00194": {
+    "name": "Paprika",
+    "category": "Spices & Seasonings",
+    "default_form": "FORM_GROUND",
+    "aliases": []
+  },
+  "INGR_00195": {
+    "name": "Smoked paprika",
+    "category": "Spices & Seasonings",
+    "default_form": "FORM_GROUND",
+    "aliases": []
+  },
+  "INGR_00196": {
+    "name": "Cayenne pepper",
+    "category": "Spices & Seasonings",
+    "default_form": "FORM_GROUND",
+    "aliases": []
+  },
+  "INGR_00197": {
+    "name": "Chili flakes",
+    "category": "Spices & Seasonings",
+    "default_form": "FORM_GROUND",
+    "aliases": [
+      "red pepper flakes"
+    ]
+  },
+  "INGR_00198": {
+    "name": "Oregano",
+    "category": "Spices & Seasonings",
+    "default_form": "FORM_DRY",
+    "aliases": []
+  },
+  "INGR_00199": {
+    "name": "Thyme",
+    "category": "Spices & Seasonings",
+    "default_form": "FORM_DRY",
+    "aliases": []
+  },
+  "INGR_00200": {
+    "name": "Rosemary (dried)",
+    "category": "Spices & Seasonings",
+    "default_form": "FORM_DRY",
+    "aliases": [
+      "rosemary dried"
+    ]
+  },
+  "INGR_00201": {
+    "name": "Basil (dried)",
+    "category": "Spices & Seasonings",
+    "default_form": "FORM_DRY",
+    "aliases": [
+      "basil dried"
+    ]
+  },
+  "INGR_00202": {
+    "name": "Bay leaf",
+    "category": "Spices & Seasonings",
+    "default_form": "FORM_WHOLE",
+    "aliases": [
+      "bay leaves"
+    ]
+  },
+  "INGR_00203": {
+    "name": "Nutmeg",
+    "category": "Spices & Seasonings",
+    "default_form": "FORM_GROUND",
+    "aliases": [
+      "ground nutmeg"
+    ]
+  },
+  "INGR_00204": {
+    "name": "Garam masala",
+    "category": "Spices & Seasonings",
+    "default_form": "FORM_GROUND",
+    "aliases": []
+  },
+  "INGR_00205": {
+    "name": "Curry powder",
+    "category": "Spices & Seasonings",
+    "default_form": "FORM_GROUND",
+    "aliases": []
+  },
+  "INGR_00206": {
+    "name": "Five-spice powder",
+    "category": "Spices & Seasonings",
+    "default_form": "FORM_GROUND",
+    "aliases": [
+      "Chinese five spice"
+    ]
+  },
+  "INGR_00207": {
+    "name": "Sumac",
+    "category": "Spices & Seasonings",
+    "default_form": "FORM_GROUND",
+    "aliases": []
+  },
+  "INGR_00208": {
+    "name": "Za'atar",
+    "category": "Spices & Seasonings",
+    "default_form": "FORM_GROUND",
+    "aliases": []
+  },
+  "INGR_00209": {
+    "name": "Fenugreek seeds",
+    "category": "Spices & Seasonings",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_00210": {
+    "name": "Mustard seeds",
+    "category": "Spices & Seasonings",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_00211": {
+    "name": "Fennel seeds",
+    "category": "Spices & Seasonings",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_00212": {
+    "name": "Caraway seeds",
+    "category": "Spices & Seasonings",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_00213": {
+    "name": "Cumin seeds",
+    "category": "Spices & Seasonings",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_00214": {
+    "name": "Coriander (ground)",
+    "category": "Spices & Seasonings",
+    "default_form": "FORM_GROUND",
+    "aliases": []
+  },
+  "INGR_00215": {
+    "name": "Chaat masala",
+    "category": "Spices & Seasonings",
+    "default_form": "FORM_GROUND",
+    "aliases": []
+  },
+  "INGR_00216": {
+    "name": "Szechuan peppercorns",
+    "category": "Spices & Seasonings",
+    "default_form": "FORM_WHOLE",
+    "aliases": [
+      "Sichuan pepper"
+    ]
+  },
+  "INGR_00217": {
+    "name": "Dried oregano (Mexican)",
+    "category": "Spices & Seasonings",
+    "default_form": "FORM_DRY",
+    "aliases": [
+      "Mexican oregano"
+    ]
+  },
+  "INGR_00218": {
+    "name": "Harissa paste (dry spice mix)",
+    "category": "Spices & Seasonings",
+    "default_form": "FORM_GROUND",
+    "aliases": [
+      "harissa spice"
+    ]
+  },
+  "INGR_00219": {
+    "name": "Olive oil",
+    "category": "Oils & Vinegars",
+    "default_form": "FORM_LIQUID",
+    "aliases": [
+      "extra virgin olive oil",
+      "EVOO"
+    ]
+  },
+  "INGR_00220": {
+    "name": "Canola oil",
+    "category": "Oils & Vinegars",
+    "default_form": "FORM_LIQUID",
+    "aliases": [
+      "rapeseed oil"
+    ]
+  },
+  "INGR_00221": {
+    "name": "Vegetable oil",
+    "category": "Oils & Vinegars",
+    "default_form": "FORM_LIQUID",
+    "aliases": []
+  },
+  "INGR_00222": {
+    "name": "Sunflower oil",
+    "category": "Oils & Vinegars",
+    "default_form": "FORM_LIQUID",
+    "aliases": []
+  },
+  "INGR_00223": {
+    "name": "Peanut oil",
+    "category": "Oils & Vinegars",
+    "default_form": "FORM_LIQUID",
+    "aliases": [
+      "groundnut oil"
+    ]
+  },
+  "INGR_00224": {
+    "name": "Sesame oil",
+    "category": "Oils & Vinegars",
+    "default_form": "FORM_LIQUID",
+    "aliases": []
+  },
+  "INGR_00225": {
+    "name": "Coconut oil",
+    "category": "Oils & Vinegars",
+    "default_form": "FORM_LIQUID",
+    "aliases": []
+  },
+  "INGR_00226": {
+    "name": "Avocado oil",
+    "category": "Oils & Vinegars",
+    "default_form": "FORM_LIQUID",
+    "aliases": []
+  },
+  "INGR_00227": {
+    "name": "Grapeseed oil",
+    "category": "Oils & Vinegars",
+    "default_form": "FORM_LIQUID",
+    "aliases": []
+  },
+  "INGR_00228": {
+    "name": "Butter ghee",
+    "category": "Oils & Vinegars",
+    "default_form": "FORM_LIQUID",
+    "aliases": [
+      "ghee"
+    ]
+  },
+  "INGR_00229": {
+    "name": "Balsamic vinegar",
+    "category": "Oils & Vinegars",
+    "default_form": "FORM_LIQUID",
+    "aliases": []
+  },
+  "INGR_00230": {
+    "name": "Red wine vinegar",
+    "category": "Oils & Vinegars",
+    "default_form": "FORM_LIQUID",
+    "aliases": []
+  },
+  "INGR_00231": {
+    "name": "White wine vinegar",
+    "category": "Oils & Vinegars",
+    "default_form": "FORM_LIQUID",
+    "aliases": []
+  },
+  "INGR_00232": {
+    "name": "Apple cider vinegar",
+    "category": "Oils & Vinegars",
+    "default_form": "FORM_LIQUID",
+    "aliases": [
+      "cider vinegar",
+      "acv",
+      "apple vinegar"
+    ]
+  },
+  "INGR_00233": {
+    "name": "Rice vinegar",
+    "category": "Oils & Vinegars",
+    "default_form": "FORM_LIQUID",
+    "aliases": []
+  },
+  "INGR_00234": {
+    "name": "Malt vinegar",
+    "category": "Oils & Vinegars",
+    "default_form": "FORM_LIQUID",
+    "aliases": []
+  },
+  "INGR_00235": {
+    "name": "Canned tomatoes (diced)",
+    "category": "Canned & Jarred",
+    "default_form": "FORM_CANNED",
+    "aliases": [
+      "diced tomatoes"
+    ]
+  },
+  "INGR_00236": {
+    "name": "Tomato paste",
+    "category": "Canned & Jarred",
+    "default_form": "FORM_PASTE",
+    "aliases": []
+  },
+  "INGR_00237": {
+    "name": "Tomato sauce",
+    "category": "Canned & Jarred",
+    "default_form": "FORM_LIQUID",
+    "aliases": [
+      "passata"
+    ]
+  },
+  "INGR_00238": {
+    "name": "Coconut milk",
+    "category": "Canned & Jarred",
+    "default_form": "FORM_CANNED",
+    "aliases": [
+      "canned coconut milk"
+    ]
+  },
+  "INGR_00239": {
+    "name": "Canned chickpeas",
+    "category": "Canned & Jarred",
+    "default_form": "FORM_CANNED",
+    "aliases": [
+      "tinned chickpeas"
+    ]
+  },
+  "INGR_00240": {
+    "name": "Canned black beans",
+    "category": "Canned & Jarred",
+    "default_form": "FORM_CANNED",
+    "aliases": []
+  },
+  "INGR_00241": {
+    "name": "Canned corn",
+    "category": "Canned & Jarred",
+    "default_form": "FORM_CANNED",
+    "aliases": [
+      "sweet corn canned"
+    ]
+  },
+  "INGR_00242": {
+    "name": "Canned tuna",
+    "category": "Canned & Jarred",
+    "default_form": "FORM_CANNED",
+    "aliases": []
+  },
+  "INGR_00243": {
+    "name": "Canned sardines",
+    "category": "Canned & Jarred",
+    "default_form": "FORM_CANNED",
+    "aliases": []
+  },
+  "INGR_00244": {
+    "name": "Jarred roasted peppers",
+    "category": "Canned & Jarred",
+    "default_form": "FORM_JARRED",
+    "aliases": [
+      "roasted red peppers"
+    ]
+  },
+  "INGR_00245": {
+    "name": "Pickles",
+    "category": "Canned & Jarred",
+    "default_form": "FORM_JARRED",
+    "aliases": [
+      "gherkin"
+    ]
+  },
+  "INGR_00246": {
+    "name": "Capers",
+    "category": "Canned & Jarred",
+    "default_form": "FORM_JARRED",
+    "aliases": []
+  },
+  "INGR_00247": {
+    "name": "Artichokes (jarred)",
+    "category": "Canned & Jarred",
+    "default_form": "FORM_JARRED",
+    "aliases": [
+      "marinated artichokes"
+    ]
+  },
+  "INGR_00248": {
+    "name": "Olives (jarred)",
+    "category": "Canned & Jarred",
+    "default_form": "FORM_JARRED",
+    "aliases": []
+  },
+  "INGR_00249": {
+    "name": "Anchovies (jarred)",
+    "category": "Canned & Jarred",
+    "default_form": "FORM_JARRED",
+    "aliases": []
+  },
+  "INGR_00250": {
+    "name": "All-purpose flour",
+    "category": "Baking Staples",
+    "default_form": "FORM_POWDER",
+    "aliases": [
+      "plain flour"
+    ]
+  },
+  "INGR_00251": {
+    "name": "Bread flour",
+    "category": "Baking Staples",
+    "default_form": "FORM_POWDER",
+    "aliases": []
+  },
+  "INGR_00252": {
+    "name": "Cake flour",
+    "category": "Baking Staples",
+    "default_form": "FORM_POWDER",
+    "aliases": []
+  },
+  "INGR_00253": {
+    "name": "Whole wheat flour",
+    "category": "Baking Staples",
+    "default_form": "FORM_POWDER",
+    "aliases": []
+  },
+  "INGR_00254": {
+    "name": "Cornstarch",
+    "category": "Baking Staples",
+    "default_form": "FORM_POWDER",
+    "aliases": [
+      "cornflour"
+    ]
+  },
+  "INGR_00255": {
+    "name": "Baking powder",
+    "category": "Baking Staples",
+    "default_form": "FORM_POWDER",
+    "aliases": []
+  },
+  "INGR_00256": {
+    "name": "Baking soda",
+    "category": "Baking Staples",
+    "default_form": "FORM_POWDER",
+    "aliases": [
+      "bicarb soda",
+      "bicarbonate of soda"
+    ]
+  },
+  "INGR_00257": {
+    "name": "Yeast (active dry)",
+    "category": "Baking Staples",
+    "default_form": "FORM_DRY",
+    "aliases": [
+      "active dry yeast"
+    ]
+  },
+  "INGR_00258": {
+    "name": "Yeast (instant)",
+    "category": "Baking Staples",
+    "default_form": "FORM_DRY",
+    "aliases": [
+      "instant yeast"
+    ]
+  },
+  "INGR_00259": {
+    "name": "Sugar (granulated)",
+    "category": "Baking Staples",
+    "default_form": "FORM_POWDER",
+    "aliases": [
+      "white sugar",
+      "caster sugar"
+    ]
+  },
+  "INGR_00260": {
+    "name": "Brown sugar",
+    "category": "Baking Staples",
+    "default_form": "FORM_POWDER",
+    "aliases": []
+  },
+  "INGR_00261": {
+    "name": "Powdered sugar",
+    "category": "Baking Staples",
+    "default_form": "FORM_POWDER",
+    "aliases": [
+      "icing sugar"
+    ]
+  },
+  "INGR_00262": {
+    "name": "Cocoa powder",
+    "category": "Baking Staples",
+    "default_form": "FORM_POWDER",
+    "aliases": []
+  },
+  "INGR_00263": {
+    "name": "Chocolate chips",
+    "category": "Baking Staples",
+    "default_form": "FORM_PACKED",
+    "aliases": []
+  },
+  "INGR_00264": {
+    "name": "Vanilla extract",
+    "category": "Baking Staples",
+    "default_form": "FORM_EXTRACT",
+    "aliases": []
+  },
+  "INGR_00265": {
+    "name": "Honey",
+    "category": "Baking Staples",
+    "default_form": "FORM_SYRUP",
+    "aliases": []
+  },
+  "INGR_00266": {
+    "name": "Maple syrup",
+    "category": "Baking Staples",
+    "default_form": "FORM_SYRUP",
+    "aliases": []
+  },
+  "INGR_00267": {
+    "name": "Molasses",
+    "category": "Baking Staples",
+    "default_form": "FORM_SYRUP",
+    "aliases": [
+      "molasse"
+    ]
+  },
+  "INGR_00268": {
+    "name": "Soy sauce",
+    "category": "Pantry",
+    "default_form": "FORM_LIQUID",
+    "aliases": [
+      "soya sauce",
+      "shoyu"
+    ]
+  },
+  "INGR_00269": {
+    "name": "Tamari",
+    "category": "Pantry",
+    "default_form": "FORM_LIQUID",
+    "aliases": []
+  },
+  "INGR_00270": {
+    "name": "Fish sauce",
+    "category": "Pantry",
+    "default_form": "FORM_LIQUID",
+    "aliases": [
+      "nam pla"
+    ]
+  },
+  "INGR_00271": {
+    "name": "Oyster sauce",
+    "category": "Pantry",
+    "default_form": "FORM_LIQUID",
+    "aliases": []
+  },
+  "INGR_00272": {
+    "name": "Hoisin sauce",
+    "category": "Pantry",
+    "default_form": "FORM_LIQUID",
+    "aliases": []
+  },
+  "INGR_00273": {
+    "name": "Gochujang",
+    "category": "Pantry",
+    "default_form": "FORM_PASTE",
+    "aliases": [
+      "Korean chili paste"
+    ]
+  },
+  "INGR_00274": {
+    "name": "Miso paste",
+    "category": "Pantry",
+    "default_form": "FORM_PASTE",
+    "aliases": [
+      "miso"
+    ]
+  },
+  "INGR_00275": {
+    "name": "Tahini",
+    "category": "Pantry",
+    "default_form": "FORM_PASTE",
+    "aliases": [
+      "sesame paste"
+    ]
+  },
+  "INGR_00276": {
+    "name": "Peanut butter",
+    "category": "Pantry",
+    "default_form": "FORM_PASTE",
+    "aliases": []
+  },
+  "INGR_00277": {
+    "name": "Almond butter",
+    "category": "Pantry",
+    "default_form": "FORM_PASTE",
+    "aliases": []
+  },
+  "INGR_00278": {
+    "name": "Ketchup",
+    "category": "Pantry",
+    "default_form": "FORM_LIQUID",
+    "aliases": [
+      "tomato ketchup"
+    ]
+  },
+  "INGR_00279": {
+    "name": "Mustard",
+    "category": "Pantry",
+    "default_form": "FORM_PASTE",
+    "aliases": [
+      "yellow mustard",
+      "Dijon mustard"
+    ]
+  },
+  "INGR_00280": {
+    "name": "Mayonnaise",
+    "category": "Pantry",
+    "default_form": "FORM_SEMI",
+    "aliases": []
+  },
+  "INGR_00281": {
+    "name": "Salsa",
+    "category": "Pantry",
+    "default_form": "FORM_SEMI",
+    "aliases": []
+  },
+  "INGR_00282": {
+    "name": "Sriracha",
+    "category": "Pantry",
+    "default_form": "FORM_LIQUID",
+    "aliases": []
+  },
+  "INGR_00283": {
+    "name": "Hot sauce",
+    "category": "Pantry",
+    "default_form": "FORM_LIQUID",
+    "aliases": []
+  },
+  "INGR_00284": {
+    "name": "BBQ sauce",
+    "category": "Pantry",
+    "default_form": "FORM_LIQUID",
+    "aliases": [
+      "barbecue sauce"
+    ]
+  },
+  "INGR_00285": {
+    "name": "Vinegar (distilled)",
+    "category": "Pantry",
+    "default_form": "FORM_LIQUID",
+    "aliases": [
+      "white vinegar"
+    ]
+  },
+  "INGR_00286": {
+    "name": "Worcestershire sauce",
+    "category": "Pantry",
+    "default_form": "FORM_LIQUID",
+    "aliases": []
+  },
+  "INGR_00287": {
+    "name": "Bread (white loaf)",
+    "category": "Bakery",
+    "default_form": "FORM_BAKED",
+    "aliases": [
+      "white bread"
+    ]
+  },
+  "INGR_00288": {
+    "name": "Bread (whole wheat)",
+    "category": "Bakery",
+    "default_form": "FORM_BAKED",
+    "aliases": []
+  },
+  "INGR_00289": {
+    "name": "Baguette",
+    "category": "Bakery",
+    "default_form": "FORM_BAKED",
+    "aliases": []
+  },
+  "INGR_00290": {
+    "name": "Tortillas (flour)",
+    "category": "Bakery",
+    "default_form": "FORM_BAKED",
+    "aliases": [
+      "flour tortillas"
+    ]
+  },
+  "INGR_00291": {
+    "name": "Tortillas (corn)",
+    "category": "Bakery",
+    "default_form": "FORM_BAKED",
+    "aliases": [
+      "corn tortillas"
+    ]
+  },
+  "INGR_00292": {
+    "name": "Pita bread",
+    "category": "Bakery",
+    "default_form": "FORM_BAKED",
+    "aliases": [
+      "pita"
+    ]
+  },
+  "INGR_00293": {
+    "name": "Naan",
+    "category": "Bakery",
+    "default_form": "FORM_BAKED",
+    "aliases": []
+  },
+  "INGR_00294": {
+    "name": "Roti",
+    "category": "Bakery",
+    "default_form": "FORM_BAKED",
+    "aliases": [
+      "chapati"
+    ]
+  },
+  "INGR_00295": {
+    "name": "Paratha",
+    "category": "Bakery",
+    "default_form": "FORM_BAKED",
+    "aliases": []
+  },
+  "INGR_00296": {
+    "name": "Burger buns",
+    "category": "Bakery",
+    "default_form": "FORM_BAKED",
+    "aliases": [
+      "hamburger buns"
+    ]
+  },
+  "INGR_00297": {
+    "name": "Coffee beans",
+    "category": "Beverages",
+    "default_form": "FORM_RAW",
+    "aliases": [
+      "coffee"
+    ]
+  },
+  "INGR_00298": {
+    "name": "Tea (black)",
+    "category": "Beverages",
+    "default_form": "FORM_DRY",
+    "aliases": [
+      "black tea"
+    ]
+  },
+  "INGR_00299": {
+    "name": "Tea (green)",
+    "category": "Beverages",
+    "default_form": "FORM_DRY",
+    "aliases": [
+      "green tea"
+    ]
+  },
+  "INGR_00300": {
+    "name": "Cocoa (drinking)",
+    "category": "Beverages",
+    "default_form": "FORM_DRY",
+    "aliases": [
+      "hot chocolate mix"
+    ]
+  },
+  "INGR_00301": {
+    "name": "Coconut water",
+    "category": "Beverages",
+    "default_form": "FORM_LIQUID",
+    "aliases": []
+  },
+  "INGR_00302": {
+    "name": "Sparkling water",
+    "category": "Beverages",
+    "default_form": "FORM_LIQUID",
+    "aliases": []
+  },
+  "INGR_00303": {
+    "name": "Tonic water",
+    "category": "Beverages",
+    "default_form": "FORM_LIQUID",
+    "aliases": []
+  },
+  "INGR_00304": {
+    "name": "Club soda",
+    "category": "Beverages",
+    "default_form": "FORM_LIQUID",
+    "aliases": []
+  },
+  "INGR_00305": {
+    "name": "Apple juice",
+    "category": "Beverages",
+    "default_form": "FORM_LIQUID",
+    "aliases": []
+  },
+  "INGR_00306": {
+    "name": "Orange juice",
+    "category": "Beverages",
+    "default_form": "FORM_LIQUID",
+    "aliases": []
+  },
+  "INGR_00307": {
+    "name": "Frozen peas",
+    "category": "Frozen Foods",
+    "default_form": "FORM_FROZEN",
+    "aliases": []
+  },
+  "INGR_00308": {
+    "name": "Frozen spinach",
+    "category": "Frozen Foods",
+    "default_form": "FORM_FROZEN",
+    "aliases": []
+  },
+  "INGR_00309": {
+    "name": "Frozen berries",
+    "category": "Frozen Foods",
+    "default_form": "FORM_FROZEN",
+    "aliases": []
+  },
+  "INGR_00310": {
+    "name": "Frozen corn",
+    "category": "Frozen Foods",
+    "default_form": "FORM_FROZEN",
+    "aliases": []
+  },
+  "INGR_00311": {
+    "name": "Frozen edamame",
+    "category": "Frozen Foods",
+    "default_form": "FORM_FROZEN",
+    "aliases": []
+  },
+  "INGR_00312": {
+    "name": "Frozen broccoli",
+    "category": "Frozen Foods",
+    "default_form": "FORM_FROZEN",
+    "aliases": []
+  },
+  "INGR_00313": {
+    "name": "Frozen mixed vegetables",
+    "category": "Frozen Foods",
+    "default_form": "FORM_FROZEN",
+    "aliases": []
+  },
+  "INGR_00314": {
+    "name": "Frozen pizza dough",
+    "category": "Frozen Foods",
+    "default_form": "FORM_FROZEN",
+    "aliases": []
+  },
+  "INGR_00315": {
+    "name": "Frozen shrimp",
+    "category": "Frozen Foods",
+    "default_form": "FORM_FROZEN",
+    "aliases": []
+  },
+  "INGR_00316": {
+    "name": "Frozen fish fillets",
+    "category": "Frozen Foods",
+    "default_form": "FORM_FROZEN",
+    "aliases": []
+  },
+  "INGR_00317": {
+    "name": "Dark chocolate",
+    "category": "Sweets & Snacks",
+    "default_form": "FORM_PACKED",
+    "aliases": []
+  },
+  "INGR_00318": {
+    "name": "Milk chocolate",
+    "category": "Sweets & Snacks",
+    "default_form": "FORM_PACKED",
+    "aliases": []
+  },
+  "INGR_00319": {
+    "name": "Potato chips",
+    "category": "Sweets & Snacks",
+    "default_form": "FORM_PACKED",
+    "aliases": [
+      "crisps"
+    ]
+  },
+  "INGR_00320": {
+    "name": "Tortilla chips",
+    "category": "Sweets & Snacks",
+    "default_form": "FORM_PACKED",
+    "aliases": []
+  },
+  "INGR_00321": {
+    "name": "Popcorn kernels",
+    "category": "Sweets & Snacks",
+    "default_form": "FORM_RAW",
+    "aliases": [
+      "popcorn"
+    ]
+  },
+  "INGR_00322": {
+    "name": "Granola bars",
+    "category": "Sweets & Snacks",
+    "default_form": "FORM_PACKED",
+    "aliases": []
+  },
+  "INGR_00323": {
+    "name": "Biscuits",
+    "category": "Sweets & Snacks",
+    "default_form": "FORM_PACKED",
+    "aliases": [
+      "cookies"
+    ]
+  },
+  "INGR_00324": {
+    "name": "Crackers",
+    "category": "Sweets & Snacks",
+    "default_form": "FORM_PACKED",
+    "aliases": []
+  },
+  "INGR_00325": {
+    "name": "Trail mix",
+    "category": "Sweets & Snacks",
+    "default_form": "FORM_PACKED",
+    "aliases": []
+  },
+  "INGR_00326": {
+    "name": "Dried fruit mix",
+    "category": "Sweets & Snacks",
+    "default_form": "FORM_PACKED",
+    "aliases": []
+  },
+  "INGR_00327": {
+    "name": "Gelatin",
+    "category": "Other",
+    "default_form": "FORM_RAW",
+    "aliases": []
+  },
+  "INGR_00328": {
+    "name": "Agar-agar",
+    "category": "Other",
+    "default_form": "FORM_RAW",
+    "aliases": [
+      "agar"
+    ]
+  },
+  "INGR_00329": {
+    "name": "Nutritional yeast",
+    "category": "Other",
+    "default_form": "FORM_DRY",
+    "aliases": []
+  },
+  "INGR_00330": {
+    "name": "Tofu (firm)",
+    "category": "Other",
+    "default_form": "FORM_PACKED",
+    "aliases": [
+      "tofu"
+    ]
+  },
+  "INGR_00331": {
+    "name": "Tempeh",
+    "category": "Other",
+    "default_form": "FORM_PACKED",
+    "aliases": []
+  },
+  "INGR_00332": {
+    "name": "Seitan",
+    "category": "Other",
+    "default_form": "FORM_PACKED",
+    "aliases": [
+      "wheat gluten"
+    ]
+  },
+  "INGR_01001": {
+    "name": "Bok choy",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_01002": {
+    "name": "Napa cabbage",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": [
+      "Chinese cabbage"
+    ]
+  },
+  "INGR_01003": {
+    "name": "Taro root",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": [
+      "arbi",
+      "dasheen"
+    ]
+  },
+  "INGR_01004": {
+    "name": "Cassava",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": [
+      "yuca",
+      "manioc"
+    ]
+  },
+  "INGR_01005": {
+    "name": "Yam (African)",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": [
+      "puna yam"
+    ]
+  },
+  "INGR_01006": {
+    "name": "Plantain green",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_01007": {
+    "name": "Green mango",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_01008": {
+    "name": "Guava",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_01009": {
+    "name": "Passion fruit",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": [
+      "maracuja"
+    ]
+  },
+  "INGR_01010": {
+    "name": "Persimmon",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_01011": {
+    "name": "Star fruit",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": [
+      "carambola"
+    ]
+  },
+  "INGR_01012": {
+    "name": "Breadfruit",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_01013": {
+    "name": "Karela",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": [
+      "bitter melon",
+      "bitter gourd"
+    ]
+  },
+  "INGR_01014": {
+    "name": "Lotus root",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_01015": {
+    "name": "Water chestnut (fresh)",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_01016": {
+    "name": "Chayote",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": [
+      "mirliton"
+    ]
+  },
+  "INGR_01017": {
+    "name": "Jicama",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_01018": {
+    "name": "Tommy Atkins mango",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": [
+      "mango"
+    ]
+  },
+  "INGR_01019": {
+    "name": "Thai eggplant",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_01020": {
+    "name": "Indian long eggplant",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": [
+      "brinjal long"
+    ]
+  },
+  "INGR_01021": {
+    "name": "Curry leaves",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_01022": {
+    "name": "Lemongrass",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_01023": {
+    "name": "Galangal",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_01024": {
+    "name": "Kaffir lime leaves",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": [
+      "makrut lime leaves"
+    ]
+  },
+  "INGR_01025": {
+    "name": "Thai basil",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_01026": {
+    "name": "Holy basil",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": [
+      "tulsi"
+    ]
+  },
+  "INGR_01027": {
+    "name": "Mint",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": [
+      "mint leaves",
+      "fresh mint",
+      "mint leaf"
+    ]
+  },
+  "INGR_01028": {
+    "name": "Dill (fresh)",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_01029": {
+    "name": "Culantro",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": [
+      "recao"
+    ]
+  },
+  "INGR_01030": {
+    "name": "Epazote",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_01031": {
+    "name": "Nopales",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": [
+      "cactus paddles"
+    ]
+  },
+  "INGR_01032": {
+    "name": "Tomatillo (fresh husked)",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": [
+      "tomatillo"
+    ]
+  },
+  "INGR_01033": {
+    "name": "Habanero",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_01034": {
+    "name": "Serrano pepper",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_01035": {
+    "name": "Poblano pepper",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_01036": {
+    "name": "Anaheim pepper",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_01037": {
+    "name": "Fresno pepper",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_01038": {
+    "name": "Scotch bonnet",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_01039": {
+    "name": "Ghost pepper",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": [
+      "bhut jolokia"
+    ]
+  },
+  "INGR_01040": {
+    "name": "Shishito pepper",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_01041": {
+    "name": "Padron pepper",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_01042": {
+    "name": "Leek (baby)",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_01043": {
+    "name": "Shallot",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_01044": {
+    "name": "Heirloom tomato",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_01045": {
+    "name": "Cherry tomato",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_01046": {
+    "name": "Grape tomato",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_01047": {
+    "name": "Okra (red)",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_01048": {
+    "name": "Green papaya",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_01049": {
+    "name": "Soursop",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": [
+      "guanabana"
+    ]
+  },
+  "INGR_01050": {
+    "name": "Feijoa",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_01051": {
+    "name": "Rambutan",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_01052": {
+    "name": "Mangosteen",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_01053": {
+    "name": "Teff grain",
+    "category": "Grains & Pasta",
+    "default_form": "FORM_RAW",
+    "aliases": []
+  },
+  "INGR_01054": {
+    "name": "Amaranth grain",
+    "category": "Grains & Pasta",
+    "default_form": "FORM_RAW",
+    "aliases": [
+      "amaranth"
+    ]
+  },
+  "INGR_01055": {
+    "name": "Freekeh",
+    "category": "Grains & Pasta",
+    "default_form": "FORM_RAW",
+    "aliases": []
+  },
+  "INGR_01056": {
+    "name": "Farro",
+    "category": "Grains & Pasta",
+    "default_form": "FORM_RAW",
+    "aliases": []
+  },
+  "INGR_01057": {
+    "name": "Spelt berries",
+    "category": "Grains & Pasta",
+    "default_form": "FORM_RAW",
+    "aliases": []
+  },
+  "INGR_01058": {
+    "name": "Sorghum grain",
+    "category": "Grains & Pasta",
+    "default_form": "FORM_RAW",
+    "aliases": []
+  },
+  "INGR_01059": {
+    "name": "Wild rice",
+    "category": "Grains & Pasta",
+    "default_form": "FORM_RAW",
+    "aliases": []
+  },
+  "INGR_01060": {
+    "name": "Kamut",
+    "category": "Grains & Pasta",
+    "default_form": "FORM_RAW",
+    "aliases": []
+  },
+  "INGR_01061": {
+    "name": "Corn grits",
+    "category": "Grains & Pasta",
+    "default_form": "FORM_RAW",
+    "aliases": [
+      "hominy grits"
+    ]
+  },
+  "INGR_01062": {
+    "name": "Semolina",
+    "category": "Grains & Pasta",
+    "default_form": "FORM_POWDER",
+    "aliases": []
+  },
+  "INGR_01063": {
+    "name": "Rye flour",
+    "category": "Grains & Pasta",
+    "default_form": "FORM_POWDER",
+    "aliases": []
+  },
+  "INGR_01064": {
+    "name": "Spelt flour",
+    "category": "Grains & Pasta",
+    "default_form": "FORM_POWDER",
+    "aliases": []
+  },
+  "INGR_01065": {
+    "name": "Rice flour",
+    "category": "Grains & Pasta",
+    "default_form": "FORM_POWDER",
+    "aliases": []
+  },
+  "INGR_01066": {
+    "name": "Almond flour",
+    "category": "Grains & Pasta",
+    "default_form": "FORM_POWDER",
+    "aliases": []
+  },
+  "INGR_01067": {
+    "name": "Coconut flour",
+    "category": "Grains & Pasta",
+    "default_form": "FORM_POWDER",
+    "aliases": []
+  },
+  "INGR_01068": {
+    "name": "Oat flour",
+    "category": "Grains & Pasta",
+    "default_form": "FORM_POWDER",
+    "aliases": []
+  },
+  "INGR_01069": {
+    "name": "Chickpea flour",
+    "category": "Grains & Pasta",
+    "default_form": "FORM_POWDER",
+    "aliases": [
+      "gram flour",
+      "besan"
+    ]
+  },
+  "INGR_01070": {
+    "name": "Sago",
+    "category": "Grains & Pasta",
+    "default_form": "FORM_RAW",
+    "aliases": []
+  },
+  "INGR_01071": {
+    "name": "Tapioca pearls",
+    "category": "Grains & Pasta",
+    "default_form": "FORM_RAW",
+    "aliases": []
+  },
+  "INGR_01072": {
+    "name": "Arrowroot powder",
+    "category": "Grains & Pasta",
+    "default_form": "FORM_POWDER",
+    "aliases": []
+  },
+  "INGR_01073": {
+    "name": "Gluten-free pasta (penne)",
+    "category": "Grains & Pasta",
+    "default_form": "FORM_RAW",
+    "aliases": [
+      "GF penne"
+    ]
+  },
+  "INGR_01074": {
+    "name": "Rice vermicelli",
+    "category": "Grains & Pasta",
+    "default_form": "FORM_RAW",
+    "aliases": []
+  },
+  "INGR_01075": {
+    "name": "Glass noodles",
+    "category": "Grains & Pasta",
+    "default_form": "FORM_RAW",
+    "aliases": [
+      "cellophane noodles"
+    ]
+  },
+  "INGR_01076": {
+    "name": "Egg noodles",
+    "category": "Grains & Pasta",
+    "default_form": "FORM_RAW",
+    "aliases": []
+  },
+  "INGR_01077": {
+    "name": "Shirataki noodles",
+    "category": "Grains & Pasta",
+    "default_form": "FORM_RAW",
+    "aliases": []
+  },
+  "INGR_01078": {
+    "name": "Mung beans",
+    "category": "Legumes & Nuts",
+    "default_form": "FORM_RAW",
+    "aliases": [
+      "mung bean",
+      "mung bean sprout"
+    ]
+  },
+  "INGR_01079": {
+    "name": "Adzuki beans",
+    "category": "Legumes & Nuts",
+    "default_form": "FORM_RAW",
+    "aliases": []
+  },
+  "INGR_01080": {
+    "name": "Black-eyed peas",
+    "category": "Legumes & Nuts",
+    "default_form": "FORM_RAW",
+    "aliases": []
+  },
+  "INGR_01081": {
+    "name": "Lima beans",
+    "category": "Legumes & Nuts",
+    "default_form": "FORM_RAW",
+    "aliases": [
+      "butter beans"
+    ]
+  },
+  "INGR_01082": {
+    "name": "Great Northern beans",
+    "category": "Legumes & Nuts",
+    "default_form": "FORM_RAW",
+    "aliases": []
+  },
+  "INGR_01083": {
+    "name": "Navy beans",
+    "category": "Legumes & Nuts",
+    "default_form": "FORM_RAW",
+    "aliases": []
+  },
+  "INGR_01084": {
+    "name": "Fava beans ",
+    "category": "Legumes & Nuts",
+    "default_form": "FORM_RAW",
+    "aliases": [
+      "Broad beans"
+    ]
+  },
+  "INGR_01085": {
+    "name": "Urid dal",
+    "category": "Legumes & Nuts",
+    "default_form": "FORM_RAW",
+    "aliases": [
+      "urad dal",
+      "black gram split"
+    ]
+  },
+  "INGR_01086": {
+    "name": "Moong dal",
+    "category": "Legumes & Nuts",
+    "default_form": "FORM_RAW",
+    "aliases": [
+      "mung dal"
+    ]
+  },
+  "INGR_01087": {
+    "name": "Toor dal",
+    "category": "Legumes & Nuts",
+    "default_form": "FORM_RAW",
+    "aliases": [
+      "arhar dal",
+      "pigeon peas split"
+    ]
+  },
+  "INGR_01088": {
+    "name": "Chana dal",
+    "category": "Legumes & Nuts",
+    "default_form": "FORM_RAW",
+    "aliases": [
+      "split chickpeas"
+    ]
+  },
+  "INGR_01089": {
+    "name": "Pumpkin seeds",
+    "category": "Legumes & Nuts",
+    "default_form": "FORM_WHOLE",
+    "aliases": [
+      "pepitas"
+    ]
+  },
+  "INGR_01090": {
+    "name": "Sunflower seeds (no shell)",
+    "category": "Legumes & Nuts",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_01091": {
+    "name": "Chia seeds",
+    "category": "Legumes & Nuts",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_01092": {
+    "name": "Flaxseed",
+    "category": "Legumes & Nuts",
+    "default_form": "FORM_WHOLE",
+    "aliases": [
+      "linseed"
+    ]
+  },
+  "INGR_01093": {
+    "name": "Hemp seeds",
+    "category": "Legumes & Nuts",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_01094": {
+    "name": "Nigella seeds",
+    "category": "Legumes & Nuts",
+    "default_form": "FORM_WHOLE",
+    "aliases": [
+      "kalonji"
+    ]
+  },
+  "INGR_01095": {
+    "name": "Poppy seeds",
+    "category": "Legumes & Nuts",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_01096": {
+    "name": "Carom seeds",
+    "category": "Legumes & Nuts",
+    "default_form": "FORM_WHOLE",
+    "aliases": [
+      "ajwain"
+    ]
+  },
+  "INGR_01097": {
+    "name": "Fenugreek leaves (dried)",
+    "category": "Legumes & Nuts",
+    "default_form": "FORM_DRY",
+    "aliases": [
+      "kasuri methi"
+    ]
+  },
+  "INGR_01098": {
+    "name": "Asafoetida",
+    "category": "Spices & Seasonings",
+    "default_form": "FORM_POWDER",
+    "aliases": [
+      "hing"
+    ]
+  },
+  "INGR_01099": {
+    "name": "Kashmiri chili powder",
+    "category": "Spices & Seasonings",
+    "default_form": "FORM_POWDER",
+    "aliases": []
+  },
+  "INGR_01100": {
+    "name": "Green cardamom pods",
+    "category": "Spices & Seasonings",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_01101": {
+    "name": "Black cardamom pods",
+    "category": "Spices & Seasonings",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_01102": {
+    "name": "Cinnamon stick",
+    "category": "Spices & Seasonings",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_01103": {
+    "name": "Clove powder",
+    "category": "Spices & Seasonings",
+    "default_form": "FORM_POWDER",
+    "aliases": []
+  },
+  "INGR_01104": {
+    "name": "Ginger powder",
+    "category": "Spices & Seasonings",
+    "default_form": "FORM_POWDER",
+    "aliases": []
+  },
+  "INGR_01105": {
+    "name": "Garlic powder",
+    "category": "Spices & Seasonings",
+    "default_form": "FORM_POWDER",
+    "aliases": []
+  },
+  "INGR_01106": {
+    "name": "Onion powder",
+    "category": "Spices & Seasonings",
+    "default_form": "FORM_POWDER",
+    "aliases": []
+  },
+  "INGR_01107": {
+    "name": "Sumac (ground)",
+    "category": "Spices & Seasonings",
+    "default_form": "FORM_POWDER",
+    "aliases": []
+  },
+  "INGR_01108": {
+    "name": "Aleppo pepper",
+    "category": "Spices & Seasonings",
+    "default_form": "FORM_POWDER",
+    "aliases": []
+  },
+  "INGR_01109": {
+    "name": "Ancho chili powder",
+    "category": "Spices & Seasonings",
+    "default_form": "FORM_POWDER",
+    "aliases": []
+  },
+  "INGR_01110": {
+    "name": "Chipotle chili powder",
+    "category": "Spices & Seasonings",
+    "default_form": "FORM_POWDER",
+    "aliases": []
+  },
+  "INGR_01111": {
+    "name": "Guajillo chili powder",
+    "category": "Spices & Seasonings",
+    "default_form": "FORM_POWDER",
+    "aliases": []
+  },
+  "INGR_01112": {
+    "name": "Berbere",
+    "category": "Spices & Seasonings",
+    "default_form": "FORM_POWDER",
+    "aliases": []
+  },
+  "INGR_01113": {
+    "name": "Ras el hanout",
+    "category": "Spices & Seasonings",
+    "default_form": "FORM_POWDER",
+    "aliases": []
+  },
+  "INGR_01114": {
+    "name": "Advieh",
+    "category": "Spices & Seasonings",
+    "default_form": "FORM_POWDER",
+    "aliases": [
+      "Persian spice mix"
+    ]
+  },
+  "INGR_01115": {
+    "name": "Zhug spice (dry)",
+    "category": "Spices & Seasonings",
+    "default_form": "FORM_POWDER",
+    "aliases": []
+  },
+  "INGR_01116": {
+    "name": "Dukkah",
+    "category": "Spices & Seasonings",
+    "default_form": "FORM_POWDER",
+    "aliases": []
+  },
+  "INGR_01117": {
+    "name": "Cajun seasoning",
+    "category": "Spices & Seasonings",
+    "default_form": "FORM_POWDER",
+    "aliases": []
+  },
+  "INGR_01118": {
+    "name": "Old Bay seasoning",
+    "category": "Spices & Seasonings",
+    "default_form": "FORM_POWDER",
+    "aliases": []
+  },
+  "INGR_01119": {
+    "name": "Italian seasoning",
+    "category": "Spices & Seasonings",
+    "default_form": "FORM_POWDER",
+    "aliases": []
+  },
+  "INGR_01120": {
+    "name": "Herbes de Provence",
+    "category": "Spices & Seasonings",
+    "default_form": "FORM_DRY",
+    "aliases": []
+  },
+  "INGR_01121": {
+    "name": "Curry leaves (dried)",
+    "category": "Spices & Seasonings",
+    "default_form": "FORM_DRY",
+    "aliases": []
+  },
+  "INGR_01122": {
+    "name": "Lemongrass (dried)",
+    "category": "Spices & Seasonings",
+    "default_form": "FORM_DRY",
+    "aliases": []
+  },
+  "INGR_01123": {
+    "name": "Saffron threads",
+    "category": "Spices & Seasonings",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_01124": {
+    "name": "Vanilla bean",
+    "category": "Spices & Seasonings",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_01125": {
+    "name": "Mahlab",
+    "category": "Spices & Seasonings",
+    "default_form": "FORM_POWDER",
+    "aliases": []
+  },
+  "INGR_01126": {
+    "name": "Mastic gum",
+    "category": "Spices & Seasonings",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_01127": {
+    "name": "Panch phoron",
+    "category": "Spices & Seasonings",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_01128": {
+    "name": "Za'atar (blend)",
+    "category": "Spices & Seasonings",
+    "default_form": "FORM_POWDER",
+    "aliases": []
+  },
+  "INGR_01129": {
+    "name": "Furikake",
+    "category": "Spices & Seasonings",
+    "default_form": "FORM_POWDER",
+    "aliases": []
+  },
+  "INGR_01130": {
+    "name": "Shichimi togarashi",
+    "category": "Spices & Seasonings",
+    "default_form": "FORM_POWDER",
+    "aliases": []
+  },
+  "INGR_01131": {
+    "name": "Gochugaru",
+    "category": "Spices & Seasonings",
+    "default_form": "FORM_POWDER",
+    "aliases": [
+      "Korean chili flakes"
+    ]
+  },
+  "INGR_01132": {
+    "name": "Mustard oil",
+    "category": "Oils & Vinegars",
+    "default_form": "FORM_LIQUID",
+    "aliases": []
+  },
+  "INGR_01133": {
+    "name": "Rice bran oil",
+    "category": "Oils & Vinegars",
+    "default_form": "FORM_LIQUID",
+    "aliases": []
+  },
+  "INGR_01134": {
+    "name": "Palm oil (red)",
+    "category": "Oils & Vinegars",
+    "default_form": "FORM_LIQUID",
+    "aliases": []
+  },
+  "INGR_01135": {
+    "name": "Flaxseed oil",
+    "category": "Oils & Vinegars",
+    "default_form": "FORM_LIQUID",
+    "aliases": []
+  },
+  "INGR_01136": {
+    "name": "Walnut oil",
+    "category": "Oils & Vinegars",
+    "default_form": "FORM_LIQUID",
+    "aliases": []
+  },
+  "INGR_01137": {
+    "name": "Hazelnut oil",
+    "category": "Oils & Vinegars",
+    "default_form": "FORM_LIQUID",
+    "aliases": []
+  },
+  "INGR_01138": {
+    "name": "Truffle oil",
+    "category": "Oils & Vinegars",
+    "default_form": "FORM_LIQUID",
+    "aliases": []
+  },
+  "INGR_01139": {
+    "name": "White balsamic vinegar",
+    "category": "Oils & Vinegars",
+    "default_form": "FORM_LIQUID",
+    "aliases": []
+  },
+  "INGR_01140": {
+    "name": "Cane vinegar",
+    "category": "Oils & Vinegars",
+    "default_form": "FORM_LIQUID",
+    "aliases": []
+  },
+  "INGR_01141": {
+    "name": "Coconut vinegar",
+    "category": "Oils & Vinegars",
+    "default_form": "FORM_LIQUID",
+    "aliases": []
+  },
+  "INGR_01142": {
+    "name": "Date vinegar",
+    "category": "Oils & Vinegars",
+    "default_form": "FORM_LIQUID",
+    "aliases": []
+  },
+  "INGR_01143": {
+    "name": "Black vinegar (Chinkiang)",
+    "category": "Oils & Vinegars",
+    "default_form": "FORM_LIQUID",
+    "aliases": [
+      "Zhenjiang vinegar"
+    ]
+  },
+  "INGR_01144": {
+    "name": "Mirin",
+    "category": "Oils & Vinegars",
+    "default_form": "FORM_LIQUID",
+    "aliases": []
+  },
+  "INGR_01145": {
+    "name": "Shaoxing wine",
+    "category": "Oils & Vinegars",
+    "default_form": "FORM_LIQUID",
+    "aliases": [
+      "Chinese cooking wine"
+    ]
+  },
+  "INGR_01146": {
+    "name": "Sake (cooking)",
+    "category": "Oils & Vinegars",
+    "default_form": "FORM_LIQUID",
+    "aliases": []
+  },
+  "INGR_01147": {
+    "name": "Kimchi",
+    "category": "Pantry",
+    "default_form": "FORM_PACKED",
+    "aliases": []
+  },
+  "INGR_01148": {
+    "name": "Doenjang",
+    "category": "Pantry",
+    "default_form": "FORM_PASTE",
+    "aliases": [
+      "Korean soybean paste"
+    ]
+  },
+  "INGR_01149": {
+    "name": "Doubanjiang",
+    "category": "Pantry",
+    "default_form": "FORM_PASTE",
+    "aliases": [
+      "broad bean chili paste"
+    ]
+  },
+  "INGR_01150": {
+    "name": "Tianmianjiang",
+    "category": "Pantry",
+    "default_form": "FORM_PASTE",
+    "aliases": [
+      "sweet bean paste"
+    ]
+  },
+  "INGR_01151": {
+    "name": "Chili crisp",
+    "category": "Pantry",
+    "default_form": "FORM_LIQUID",
+    "aliases": [
+      "chile crisp"
+    ]
+  },
+  "INGR_01152": {
+    "name": "XO sauce",
+    "category": "Pantry",
+    "default_form": "FORM_PASTE",
+    "aliases": []
+  },
+  "INGR_01153": {
+    "name": "Black bean sauce (fermented)",
+    "category": "Pantry",
+    "default_form": "FORM_PASTE",
+    "aliases": []
+  },
+  "INGR_01154": {
+    "name": "Sweet chili sauce",
+    "category": "Pantry",
+    "default_form": "FORM_LIQUID",
+    "aliases": []
+  },
+  "INGR_01155": {
+    "name": "Yuzu juice",
+    "category": "Pantry",
+    "default_form": "FORM_LIQUID",
+    "aliases": []
+  },
+  "INGR_01156": {
+    "name": "Ponzu",
+    "category": "Pantry",
+    "default_form": "FORM_LIQUID",
+    "aliases": []
+  },
+  "INGR_01157": {
+    "name": "Dashi granules",
+    "category": "Pantry",
+    "default_form": "FORM_POWDER",
+    "aliases": []
+  },
+  "INGR_01158": {
+    "name": "Bonito flakes (katsuobushi)",
+    "category": "Pantry",
+    "default_form": "FORM_DRY",
+    "aliases": []
+  },
+  "INGR_01159": {
+    "name": "Nori sheets",
+    "category": "Pantry",
+    "default_form": "FORM_DRY",
+    "aliases": [
+      "seaweed sheets"
+    ]
+  },
+  "INGR_01160": {
+    "name": "Kombu",
+    "category": "Pantry",
+    "default_form": "FORM_DRY",
+    "aliases": []
+  },
+  "INGR_01161": {
+    "name": "Tamarind pulp",
+    "category": "Pantry",
+    "default_form": "FORM_PASTE",
+    "aliases": []
+  },
+  "INGR_01162": {
+    "name": "Tamarind concentrate",
+    "category": "Pantry",
+    "default_form": "FORM_CONCENTRATE",
+    "aliases": []
+  },
+  "INGR_01163": {
+    "name": "Mango chutney",
+    "category": "Pantry",
+    "default_form": "FORM_PASTE",
+    "aliases": []
+  },
+  "INGR_01164": {
+    "name": "Pickled ginger",
+    "category": "Pantry",
+    "default_form": "FORM_JARRED",
+    "aliases": []
+  },
+  "INGR_01165": {
+    "name": "Green curry paste",
+    "category": "Pantry",
+    "default_form": "FORM_PASTE",
+    "aliases": []
+  },
+  "INGR_01166": {
+    "name": "Red curry paste",
+    "category": "Pantry",
+    "default_form": "FORM_PASTE",
+    "aliases": []
+  },
+  "INGR_01167": {
+    "name": "Massaman curry paste",
+    "category": "Pantry",
+    "default_form": "FORM_PASTE",
+    "aliases": []
+  },
+  "INGR_01168": {
+    "name": "Thai yellow curry paste",
+    "category": "Pantry",
+    "default_form": "FORM_PASTE",
+    "aliases": []
+  },
+  "INGR_01169": {
+    "name": "Nam prik pao (Thai chili jam)",
+    "category": "Pantry",
+    "default_form": "FORM_PASTE",
+    "aliases": []
+  },
+  "INGR_01170": {
+    "name": "Laksa paste",
+    "category": "Pantry",
+    "default_form": "FORM_PASTE",
+    "aliases": []
+  },
+  "INGR_01171": {
+    "name": "Mole paste",
+    "category": "Pantry",
+    "default_form": "FORM_PASTE",
+    "aliases": []
+  },
+  "INGR_01172": {
+    "name": "Achiote paste",
+    "category": "Pantry",
+    "default_form": "FORM_PASTE",
+    "aliases": [
+      "annatto paste"
+    ]
+  },
+  "INGR_01173": {
+    "name": "Adobo sauce (Mexican)",
+    "category": "Pantry",
+    "default_form": "FORM_LIQUID",
+    "aliases": []
+  },
+  "INGR_01174": {
+    "name": "Salsa verde (Mexican)",
+    "category": "Pantry",
+    "default_form": "FORM_SEMI",
+    "aliases": []
+  },
+  "INGR_01175": {
+    "name": "Salsa roja (Mexican)",
+    "category": "Pantry",
+    "default_form": "FORM_SEMI",
+    "aliases": []
+  },
+  "INGR_01176": {
+    "name": "Green peppercorns (brined)",
+    "category": "Pantry",
+    "default_form": "FORM_JARRED",
+    "aliases": []
+  },
+  "INGR_01177": {
+    "name": "Labneh",
+    "category": "Refrigerated & Dairy",
+    "default_form": "FORM_SEMI",
+    "aliases": []
+  },
+  "INGR_01178": {
+    "name": "Kefir",
+    "category": "Refrigerated & Dairy",
+    "default_form": "FORM_LIQUID",
+    "aliases": []
+  },
+  "INGR_01179": {
+    "name": "Skyr",
+    "category": "Refrigerated & Dairy",
+    "default_form": "FORM_SEMI",
+    "aliases": []
+  },
+  "INGR_01180": {
+    "name": "Queso fresco",
+    "category": "Refrigerated & Dairy",
+    "default_form": "FORM_SOLID",
+    "aliases": []
+  },
+  "INGR_01181": {
+    "name": "Queso Oaxaca",
+    "category": "Refrigerated & Dairy",
+    "default_form": "FORM_SOLID",
+    "aliases": [
+      "Oaxaca cheese"
+    ]
+  },
+  "INGR_01182": {
+    "name": "Evaporated milk",
+    "category": "Refrigerated & Dairy",
+    "default_form": "FORM_CANNED",
+    "aliases": []
+  },
+  "INGR_01183": {
+    "name": "Condensed milk (sweetened)",
+    "category": "Refrigerated & Dairy",
+    "default_form": "FORM_CANNED",
+    "aliases": []
+  },
+  "INGR_01184": {
+    "name": "Coconut cream",
+    "category": "Refrigerated & Dairy",
+    "default_form": "FORM_CANNED",
+    "aliases": []
+  },
+  "INGR_01185": {
+    "name": "Almond milk (unsweetened)",
+    "category": "Refrigerated & Dairy",
+    "default_form": "FORM_CARTON",
+    "aliases": []
+  },
+  "INGR_01186": {
+    "name": "Oat milk (barista)",
+    "category": "Refrigerated & Dairy",
+    "default_form": "FORM_CARTON",
+    "aliases": []
+  },
+  "INGR_01187": {
+    "name": "Soy milk (unsweetened)",
+    "category": "Refrigerated & Dairy",
+    "default_form": "FORM_CARTON",
+    "aliases": []
+  },
+  "INGR_01188": {
+    "name": "Rice milk",
+    "category": "Refrigerated & Dairy",
+    "default_form": "FORM_CARTON",
+    "aliases": []
+  },
+  "INGR_01189": {
+    "name": "Cashew milk",
+    "category": "Refrigerated & Dairy",
+    "default_form": "FORM_CARTON",
+    "aliases": []
+  },
+  "INGR_01190": {
+    "name": "Coconut yogurt (plain)",
+    "category": "Refrigerated & Dairy",
+    "default_form": "FORM_SEMI",
+    "aliases": []
+  },
+  "INGR_01191": {
+    "name": "Kingfish",
+    "category": "Seafood",
+    "default_form": "FORM_RAW",
+    "aliases": [
+      "yellowtail kingfish"
+    ]
+  },
+  "INGR_01192": {
+    "name": "Barramundi",
+    "category": "Seafood",
+    "default_form": "FORM_RAW",
+    "aliases": []
+  },
+  "INGR_01193": {
+    "name": "Pomfret",
+    "category": "Seafood",
+    "default_form": "FORM_RAW",
+    "aliases": []
+  },
+  "INGR_01194": {
+    "name": "Hilsa",
+    "category": "Seafood",
+    "default_form": "FORM_RAW",
+    "aliases": []
+  },
+  "INGR_01195": {
+    "name": "Catfish",
+    "category": "Seafood",
+    "default_form": "FORM_RAW",
+    "aliases": []
+  },
+  "INGR_01196": {
+    "name": "Anchovy fillets (oil-packed)",
+    "category": "Seafood",
+    "default_form": "FORM_JARRED",
+    "aliases": []
+  },
+  "INGR_01197": {
+    "name": "Salt cod (bacalao)",
+    "category": "Seafood",
+    "default_form": "FORM_DRIED",
+    "aliases": []
+  },
+  "INGR_01198": {
+    "name": "Smoked salmon",
+    "category": "Seafood",
+    "default_form": "FORM_PACKED",
+    "aliases": []
+  },
+  "INGR_01199": {
+    "name": "Kippers",
+    "category": "Seafood",
+    "default_form": "FORM_PACKED",
+    "aliases": [
+      "smoked herring"
+    ]
+  },
+  "INGR_01200": {
+    "name": "Surimi",
+    "category": "Seafood",
+    "default_form": "FORM_PACKED",
+    "aliases": [
+      "imitation crab"
+    ]
+  },
+  "INGR_01201": {
+    "name": "Pork ribs",
+    "category": "Meat",
+    "default_form": "FORM_RAW",
+    "aliases": []
+  },
+  "INGR_01202": {
+    "name": "Beef brisket",
+    "category": "Meat",
+    "default_form": "FORM_RAW",
+    "aliases": []
+  },
+  "INGR_01203": {
+    "name": "Beef short ribs",
+    "category": "Meat",
+    "default_form": "FORM_RAW",
+    "aliases": []
+  },
+  "INGR_01204": {
+    "name": "Beef oxtail",
+    "category": "Meat",
+    "default_form": "FORM_RAW",
+    "aliases": []
+  },
+  "INGR_01205": {
+    "name": "Pork tenderloin",
+    "category": "Meat",
+    "default_form": "FORM_RAW",
+    "aliases": []
+  },
+  "INGR_01206": {
+    "name": "Pork chops",
+    "category": "Meat",
+    "default_form": "FORM_RAW",
+    "aliases": []
+  },
+  "INGR_01207": {
+    "name": "Turkey legs",
+    "category": "Meat",
+    "default_form": "FORM_RAW",
+    "aliases": []
+  },
+  "INGR_01208": {
+    "name": "Duck legs",
+    "category": "Meat",
+    "default_form": "FORM_RAW",
+    "aliases": []
+  },
+  "INGR_01209": {
+    "name": "Lamb chops",
+    "category": "Meat",
+    "default_form": "FORM_RAW",
+    "aliases": []
+  },
+  "INGR_01210": {
+    "name": "Rabbit",
+    "category": "Meat",
+    "default_form": "FORM_RAW",
+    "aliases": []
+  },
+  "INGR_01211": {
+    "name": "Venison",
+    "category": "Meat",
+    "default_form": "FORM_RAW",
+    "aliases": []
+  },
+  "INGR_01212": {
+    "name": "Quail",
+    "category": "Meat",
+    "default_form": "FORM_RAW",
+    "aliases": []
+  },
+  "INGR_01213": {
+    "name": "Goose",
+    "category": "Meat",
+    "default_form": "FORM_RAW",
+    "aliases": []
+  },
+  "INGR_01214": {
+    "name": "Lavash",
+    "category": "Bakery",
+    "default_form": "FORM_BAKED",
+    "aliases": []
+  },
+  "INGR_01215": {
+    "name": "Matzo",
+    "category": "Bakery",
+    "default_form": "FORM_BAKED",
+    "aliases": []
+  },
+  "INGR_01216": {
+    "name": "Pumpernickel bread",
+    "category": "Bakery",
+    "default_form": "FORM_BAKED",
+    "aliases": []
+  },
+  "INGR_01217": {
+    "name": "Sourdough bread",
+    "category": "Bakery",
+    "default_form": "FORM_BAKED",
+    "aliases": []
+  },
+  "INGR_01218": {
+    "name": "Arepa (pre-cooked corn cake)",
+    "category": "Bakery",
+    "default_form": "FORM_BAKED",
+    "aliases": []
+  },
+  "INGR_01219": {
+    "name": "Injera (teff flatbread)",
+    "category": "Bakery",
+    "default_form": "FORM_BAKED",
+    "aliases": []
+  },
+  "INGR_01220": {
+    "name": "Bao buns",
+    "category": "Bakery",
+    "default_form": "FORM_BAKED",
+    "aliases": []
+  },
+  "INGR_01221": {
+    "name": "Mantou",
+    "category": "Bakery",
+    "default_form": "FORM_BAKED",
+    "aliases": []
+  },
+  "INGR_01222": {
+    "name": "Paratha (frozen, ready-to-heat)",
+    "category": "Bakery",
+    "default_form": "FORM_FROZEN",
+    "aliases": []
+  },
+  "INGR_01223": {
+    "name": "Mochi (sweet)",
+    "category": "Sweets & Snacks",
+    "default_form": "FORM_PACKED",
+    "aliases": []
+  },
+  "INGR_01224": {
+    "name": "Plantain chips",
+    "category": "Sweets & Snacks",
+    "default_form": "FORM_PACKED",
+    "aliases": []
+  },
+  "INGR_01225": {
+    "name": "Prawn crackers",
+    "category": "Sweets & Snacks",
+    "default_form": "FORM_PACKED",
+    "aliases": []
+  },
+  "INGR_01226": {
+    "name": "Sesame brittle",
+    "category": "Sweets & Snacks",
+    "default_form": "FORM_PACKED",
+    "aliases": [
+      "til chikki"
+    ]
+  },
+  "INGR_01227": {
+    "name": "Halva (sesame)",
+    "category": "Sweets & Snacks",
+    "default_form": "FORM_PACKED",
+    "aliases": []
+  },
+  "INGR_01228": {
+    "name": "Turkish delight",
+    "category": "Sweets & Snacks",
+    "default_form": "FORM_PACKED",
+    "aliases": [
+      "lokum"
+    ]
+  },
+  "INGR_01229": {
+    "name": "Mango fruit leather",
+    "category": "Sweets & Snacks",
+    "default_form": "FORM_PACKED",
+    "aliases": [
+      "aam papad"
+    ]
+  },
+  "INGR_01230": {
+    "name": "Protein bar",
+    "category": "Sweets & Snacks",
+    "default_form": "FORM_PACKED",
+    "aliases": []
+  },
+  "INGR_01231": {
+    "name": "Canned green chilies (diced)",
+    "category": "Canned & Jarred",
+    "default_form": "FORM_CANNED",
+    "aliases": []
+  },
+  "INGR_01232": {
+    "name": "Canned jackfruit (young green)",
+    "category": "Canned & Jarred",
+    "default_form": "FORM_CANNED",
+    "aliases": []
+  },
+  "INGR_01233": {
+    "name": "Canned coconut cream",
+    "category": "Canned & Jarred",
+    "default_form": "FORM_CANNED",
+    "aliases": []
+  },
+  "INGR_01234": {
+    "name": "Canned lychee",
+    "category": "Canned & Jarred",
+    "default_form": "FORM_CANNED",
+    "aliases": []
+  },
+  "INGR_01235": {
+    "name": "Canned pineapple (rings)",
+    "category": "Canned & Jarred",
+    "default_form": "FORM_CANNED",
+    "aliases": []
+  },
+  "INGR_01236": {
+    "name": "Canned kidney beans",
+    "category": "Canned & Jarred",
+    "default_form": "FORM_CANNED",
+    "aliases": []
+  },
+  "INGR_01237": {
+    "name": "Canned cannellini beans",
+    "category": "Canned & Jarred",
+    "default_form": "FORM_CANNED",
+    "aliases": []
+  },
+  "INGR_01238": {
+    "name": "Canned pinto beans",
+    "category": "Canned & Jarred",
+    "default_form": "FORM_CANNED",
+    "aliases": []
+  },
+  "INGR_01239": {
+    "name": "Frozen dumplings (pork)",
+    "category": "Frozen Foods",
+    "default_form": "FORM_FROZEN",
+    "aliases": []
+  },
+  "INGR_01240": {
+    "name": "Frozen dumplings (vegetable)",
+    "category": "Frozen Foods",
+    "default_form": "FORM_FROZEN",
+    "aliases": []
+  },
+  "INGR_01241": {
+    "name": "Frozen spring rolls",
+    "category": "Frozen Foods",
+    "default_form": "FORM_FROZEN",
+    "aliases": []
+  },
+  "INGR_01242": {
+    "name": "Frozen naan",
+    "category": "Frozen Foods",
+    "default_form": "FORM_FROZEN",
+    "aliases": []
+  },
+  "INGR_01243": {
+    "name": "Frozen paratha",
+    "category": "Frozen Foods",
+    "default_form": "FORM_FROZEN",
+    "aliases": []
+  },
+  "INGR_01244": {
+    "name": "Frozen udon",
+    "category": "Frozen Foods",
+    "default_form": "FORM_FROZEN",
+    "aliases": []
+  },
+  "INGR_01245": {
+    "name": "Frozen mango chunks",
+    "category": "Frozen Foods",
+    "default_form": "FORM_FROZEN",
+    "aliases": []
+  },
+  "INGR_01246": {
+    "name": "Frozen jackfruit",
+    "category": "Frozen Foods",
+    "default_form": "FORM_FROZEN",
+    "aliases": []
+  },
+  "INGR_01247": {
+    "name": "Matcha powder",
+    "category": "Beverages",
+    "default_form": "FORM_POWDER",
+    "aliases": []
+  },
+  "INGR_01248": {
+    "name": "Oolong tea",
+    "category": "Beverages",
+    "default_form": "FORM_DRY",
+    "aliases": []
+  },
+  "INGR_01249": {
+    "name": "Pu-erh tea",
+    "category": "Beverages",
+    "default_form": "FORM_DRY",
+    "aliases": []
+  },
+  "INGR_01250": {
+    "name": "Jasmine tea pearls",
+    "category": "Beverages",
+    "default_form": "FORM_DRY",
+    "aliases": []
+  },
+  "INGR_01251": {
+    "name": "Hibiscus tea",
+    "category": "Beverages",
+    "default_form": "FORM_DRY",
+    "aliases": []
+  },
+  "INGR_01252": {
+    "name": "Yerba mate",
+    "category": "Beverages",
+    "default_form": "FORM_DRY",
+    "aliases": []
+  },
+  "INGR_01253": {
+    "name": "Kombucha (bottled)",
+    "category": "Beverages",
+    "default_form": "FORM_BOTTLED",
+    "aliases": []
+  },
+  "INGR_01254": {
+    "name": "Rose water",
+    "category": "Beverages",
+    "default_form": "FORM_LIQUID",
+    "aliases": []
+  },
+  "INGR_01255": {
+    "name": "Orange blossom water",
+    "category": "Beverages",
+    "default_form": "FORM_LIQUID",
+    "aliases": []
+  },
+  "INGR_01256": {
+    "name": "Falooda sev",
+    "category": "Beverages",
+    "default_form": "FORM_RAW",
+    "aliases": []
+  },
+  "INGR_01257": {
+    "name": "Pectin",
+    "category": "Other",
+    "default_form": "FORM_POWDER",
+    "aliases": []
+  },
+  "INGR_01258": {
+    "name": "Xanthan gum",
+    "category": "Other",
+    "default_form": "FORM_POWDER",
+    "aliases": []
+  },
+  "INGR_01259": {
+    "name": "Guar gum",
+    "category": "Other",
+    "default_form": "FORM_POWDER",
+    "aliases": []
+  },
+  "INGR_01260": {
+    "name": "Agar powder",
+    "category": "Other",
+    "default_form": "FORM_POWDER",
+    "aliases": []
+  },
+  "INGR_01261": {
+    "name": "Gelatin sheets",
+    "category": "Other",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_01262": {
+    "name": "Citric acid",
+    "category": "Other",
+    "default_form": "FORM_POWDER",
+    "aliases": []
+  },
+  "INGR_01263": {
+    "name": "Cream of tartar",
+    "category": "Other",
+    "default_form": "FORM_POWDER",
+    "aliases": []
+  },
+  "INGR_01264": {
+    "name": "Nutritional yeast flakes",
+    "category": "Other",
+    "default_form": "FORM_DRY",
+    "aliases": [
+      "nutritional yeast flake"
+    ]
+  },
+  "INGR_01265": {
+    "name": "Broccoli sprouts",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_01266": {
+    "name": "Alfalfa sprouts",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_01267": {
+    "name": "Clover sprouts",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_01268": {
+    "name": "Radish sprouts",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_01269": {
+    "name": "Mung bean sprouts (fresh)",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": [
+      "bean sprouts"
+    ]
+  },
+  "INGR_01270": {
+    "name": "Pea shoots (microgreens)",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": [
+      "pea tendrils"
+    ]
+  },
+  "INGR_01271": {
+    "name": "Sunflower microgreens",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_01272": {
+    "name": "Microgreens mix",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": [
+      "salad microgreens"
+    ]
+  },
+  "INGR_01273": {
+    "name": "Broccoli microgreens",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_01274": {
+    "name": "Kale microgreens",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_01275": {
+    "name": "Arugula microgreens",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_01276": {
+    "name": "Wheatgrass (fresh)",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_01277": {
+    "name": "Butter lettuce (Boston/Bibb)",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": [
+      "butter lettuce",
+      "boston lettuce",
+      "bibb lettuce"
+    ]
+  },
+  "INGR_01278": {
+    "name": "Little Gem lettuce",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_01279": {
+    "name": "Baby kale",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_01280": {
+    "name": "Lacinato kale (Tuscan kale)",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": [
+      "Tuscan kale"
+    ]
+  },
+  "INGR_01281": {
+    "name": "Swiss chard (rainbow)",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": [
+      "rainbow chard"
+    ]
+  },
+  "INGR_01282": {
+    "name": "Beet greens",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_01283": {
+    "name": "Dandelion greens",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_01284": {
+    "name": "Escarole",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_01285": {
+    "name": "Frisée (curly endive)",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": [
+      "frisee"
+    ]
+  },
+  "INGR_01286": {
+    "name": "Radicchio",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_01287": {
+    "name": "English cucumber",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_01288": {
+    "name": "Persian cucumbers",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": [
+      "mini cucumbers"
+    ]
+  },
+  "INGR_01289": {
+    "name": "Japanese eggplant",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_01290": {
+    "name": "Campari tomatoes",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_01291": {
+    "name": "Tomato medley (snacking)",
+    "category": "Produce",
+    "default_form": "FORM_PACKED",
+    "aliases": [
+      "assorted small tomatoes"
+    ]
+  },
+  "INGR_01292": {
+    "name": "Broccolini",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": [
+      "baby broccoli"
+    ]
+  },
+  "INGR_01293": {
+    "name": "Romanesco cauliflower",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": [
+      "romanesco"
+    ]
+  },
+  "INGR_01294": {
+    "name": "Cremini mushrooms",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": [
+      "baby bella"
+    ]
+  },
+  "INGR_01295": {
+    "name": "Portobello mushroom caps",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": [
+      "portabella caps"
+    ]
+  },
+  "INGR_01296": {
+    "name": "Shiitake mushrooms",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_01297": {
+    "name": "Oyster mushrooms",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_01298": {
+    "name": "Enoki mushrooms",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_01299": {
+    "name": "Maitake mushrooms",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": [
+      "hen of the woods"
+    ]
+  },
+  "INGR_01300": {
+    "name": "King oyster mushrooms",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": [
+      "eringi"
+    ]
+  },
+  "INGR_01301": {
+    "name": "Pomegranate (whole)",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_01302": {
+    "name": "Pomegranate arils (packaged)",
+    "category": "Produce",
+    "default_form": "FORM_PACKED",
+    "aliases": []
+  },
+  "INGR_01303": {
+    "name": "Figs (fresh)",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_01304": {
+    "name": "Medjool dates",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": [
+      "dates medjool",
+      "medjool date"
+    ]
+  },
+  "INGR_01305": {
+    "name": "Clementines",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": [
+      "mandarin clementine"
+    ]
+  },
+  "INGR_01306": {
+    "name": "Mandarins (tangerines)",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": [
+      "tangerines"
+    ]
+  },
+  "INGR_01307": {
+    "name": "Blood oranges",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_01308": {
+    "name": "Cara Cara oranges",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_01309": {
+    "name": "Pink grapefruit",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_01310": {
+    "name": "Honeycrisp apples",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_01311": {
+    "name": "Sweet cherries (fresh)",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_01312": {
+    "name": "Pluots",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_01313": {
+    "name": "Brown lentils (dried)",
+    "category": "Legumes & Nuts",
+    "default_form": "FORM_RAW",
+    "aliases": []
+  },
+  "INGR_01314": {
+    "name": "Split green peas (dried)",
+    "category": "Legumes & Nuts",
+    "default_form": "FORM_RAW",
+    "aliases": []
+  },
+  "INGR_01315": {
+    "name": "Split yellow peas (dried)",
+    "category": "Legumes & Nuts",
+    "default_form": "FORM_RAW",
+    "aliases": []
+  },
+  "INGR_01316": {
+    "name": "Large lima beans (butter beans, dried)",
+    "category": "Legumes & Nuts",
+    "default_form": "FORM_RAW",
+    "aliases": [
+      "butter beans (dried)"
+    ]
+  },
+  "INGR_01317": {
+    "name": "Baby lima beans (dried)",
+    "category": "Legumes & Nuts",
+    "default_form": "FORM_RAW",
+    "aliases": []
+  },
+  "INGR_01318": {
+    "name": "Mayocoba beans (dried)",
+    "category": "Legumes & Nuts",
+    "default_form": "FORM_RAW",
+    "aliases": [
+      "peruvian beans"
+    ]
+  },
+  "INGR_01319": {
+    "name": "Great Northern beans (dried, low-sodium canned alt)",
+    "category": "Legumes & Nuts",
+    "default_form": "FORM_RAW",
+    "aliases": [
+      "great northern beans dry"
+    ]
+  },
+  "INGR_01320": {
+    "name": "Hemp hearts (shelled hemp seeds)",
+    "category": "Legumes & Nuts",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_01321": {
+    "name": "Ground flaxseed (flax meal)",
+    "category": "Legumes & Nuts",
+    "default_form": "FORM_POWDER",
+    "aliases": [
+      "flax meal"
+    ]
+  },
+  "INGR_01322": {
+    "name": "Black sesame seeds",
+    "category": "Legumes & Nuts",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_01323": {
+    "name": "White sesame seeds",
+    "category": "Legumes & Nuts",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_01324": {
+    "name": "Sunflower seeds (raw, unsalted)",
+    "category": "Legumes & Nuts",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_01325": {
+    "name": "Pepitas (raw, unsalted)",
+    "category": "Legumes & Nuts",
+    "default_form": "FORM_WHOLE",
+    "aliases": [
+      "pumpkin seeds raw"
+    ]
+  },
+  "INGR_01326": {
+    "name": "Pistachios (shelled, unsalted)",
+    "category": "Legumes & Nuts",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_01327": {
+    "name": "Almonds (raw, unsalted)",
+    "category": "Legumes & Nuts",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_01328": {
+    "name": "Almond butter (unsweetened)",
+    "category": "Legumes & Nuts",
+    "default_form": "FORM_PASTE",
+    "aliases": []
+  },
+  "INGR_01329": {
+    "name": "Cashew butter (unsweetened)",
+    "category": "Legumes & Nuts",
+    "default_form": "FORM_PASTE",
+    "aliases": []
+  },
+  "INGR_01330": {
+    "name": "Sunflower seed butter (unsweetened)",
+    "category": "Legumes & Nuts",
+    "default_form": "FORM_PASTE",
+    "aliases": []
+  },
+  "INGR_01331": {
+    "name": "Walnut halves (raw)",
+    "category": "Legumes & Nuts",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_01332": {
+    "name": "Pecans (raw halves)",
+    "category": "Legumes & Nuts",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_01333": {
+    "name": "Hazelnuts (raw)",
+    "category": "Legumes & Nuts",
+    "default_form": "FORM_WHOLE",
+    "aliases": [
+      "filberts raw"
+    ]
+  },
+  "INGR_01334": {
+    "name": "Pine nuts (pignoli)",
+    "category": "Legumes & Nuts",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_01335": {
+    "name": "Macadamia nuts (raw)",
+    "category": "Legumes & Nuts",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_01336": {
+    "name": "Brazil nuts (raw)",
+    "category": "Legumes & Nuts",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_01337": {
+    "name": "Chia seeds (black)",
+    "category": "Legumes & Nuts",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_01338": {
+    "name": "Chia seeds (white)",
+    "category": "Legumes & Nuts",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_01339": {
+    "name": "Pumpkin seeds (roasted, unsalted)",
+    "category": "Legumes & Nuts",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_01340": {
+    "name": "Red quinoa",
+    "category": "Grains & Pasta",
+    "default_form": "FORM_RAW",
+    "aliases": []
+  },
+  "INGR_01341": {
+    "name": "Black quinoa",
+    "category": "Grains & Pasta",
+    "default_form": "FORM_RAW",
+    "aliases": []
+  },
+  "INGR_01342": {
+    "name": "Tri-color quinoa",
+    "category": "Grains & Pasta",
+    "default_form": "FORM_RAW",
+    "aliases": []
+  },
+  "INGR_01343": {
+    "name": "Black rice (forbidden rice)",
+    "category": "Grains & Pasta",
+    "default_form": "FORM_RAW",
+    "aliases": []
+  },
+  "INGR_01344": {
+    "name": "Red rice (Camargue style)",
+    "category": "Grains & Pasta",
+    "default_form": "FORM_RAW",
+    "aliases": []
+  },
+  "INGR_01345": {
+    "name": "Pearled barley",
+    "category": "Grains & Pasta",
+    "default_form": "FORM_RAW",
+    "aliases": []
+  },
+  "INGR_01346": {
+    "name": "Hulled barley",
+    "category": "Grains & Pasta",
+    "default_form": "FORM_RAW",
+    "aliases": []
+  },
+  "INGR_01347": {
+    "name": "Farro perlato (pearled farro)",
+    "category": "Grains & Pasta",
+    "default_form": "FORM_RAW",
+    "aliases": []
+  },
+  "INGR_01348": {
+    "name": "Whole wheat spaghetti",
+    "category": "Grains & Pasta",
+    "default_form": "FORM_RAW",
+    "aliases": []
+  },
+  "INGR_01349": {
+    "name": "Whole wheat penne",
+    "category": "Grains & Pasta",
+    "default_form": "FORM_RAW",
+    "aliases": []
+  },
+  "INGR_01350": {
+    "name": "Whole wheat rotini",
+    "category": "Grains & Pasta",
+    "default_form": "FORM_RAW",
+    "aliases": []
+  },
+  "INGR_01351": {
+    "name": "Whole wheat fusilli",
+    "category": "Grains & Pasta",
+    "default_form": "FORM_RAW",
+    "aliases": []
+  },
+  "INGR_01352": {
+    "name": "Whole wheat orzo",
+    "category": "Grains & Pasta",
+    "default_form": "FORM_RAW",
+    "aliases": []
+  },
+  "INGR_01353": {
+    "name": "Brown rice pasta (gluten-free)",
+    "category": "Grains & Pasta",
+    "default_form": "FORM_RAW",
+    "aliases": []
+  },
+  "INGR_01354": {
+    "name": "Chickpea pasta (penne)",
+    "category": "Grains & Pasta",
+    "default_form": "FORM_RAW",
+    "aliases": []
+  },
+  "INGR_01355": {
+    "name": "Lentil pasta (rotini)",
+    "category": "Grains & Pasta",
+    "default_form": "FORM_RAW",
+    "aliases": []
+  },
+  "INGR_01356": {
+    "name": "Soba noodles (100% buckwheat)",
+    "category": "Grains & Pasta",
+    "default_form": "FORM_RAW",
+    "aliases": [
+      "juwari soba"
+    ]
+  },
+  "INGR_01357": {
+    "name": "Sprouted quinoa",
+    "category": "Grains & Pasta",
+    "default_form": "FORM_RAW",
+    "aliases": []
+  },
+  "INGR_01358": {
+    "name": "Sprouted brown rice",
+    "category": "Grains & Pasta",
+    "default_form": "FORM_RAW",
+    "aliases": []
+  },
+  "INGR_01359": {
+    "name": "Tofu (extra firm)",
+    "category": "Refrigerated & Dairy",
+    "default_form": "FORM_PACKED",
+    "aliases": []
+  },
+  "INGR_01360": {
+    "name": "Tofu (silken/soft)",
+    "category": "Refrigerated & Dairy",
+    "default_form": "FORM_PACKED",
+    "aliases": [
+      "silken tofu"
+    ]
+  },
+  "INGR_01361": {
+    "name": "Tempeh (plain)",
+    "category": "Refrigerated & Dairy",
+    "default_form": "FORM_PACKED",
+    "aliases": []
+  },
+  "INGR_01362": {
+    "name": "Seitan (ready-to-cook)",
+    "category": "Refrigerated & Dairy",
+    "default_form": "FORM_PACKED",
+    "aliases": [
+      "wheat gluten"
+    ]
+  },
+  "INGR_01363": {
+    "name": "Greek yogurt (nonfat, plain)",
+    "category": "Refrigerated & Dairy",
+    "default_form": "FORM_SEMI",
+    "aliases": []
+  },
+  "INGR_01364": {
+    "name": "Greek yogurt (2%, plain)",
+    "category": "Refrigerated & Dairy",
+    "default_form": "FORM_SEMI",
+    "aliases": []
+  },
+  "INGR_01365": {
+    "name": "Yogurt (plain, low-fat)",
+    "category": "Refrigerated & Dairy",
+    "default_form": "FORM_SEMI",
+    "aliases": []
+  },
+  "INGR_01366": {
+    "name": "Kefir (plain, unsweetened)",
+    "category": "Refrigerated & Dairy",
+    "default_form": "FORM_LIQUID",
+    "aliases": []
+  },
+  "INGR_01367": {
+    "name": "Hummus (classic)",
+    "category": "Refrigerated & Dairy",
+    "default_form": "FORM_SEMI",
+    "aliases": []
+  },
+  "INGR_01368": {
+    "name": "Hummus (roasted red pepper)",
+    "category": "Refrigerated & Dairy",
+    "default_form": "FORM_SEMI",
+    "aliases": []
+  },
+  "INGR_01369": {
+    "name": "Baba ganoush (refrigerated)",
+    "category": "Refrigerated & Dairy",
+    "default_form": "FORM_SEMI",
+    "aliases": []
+  },
+  "INGR_01370": {
+    "name": "Tzatziki (refrigerated)",
+    "category": "Refrigerated & Dairy",
+    "default_form": "FORM_SEMI",
+    "aliases": []
+  },
+  "INGR_01371": {
+    "name": "Almond milk yogurt (plain)",
+    "category": "Refrigerated & Dairy",
+    "default_form": "FORM_SEMI",
+    "aliases": []
+  },
+  "INGR_01372": {
+    "name": "Soy yogurt (plain)",
+    "category": "Refrigerated & Dairy",
+    "default_form": "FORM_SEMI",
+    "aliases": []
+  },
+  "INGR_01373": {
+    "name": "Oat milk yogurt (plain)",
+    "category": "Refrigerated & Dairy",
+    "default_form": "FORM_SEMI",
+    "aliases": []
+  },
+  "INGR_01374": {
+    "name": "Kalamata olives (jarred)",
+    "category": "Canned & Jarred",
+    "default_form": "FORM_JARRED",
+    "aliases": []
+  },
+  "INGR_01375": {
+    "name": "Castelvetrano olives (jarred)",
+    "category": "Canned & Jarred",
+    "default_form": "FORM_JARRED",
+    "aliases": []
+  },
+  "INGR_01376": {
+    "name": "Manzanilla olives stuffed with pimiento (jarred)",
+    "category": "Canned & Jarred",
+    "default_form": "FORM_JARRED",
+    "aliases": []
+  },
+  "INGR_01377": {
+    "name": "Tapenade (olive spread, jarred)",
+    "category": "Canned & Jarred",
+    "default_form": "FORM_JARRED",
+    "aliases": []
+  },
+  "INGR_01378": {
+    "name": "Grape leaves (jarred)",
+    "category": "Canned & Jarred",
+    "default_form": "FORM_JARRED",
+    "aliases": [
+      "vine leaves jarred"
+    ]
+  },
+  "INGR_01379": {
+    "name": "Hearts of palm (jarred)",
+    "category": "Canned & Jarred",
+    "default_form": "FORM_JARRED",
+    "aliases": []
+  },
+  "INGR_01380": {
+    "name": "Artichoke hearts (water-packed, jarred)",
+    "category": "Canned & Jarred",
+    "default_form": "FORM_JARRED",
+    "aliases": []
+  },
+  "INGR_01381": {
+    "name": "Roasted red peppers (jarred, no sugar added)",
+    "category": "Canned & Jarred",
+    "default_form": "FORM_JARRED",
+    "aliases": []
+  },
+  "INGR_01382": {
+    "name": "Sun-dried tomatoes (dry-packed)",
+    "category": "Canned & Jarred",
+    "default_form": "FORM_PACKED",
+    "aliases": []
+  },
+  "INGR_01383": {
+    "name": "Canned mackerel (Atlantic)",
+    "category": "Canned & Jarred",
+    "default_form": "FORM_CANNED",
+    "aliases": []
+  },
+  "INGR_01384": {
+    "name": "Dried mint",
+    "category": "Spices & Seasonings",
+    "default_form": "FORM_DRY",
+    "aliases": []
+  },
+  "INGR_01385": {
+    "name": "Greek oregano (dried)",
+    "category": "Spices & Seasonings",
+    "default_form": "FORM_DRY",
+    "aliases": []
+  },
+  "INGR_01386": {
+    "name": "Aleppo-style pepper (pul biber)",
+    "category": "Spices & Seasonings",
+    "default_form": "FORM_POWDER",
+    "aliases": [
+      "pul biber"
+    ]
+  },
+  "INGR_01387": {
+    "name": "Baharat",
+    "category": "Spices & Seasonings",
+    "default_form": "FORM_POWDER",
+    "aliases": []
+  },
+  "INGR_01388": {
+    "name": "Za'atar (Lebanese style)",
+    "category": "Spices & Seasonings",
+    "default_form": "FORM_POWDER",
+    "aliases": []
+  },
+  "INGR_01389": {
+    "name": "Fennel pollen",
+    "category": "Spices & Seasonings",
+    "default_form": "FORM_POWDER",
+    "aliases": []
+  },
+  "INGR_01390": {
+    "name": "Anise seed",
+    "category": "Spices & Seasonings",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_01391": {
+    "name": "Dill seed",
+    "category": "Spices & Seasonings",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_01392": {
+    "name": "Sauerkraut (refrigerated/raw)",
+    "category": "Refrigerated & Dairy",
+    "default_form": "FORM_JARRED",
+    "aliases": []
+  },
+  "INGR_01393": {
+    "name": "Fermented dill pickles (refrigerated)",
+    "category": "Refrigerated & Dairy",
+    "default_form": "FORM_JARRED",
+    "aliases": []
+  },
+  "INGR_01394": {
+    "name": "Caperberries (brined, jarred)",
+    "category": "Canned & Jarred",
+    "default_form": "FORM_JARRED",
+    "aliases": []
+  },
+  "INGR_01395": {
+    "name": "Red cabbage",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_01396": {
+    "name": "Green cabbage",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_01397": {
+    "name": "Savoy cabbage",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_01398": {
+    "name": "Russet potatoes",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_01399": {
+    "name": "Yukon Gold potatoes",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_01400": {
+    "name": "Red potatoes",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_01401": {
+    "name": "Fingerling potatoes",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_01402": {
+    "name": "Sweet onions (Vidalia style)",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": [
+      "sweet onion"
+    ]
+  },
+  "INGR_01403": {
+    "name": "White onion",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_01404": {
+    "name": "Roma tomatoes",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_01405": {
+    "name": "Beefsteak tomato",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_01406": {
+    "name": "Mini sweet peppers",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_01407": {
+    "name": "Yellow squash",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": [
+      "summer squash"
+    ]
+  },
+  "INGR_01408": {
+    "name": "Acorn squash",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_01409": {
+    "name": "Spaghetti squash",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_01410": {
+    "name": "Delicata squash",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_01411": {
+    "name": "Kabocha squash",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_01412": {
+    "name": "Celery root (celeriac)",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_01413": {
+    "name": "Kohlrabi",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_01414": {
+    "name": "Rutabaga",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_01415": {
+    "name": "Parsnips (large)",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_01416": {
+    "name": "Collard greens",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_01417": {
+    "name": "Mustard greens",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_01418": {
+    "name": "Turnip greens",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_01419": {
+    "name": "Italian parsley (flat-leaf)",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_01420": {
+    "name": "Curly parsley",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_01421": {
+    "name": "Tarragon (fresh)",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_01422": {
+    "name": "Oregano (fresh)",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_01423": {
+    "name": "Thyme (fresh)",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_01424": {
+    "name": "Chervil (fresh)",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_01425": {
+    "name": "Marjoram (fresh)",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_01426": {
+    "name": "Bay leaves (fresh)",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_01427": {
+    "name": "Romaine hearts",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_01428": {
+    "name": "American cheese (slices)",
+    "category": "Refrigerated & Dairy",
+    "default_form": "FORM_SOLID",
+    "aliases": []
+  },
+  "INGR_01429": {
+    "name": "Provolone cheese (slices)",
+    "category": "Refrigerated & Dairy",
+    "default_form": "FORM_SOLID",
+    "aliases": []
+  },
+  "INGR_01430": {
+    "name": "Swiss cheese (slices)",
+    "category": "Refrigerated & Dairy",
+    "default_form": "FORM_SOLID",
+    "aliases": []
+  },
+  "INGR_01431": {
+    "name": "Monterey Jack cheese",
+    "category": "Refrigerated & Dairy",
+    "default_form": "FORM_SOLID",
+    "aliases": []
+  },
+  "INGR_01432": {
+    "name": "Pepper Jack cheese",
+    "category": "Refrigerated & Dairy",
+    "default_form": "FORM_SOLID",
+    "aliases": []
+  },
+  "INGR_01433": {
+    "name": "Colby cheese",
+    "category": "Refrigerated & Dairy",
+    "default_form": "FORM_SOLID",
+    "aliases": []
+  },
+  "INGR_01434": {
+    "name": "Colby Jack cheese",
+    "category": "Refrigerated & Dairy",
+    "default_form": "FORM_SOLID",
+    "aliases": []
+  },
+  "INGR_01435": {
+    "name": "Havarti cheese",
+    "category": "Refrigerated & Dairy",
+    "default_form": "FORM_SOLID",
+    "aliases": []
+  },
+  "INGR_01436": {
+    "name": "Muenster cheese",
+    "category": "Refrigerated & Dairy",
+    "default_form": "FORM_SOLID",
+    "aliases": []
+  },
+  "INGR_01437": {
+    "name": "Brie cheese",
+    "category": "Refrigerated & Dairy",
+    "default_form": "FORM_SOLID",
+    "aliases": []
+  },
+  "INGR_01438": {
+    "name": "Camembert cheese",
+    "category": "Refrigerated & Dairy",
+    "default_form": "FORM_SOLID",
+    "aliases": []
+  },
+  "INGR_01439": {
+    "name": "Blue cheese",
+    "category": "Refrigerated & Dairy",
+    "default_form": "FORM_SOLID",
+    "aliases": []
+  },
+  "INGR_01440": {
+    "name": "Gorgonzola cheese",
+    "category": "Refrigerated & Dairy",
+    "default_form": "FORM_SOLID",
+    "aliases": []
+  },
+  "INGR_01441": {
+    "name": "Mascarpone",
+    "category": "Refrigerated & Dairy",
+    "default_form": "FORM_SEMI",
+    "aliases": []
+  },
+  "INGR_01442": {
+    "name": "Half-and-half",
+    "category": "Refrigerated & Dairy",
+    "default_form": "FORM_LIQUID",
+    "aliases": []
+  },
+  "INGR_01443": {
+    "name": "Heavy whipping cream",
+    "category": "Refrigerated & Dairy",
+    "default_form": "FORM_LIQUID",
+    "aliases": []
+  },
+  "INGR_01444": {
+    "name": "Light cream",
+    "category": "Refrigerated & Dairy",
+    "default_form": "FORM_LIQUID",
+    "aliases": []
+  },
+  "INGR_01445": {
+    "name": "Egg whites (carton)",
+    "category": "Refrigerated & Dairy",
+    "default_form": "FORM_LIQUID",
+    "aliases": []
+  },
+  "INGR_01446": {
+    "name": "Liquid egg substitute",
+    "category": "Refrigerated & Dairy",
+    "default_form": "FORM_LIQUID",
+    "aliases": [
+      "egg beaters"
+    ]
+  },
+  "INGR_01447": {
+    "name": "Whipped topping (tub)",
+    "category": "Refrigerated & Dairy",
+    "default_form": "FORM_TUB",
+    "aliases": []
+  },
+  "INGR_01448": {
+    "name": "Ricotta (part-skim)",
+    "category": "Refrigerated & Dairy",
+    "default_form": "FORM_SEMI",
+    "aliases": []
+  },
+  "INGR_01449": {
+    "name": "Cottage cheese (low-fat)",
+    "category": "Refrigerated & Dairy",
+    "default_form": "FORM_SEMI",
+    "aliases": []
+  },
+  "INGR_01450": {
+    "name": "String cheese (mozzarella sticks)",
+    "category": "Refrigerated & Dairy",
+    "default_form": "FORM_SOLID",
+    "aliases": []
+  },
+  "INGR_01451": {
+    "name": "Parmesan (shredded, tub)",
+    "category": "Refrigerated & Dairy",
+    "default_form": "FORM_PACKED",
+    "aliases": []
+  },
+  "INGR_01452": {
+    "name": "Swordfish steak",
+    "category": "Seafood",
+    "default_form": "FORM_RAW",
+    "aliases": []
+  },
+  "INGR_01453": {
+    "name": "Ahi tuna steaks",
+    "category": "Seafood",
+    "default_form": "FORM_RAW",
+    "aliases": [
+      "yellowfin tuna"
+    ]
+  },
+  "INGR_01454": {
+    "name": "Sea scallops (dry)",
+    "category": "Seafood",
+    "default_form": "FORM_RAW",
+    "aliases": []
+  },
+  "INGR_01455": {
+    "name": "Bay scallops",
+    "category": "Seafood",
+    "default_form": "FORM_RAW",
+    "aliases": []
+  },
+  "INGR_01456": {
+    "name": "Arctic char",
+    "category": "Seafood",
+    "default_form": "FORM_RAW",
+    "aliases": []
+  },
+  "INGR_01457": {
+    "name": "Herring (pickled, jarred)",
+    "category": "Seafood",
+    "default_form": "FORM_JARRED",
+    "aliases": []
+  },
+  "INGR_01458": {
+    "name": "Smoked trout (packed)",
+    "category": "Seafood",
+    "default_form": "FORM_PACKED",
+    "aliases": []
+  },
+  "INGR_01459": {
+    "name": "Canned sardines (in olive oil)",
+    "category": "Seafood",
+    "default_form": "FORM_CANNED",
+    "aliases": []
+  },
+  "INGR_01460": {
+    "name": "Canned salmon (skinless & boneless)",
+    "category": "Seafood",
+    "default_form": "FORM_CANNED",
+    "aliases": []
+  },
+  "INGR_01461": {
+    "name": "Canned anchovies (flat fillets)",
+    "category": "Seafood",
+    "default_form": "FORM_CANNED",
+    "aliases": []
+  },
+  "INGR_01462": {
+    "name": "Everything bagel seasoning",
+    "category": "Spices & Seasonings",
+    "default_form": "FORM_POWDER",
+    "aliases": []
+  },
+  "INGR_01463": {
+    "name": "Montreal steak seasoning",
+    "category": "Spices & Seasonings",
+    "default_form": "FORM_POWDER",
+    "aliases": []
+  },
+  "INGR_01464": {
+    "name": "Creole seasoning",
+    "category": "Spices & Seasonings",
+    "default_form": "FORM_POWDER",
+    "aliases": []
+  },
+  "INGR_01465": {
+    "name": "Greek seasoning",
+    "category": "Spices & Seasonings",
+    "default_form": "FORM_POWDER",
+    "aliases": []
+  },
+  "INGR_01466": {
+    "name": "Ranch seasoning mix",
+    "category": "Spices & Seasonings",
+    "default_form": "FORM_POWDER",
+    "aliases": []
+  },
+  "INGR_01467": {
+    "name": "Taco seasoning mix",
+    "category": "Spices & Seasonings",
+    "default_form": "FORM_POWDER",
+    "aliases": []
+  },
+  "INGR_01468": {
+    "name": "Fajita seasoning mix",
+    "category": "Spices & Seasonings",
+    "default_form": "FORM_POWDER",
+    "aliases": []
+  },
+  "INGR_01469": {
+    "name": "BBQ rub (classic)",
+    "category": "Spices & Seasonings",
+    "default_form": "FORM_POWDER",
+    "aliases": []
+  },
+  "INGR_01470": {
+    "name": "Pumpkin pie spice blend",
+    "category": "Spices & Seasonings",
+    "default_form": "FORM_POWDER",
+    "aliases": []
+  },
+  "INGR_01471": {
+    "name": "Lemon pepper seasoning",
+    "category": "Spices & Seasonings",
+    "default_form": "FORM_POWDER",
+    "aliases": []
+  },
+  "INGR_01472": {
+    "name": "Seasoned salt",
+    "category": "Spices & Seasonings",
+    "default_form": "FORM_POWDER",
+    "aliases": []
+  },
+  "INGR_01473": {
+    "name": "Celery salt",
+    "category": "Spices & Seasonings",
+    "default_form": "FORM_POWDER",
+    "aliases": []
+  },
+  "INGR_01474": {
+    "name": "Onion salt",
+    "category": "Spices & Seasonings",
+    "default_form": "FORM_POWDER",
+    "aliases": []
+  },
+  "INGR_01475": {
+    "name": "Garlic salt",
+    "category": "Spices & Seasonings",
+    "default_form": "FORM_POWDER",
+    "aliases": []
+  },
+  "INGR_01476": {
+    "name": "Citric acid (culinary)",
+    "category": "Spices & Seasonings",
+    "default_form": "FORM_POWDER",
+    "aliases": []
+  },
+  "INGR_01477": {
+    "name": "Smoked sea salt",
+    "category": "Spices & Seasonings",
+    "default_form": "FORM_POWDER",
+    "aliases": []
+  },
+  "INGR_01478": {
+    "name": "Red pepper flakes (crushed)",
+    "category": "Spices & Seasonings",
+    "default_form": "FORM_POWDER",
+    "aliases": [
+      "crushed red pepper"
+    ]
+  },
+  "INGR_01479": {
+    "name": "Paprika (sweet)",
+    "category": "Spices & Seasonings",
+    "default_form": "FORM_POWDER",
+    "aliases": []
+  },
+  "INGR_01480": {
+    "name": "Paprika (hot)",
+    "category": "Spices & Seasonings",
+    "default_form": "FORM_POWDER",
+    "aliases": []
+  },
+  "INGR_01481": {
+    "name": "Bay leaves (dried)",
+    "category": "Spices & Seasonings",
+    "default_form": "FORM_DRY",
+    "aliases": []
+  },
+  "INGR_01482": {
+    "name": "Dill weed (dried)",
+    "category": "Spices & Seasonings",
+    "default_form": "FORM_DRY",
+    "aliases": []
+  },
+  "INGR_01483": {
+    "name": "Parsley flakes (dried)",
+    "category": "Spices & Seasonings",
+    "default_form": "FORM_DRY",
+    "aliases": []
+  },
+  "INGR_01484": {
+    "name": "Chives (dried)",
+    "category": "Spices & Seasonings",
+    "default_form": "FORM_DRY",
+    "aliases": []
+  },
+  "INGR_01485": {
+    "name": "Sage (dried)",
+    "category": "Spices & Seasonings",
+    "default_form": "FORM_DRY",
+    "aliases": []
+  },
+  "INGR_01486": {
+    "name": "Light olive oil",
+    "category": "Oils & Vinegars",
+    "default_form": "FORM_LIQUID",
+    "aliases": []
+  },
+  "INGR_01487": {
+    "name": "Extra light olive oil",
+    "category": "Oils & Vinegars",
+    "default_form": "FORM_LIQUID",
+    "aliases": []
+  },
+  "INGR_01488": {
+    "name": "Blended olive oil",
+    "category": "Oils & Vinegars",
+    "default_form": "FORM_LIQUID",
+    "aliases": []
+  },
+  "INGR_01489": {
+    "name": "Avocado oil spray",
+    "category": "Oils & Vinegars",
+    "default_form": "FORM_LIQUID",
+    "aliases": []
+  },
+  "INGR_01490": {
+    "name": "Non-stick cooking spray (canola)",
+    "category": "Oils & Vinegars",
+    "default_form": "FORM_LIQUID",
+    "aliases": []
+  },
+  "INGR_01491": {
+    "name": "Ghee (clarified butter)",
+    "category": "Oils & Vinegars",
+    "default_form": "FORM_LIQUID",
+    "aliases": []
+  },
+  "INGR_01492": {
+    "name": "Vegetable shortening oil (liquid)",
+    "category": "Oils & Vinegars",
+    "default_form": "FORM_LIQUID",
+    "aliases": []
+  },
+  "INGR_01493": {
+    "name": "Champagne vinegar",
+    "category": "Oils & Vinegars",
+    "default_form": "FORM_LIQUID",
+    "aliases": []
+  },
+  "INGR_01494": {
+    "name": "Sherry vinegar",
+    "category": "Oils & Vinegars",
+    "default_form": "FORM_LIQUID",
+    "aliases": []
+  },
+  "INGR_01495": {
+    "name": "White distilled vinegar (clean flavor)",
+    "category": "Oils & Vinegars",
+    "default_form": "FORM_LIQUID",
+    "aliases": [
+      "distilled white vinegar"
+    ]
+  },
+  "INGR_01496": {
+    "name": "Seasoned rice vinegar",
+    "category": "Oils & Vinegars",
+    "default_form": "FORM_LIQUID",
+    "aliases": []
+  },
+  "INGR_01497": {
+    "name": "Dried goji berries",
+    "category": "Pantry",
+    "default_form": "FORM_DRIED",
+    "aliases": [
+      "goji",
+      "wolfberries"
+    ]
+  },
+  "INGR_01498": {
+    "name": "Water",
+    "category": "Pantry",
+    "default_form": "FORM_LIQUID",
+    "aliases": [
+      "water"
+    ]
+  },
+  "INGR_01499": {
+    "name": "Maca root powder",
+    "category": "Spices & Seasonings",
+    "default_form": "FORM_POWDER",
+    "aliases": []
+  },
+  "INGR_01500": {
+    "name": "Coconut kefir",
+    "category": "Refrigerated & Dairy",
+    "default_form": "FORM_LIQUID",
+    "aliases": []
+  },
+  "INGR_01501": {
+    "name": "Apple juice concentrate (frozen)",
+    "category": "Frozen Foods",
+    "default_form": "FORM_FROZEN",
+    "aliases": [
+      "apple juice concentrate"
+    ]
+  },
+  "INGR_01502": {
+    "name": "Coconut butter",
+    "category": "Oils & Vinegars",
+    "default_form": "FORM_SOLID",
+    "aliases": []
+  },
+  "INGR_01503": {
+    "name": "Sea palm (toasted)",
+    "category": "Pantry",
+    "default_form": "FORM_DRIED",
+    "aliases": [
+      "sea palm"
+    ]
+  },
+  "INGR_01504": {
+    "name": "Sea vegetables (dried)",
+    "category": "Pantry",
+    "default_form": "FORM_DRIED",
+    "aliases": [
+      "seaweed",
+      "dried sea vegetable"
+    ]
+  },
+  "INGR_01505": {
+    "name": "Shredded Coconut (dried)",
+    "category": "Baking Staples",
+    "default_form": "FORM_DRIED",
+    "aliases": []
+  },
+  "INGR_01506": {
+    "name": "Coconut",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_01507": {
+    "name": "Self-rising flour",
+    "category": "Baking Staples",
+    "default_form": "FORM_POWDER",
+    "aliases": []
+  },
+  "INGR_01508": {
+    "name": "00 flour",
+    "category": "Baking Staples",
+    "default_form": "FORM_POWDER",
+    "aliases": [
+      "double zero flour",
+      "pizza flour"
+    ]
+  },
+  "INGR_01509": {
+    "name": "Pastry flour",
+    "category": "Baking Staples",
+    "default_form": "FORM_POWDER",
+    "aliases": []
+  },
+  "INGR_01510": {
+    "name": "Whole wheat pastry flour",
+    "category": "Baking Staples",
+    "default_form": "FORM_POWDER",
+    "aliases": []
+  },
+  "INGR_01511": {
+    "name": "Masa harina",
+    "category": "Baking Staples",
+    "default_form": "FORM_POWDER",
+    "aliases": [
+      "nixtamalized corn flour"
+    ]
+  },
+  "INGR_01512": {
+    "name": "Potato starch",
+    "category": "Baking Staples",
+    "default_form": "FORM_POWDER",
+    "aliases": []
+  },
+  "INGR_01513": {
+    "name": "Tapioca flour",
+    "category": "Baking Staples",
+    "default_form": "FORM_POWDER",
+    "aliases": [
+      "tapioca starch"
+    ]
+  },
+  "INGR_01514": {
+    "name": "Black cocoa powder",
+    "category": "Baking Staples",
+    "default_form": "FORM_POWDER",
+    "aliases": []
+  },
+  "INGR_01515": {
+    "name": "Dutch-process cocoa powder",
+    "category": "Baking Staples",
+    "default_form": "FORM_POWDER",
+    "aliases": [
+      "alkalized cocoa"
+    ]
+  },
+  "INGR_01516": {
+    "name": "Natural cocoa powder",
+    "category": "Baking Staples",
+    "default_form": "FORM_POWDER",
+    "aliases": []
+  },
+  "INGR_01517": {
+    "name": "Unsweetened baking chocolate",
+    "category": "Baking Staples",
+    "default_form": "FORM_SOLID",
+    "aliases": [
+      "baker's chocolate"
+    ]
+  },
+  "INGR_01518": {
+    "name": "Butterscotch chips",
+    "category": "Baking Staples",
+    "default_form": "FORM_PACKED",
+    "aliases": []
+  },
+  "INGR_01519": {
+    "name": "Vegetable shortening",
+    "category": "Baking Staples",
+    "default_form": "FORM_SOLID",
+    "aliases": [
+      "shortening"
+    ]
+  },
+  "INGR_01520": {
+    "name": "Coconut sugar",
+    "category": "Baking Staples",
+    "default_form": "FORM_POWDER",
+    "aliases": []
+  },
+  "INGR_01521": {
+    "name": "Demerara sugar",
+    "category": "Baking Staples",
+    "default_form": "FORM_POWDER",
+    "aliases": []
+  },
+  "INGR_01522": {
+    "name": "Turbinado sugar",
+    "category": "Baking Staples",
+    "default_form": "FORM_POWDER",
+    "aliases": []
+  },
+  "INGR_01523": {
+    "name": "Muscovado sugar",
+    "category": "Baking Staples",
+    "default_form": "FORM_POWDER",
+    "aliases": []
+  },
+  "INGR_01524": {
+    "name": "Light brown sugar",
+    "category": "Baking Staples",
+    "default_form": "FORM_POWDER",
+    "aliases": []
+  },
+  "INGR_01525": {
+    "name": "Dark brown sugar",
+    "category": "Baking Staples",
+    "default_form": "FORM_POWDER",
+    "aliases": []
+  },
+  "INGR_01526": {
+    "name": "Corn syrup (light)",
+    "category": "Baking Staples",
+    "default_form": "FORM_SYRUP",
+    "aliases": []
+  },
+  "INGR_01527": {
+    "name": "Corn syrup (dark)",
+    "category": "Baking Staples",
+    "default_form": "FORM_SYRUP",
+    "aliases": []
+  },
+  "INGR_01528": {
+    "name": "Golden syrup",
+    "category": "Baking Staples",
+    "default_form": "FORM_SYRUP",
+    "aliases": []
+  },
+  "INGR_01529": {
+    "name": "Agave nectar",
+    "category": "Baking Staples",
+    "default_form": "FORM_SYRUP",
+    "aliases": [
+      "agave syrup"
+    ]
+  },
+  "INGR_01530": {
+    "name": "Molasses (blackstrap)",
+    "category": "Baking Staples",
+    "default_form": "FORM_SYRUP",
+    "aliases": []
+  },
+  "INGR_01531": {
+    "name": "Vanilla bean paste",
+    "category": "Baking Staples",
+    "default_form": "FORM_PASTE",
+    "aliases": []
+  },
+  "INGR_01532": {
+    "name": "Almond extract",
+    "category": "Baking Staples",
+    "default_form": "FORM_EXTRACT",
+    "aliases": []
+  },
+  "INGR_01533": {
+    "name": "Peppermint extract",
+    "category": "Baking Staples",
+    "default_form": "FORM_EXTRACT",
+    "aliases": []
+  },
+  "INGR_01534": {
+    "name": "Lemon extract",
+    "category": "Baking Staples",
+    "default_form": "FORM_EXTRACT",
+    "aliases": []
+  },
+  "INGR_01535": {
+    "name": "Vital wheat gluten",
+    "category": "Baking Staples",
+    "default_form": "FORM_POWDER",
+    "aliases": []
+  },
+  "INGR_01536": {
+    "name": "Panko breadcrumbs",
+    "category": "Baking Staples",
+    "default_form": "FORM_PACKED",
+    "aliases": []
+  },
+  "INGR_01537": {
+    "name": "Plain breadcrumbs",
+    "category": "Baking Staples",
+    "default_form": "FORM_PACKED",
+    "aliases": []
+  },
+  "INGR_01538": {
+    "name": "Italian seasoned breadcrumbs",
+    "category": "Baking Staples",
+    "default_form": "FORM_PACKED",
+    "aliases": []
+  },
+  "INGR_01539": {
+    "name": "Graham cracker crumbs",
+    "category": "Baking Staples",
+    "default_form": "FORM_PACKED",
+    "aliases": []
+  },
+  "INGR_01540": {
+    "name": "Gelatin (unflavored powder)",
+    "category": "Baking Staples",
+    "default_form": "FORM_POWDER",
+    "aliases": []
+  },
+  "INGR_01541": {
+    "name": "Pectin (liquid)",
+    "category": "Baking Staples",
+    "default_form": "FORM_LIQUID",
+    "aliases": []
+  },
+  "INGR_01542": {
+    "name": "Food coloring (gel)",
+    "category": "Baking Staples",
+    "default_form": "FORM_PASTE",
+    "aliases": []
+  },
+  "INGR_01543": {
+    "name": "Marshmallow creme",
+    "category": "Baking Staples",
+    "default_form": "FORM_SEMI",
+    "aliases": []
+  },
+  "INGR_01544": {
+    "name": "Canned pie filling (apple)",
+    "category": "Baking Staples",
+    "default_form": "FORM_CANNED",
+    "aliases": []
+  },
+  "INGR_01545": {
+    "name": "Canned pie filling (cherry)",
+    "category": "Baking Staples",
+    "default_form": "FORM_CANNED",
+    "aliases": []
+  },
+  "INGR_01546": {
+    "name": "Pumpkin pie spice",
+    "category": "Baking Staples",
+    "default_form": "FORM_POWDER",
+    "aliases": []
+  },
+  "INGR_01547": {
+    "name": "Apple pie spice",
+    "category": "Baking Staples",
+    "default_form": "FORM_POWDER",
+    "aliases": []
+  },
+  "INGR_01548": {
+    "name": "Canned crushed tomatoes",
+    "category": "Canned & Jarred",
+    "default_form": "FORM_CANNED",
+    "aliases": []
+  },
+  "INGR_01549": {
+    "name": "Canned whole peeled tomatoes",
+    "category": "Canned & Jarred",
+    "default_form": "FORM_CANNED",
+    "aliases": []
+  },
+  "INGR_01550": {
+    "name": "Canned fire-roasted diced tomatoes",
+    "category": "Canned & Jarred",
+    "default_form": "FORM_CANNED",
+    "aliases": []
+  },
+  "INGR_01551": {
+    "name": "Tomato purée (canned)",
+    "category": "Canned & Jarred",
+    "default_form": "FORM_CANNED",
+    "aliases": [
+      "tomato puree"
+    ]
+  },
+  "INGR_01552": {
+    "name": "Canned tomato soup (condensed)",
+    "category": "Canned & Jarred",
+    "default_form": "FORM_CANNED",
+    "aliases": []
+  },
+  "INGR_01553": {
+    "name": "Canned cream of mushroom soup",
+    "category": "Canned & Jarred",
+    "default_form": "FORM_CANNED",
+    "aliases": []
+  },
+  "INGR_01554": {
+    "name": "Canned cream of chicken soup",
+    "category": "Canned & Jarred",
+    "default_form": "FORM_CANNED",
+    "aliases": []
+  },
+  "INGR_01555": {
+    "name": "Canned pumpkin purée",
+    "category": "Canned & Jarred",
+    "default_form": "FORM_CANNED",
+    "aliases": [
+      "pumpkin puree"
+    ]
+  },
+  "INGR_01556": {
+    "name": "Canned salmon",
+    "category": "Canned & Jarred",
+    "default_form": "FORM_CANNED",
+    "aliases": []
+  },
+  "INGR_01557": {
+    "name": "Canned chicken breast",
+    "category": "Canned & Jarred",
+    "default_form": "FORM_CANNED",
+    "aliases": []
+  },
+  "INGR_01558": {
+    "name": "Canned crab meat",
+    "category": "Canned & Jarred",
+    "default_form": "FORM_CANNED",
+    "aliases": []
+  },
+  "INGR_01559": {
+    "name": "Canned clams (chopped)",
+    "category": "Canned & Jarred",
+    "default_form": "FORM_CANNED",
+    "aliases": []
+  },
+  "INGR_01560": {
+    "name": "Linguine",
+    "category": "Grains & Pasta",
+    "default_form": "FORM_RAW",
+    "aliases": []
+  },
+  "INGR_01561": {
+    "name": "Fettuccine",
+    "category": "Grains & Pasta",
+    "default_form": "FORM_RAW",
+    "aliases": []
+  },
+  "INGR_01562": {
+    "name": "Lasagna sheets",
+    "category": "Grains & Pasta",
+    "default_form": "FORM_RAW",
+    "aliases": []
+  },
+  "INGR_01563": {
+    "name": "Angel hair",
+    "category": "Grains & Pasta",
+    "default_form": "FORM_RAW",
+    "aliases": [
+      "capellini"
+    ]
+  },
+  "INGR_01564": {
+    "name": "Shell pasta (small)",
+    "category": "Grains & Pasta",
+    "default_form": "FORM_RAW",
+    "aliases": [
+      "conchiglie"
+    ]
+  },
+  "INGR_01565": {
+    "name": "Ditalini",
+    "category": "Grains & Pasta",
+    "default_form": "FORM_RAW",
+    "aliases": []
+  },
+  "INGR_01566": {
+    "name": "Pappardelle",
+    "category": "Grains & Pasta",
+    "default_form": "FORM_RAW",
+    "aliases": []
+  },
+  "INGR_01567": {
+    "name": "Pearl couscous",
+    "category": "Grains & Pasta",
+    "default_form": "FORM_RAW",
+    "aliases": [
+      "Israeli couscous"
+    ]
+  },
+  "INGR_01568": {
+    "name": "Steel-cut oats",
+    "category": "Grains & Pasta",
+    "default_form": "FORM_RAW",
+    "aliases": []
+  },
+  "INGR_01569": {
+    "name": "Quick oats",
+    "category": "Grains & Pasta",
+    "default_form": "FORM_RAW",
+    "aliases": [
+      "instant oats"
+    ]
+  },
+  "INGR_01570": {
+    "name": "Wheat berries",
+    "category": "Grains & Pasta",
+    "default_form": "FORM_RAW",
+    "aliases": []
+  },
+  "INGR_01571": {
+    "name": "Hominy (dried)",
+    "category": "Grains & Pasta",
+    "default_form": "FORM_RAW",
+    "aliases": []
+  },
+  "INGR_01572": {
+    "name": "Masa harina (for tortillas)",
+    "category": "Grains & Pasta",
+    "default_form": "FORM_POWDER",
+    "aliases": [
+      "masa"
+    ]
+  },
+  "INGR_01573": {
+    "name": "Corn flour (US)",
+    "category": "Grains & Pasta",
+    "default_form": "FORM_POWDER",
+    "aliases": []
+  },
+  "INGR_01574": {
+    "name": "Cake mix (boxed)",
+    "category": "Grains & Pasta",
+    "default_form": "FORM_PACKED",
+    "aliases": []
+  },
+  "INGR_01575": {
+    "name": "Cornbread mix (boxed)",
+    "category": "Grains & Pasta",
+    "default_form": "FORM_PACKED",
+    "aliases": []
+  },
+  "INGR_01576": {
+    "name": "Beluga lentils (black)",
+    "category": "Legumes & Nuts",
+    "default_form": "FORM_RAW",
+    "aliases": [
+      "black lentils"
+    ]
+  },
+  "INGR_01577": {
+    "name": "French green lentils",
+    "category": "Legumes & Nuts",
+    "default_form": "FORM_RAW",
+    "aliases": [
+      "Puy-style lentils"
+    ]
+  },
+  "INGR_01578": {
+    "name": "Cranberry beans (borlotti)",
+    "category": "Legumes & Nuts",
+    "default_form": "FORM_RAW",
+    "aliases": []
+  },
+  "INGR_01579": {
+    "name": "Great Northern beans (dry)",
+    "category": "Legumes & Nuts",
+    "default_form": "FORM_RAW",
+    "aliases": []
+  },
+  "INGR_01580": {
+    "name": "Navy beans (dry)",
+    "category": "Legumes & Nuts",
+    "default_form": "FORM_RAW",
+    "aliases": []
+  },
+  "INGR_01581": {
+    "name": "Peanut halves (raw)",
+    "category": "Legumes & Nuts",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_01582": {
+    "name": "Dry roasted peanuts (salted)",
+    "category": "Legumes & Nuts",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_01583": {
+    "name": "Pistachio kernels (shelled)",
+    "category": "Legumes & Nuts",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_01584": {
+    "name": "Pecan halves",
+    "category": "Legumes & Nuts",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_01585": {
+    "name": "Walnut halves & pieces",
+    "category": "Legumes & Nuts",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_01586": {
+    "name": "Sliced almonds",
+    "category": "Legumes & Nuts",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_01587": {
+    "name": "Slivered almonds",
+    "category": "Legumes & Nuts",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_01588": {
+    "name": "Brazil nuts",
+    "category": "Legumes & Nuts",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_01589": {
+    "name": "Marcona almonds",
+    "category": "Legumes & Nuts",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_01590": {
+    "name": "Hazelnuts (filberts)",
+    "category": "Legumes & Nuts",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_01591": {
+    "name": "Romaine lettuce",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_01592": {
+    "name": "Iceberg lettuce",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_01593": {
+    "name": "Spring mix (salad greens)",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_01594": {
+    "name": "Baby spinach (fresh)",
+    "category": "Produce",
+    "default_form": "FORM_WHOLE",
+    "aliases": []
+  },
+  "INGR_01596": {
+    "name": "Vegetable broth (canned)",
+    "category": "Canned & Jarred",
+    "default_form": "FORM_CANNED",
+    "aliases": []
+  },
+  "INGR_01597": {
+    "name": "Orzo",
+    "category": "Grains & Pasta",
+    "default_form": "FORM_RAW",
+    "aliases": []
+  },
+  "INGR_01598": {
+    "name": "Macaroni elbows",
+    "category": "Grains & Pasta",
+    "default_form": "FORM_RAW",
+    "aliases": [
+      "elbow macaroni"
+    ]
+  },
+  "INGR_01599": {
+    "name": "Rigatoni",
+    "category": "Grains & Pasta",
+    "default_form": "FORM_RAW",
+    "aliases": []
+  },
+  "INGR_01600": {
+    "name": "Cocoa butter",
+    "category": "Baking Staples",
+    "default_form": "FORM_SOLID",
+    "aliases": []
+  },
+  "INGR_01601": {
+    "name": "Canned green beans",
+    "category": "Canned & Jarred",
+    "default_form": "FORM_CANNED",
+    "aliases": []
+  },
+  "INGR_01602": {
+    "name": "Canned carrots (sliced)",
+    "category": "Canned & Jarred",
+    "default_form": "FORM_CANNED",
+    "aliases": []
+  },
+  "INGR_01603": {
+    "name": "Canned beets (sliced)",
+    "category": "Canned & Jarred",
+    "default_form": "FORM_CANNED",
+    "aliases": []
+  },
+  "INGR_01604": {
+    "name": "Canned mushrooms (sliced)",
+    "category": "Canned & Jarred",
+    "default_form": "FORM_CANNED",
+    "aliases": []
+  },
+  "INGR_01605": {
+    "name": "Canned artichoke hearts",
+    "category": "Canned & Jarred",
+    "default_form": "FORM_CANNED",
+    "aliases": []
+  },
+  "INGR_01606": {
+    "name": "Canned water chestnuts",
+    "category": "Canned & Jarred",
+    "default_form": "FORM_CANNED",
+    "aliases": []
+  },
+  "INGR_01607": {
+    "name": "Canned bamboo shoots",
+    "category": "Canned & Jarred",
+    "default_form": "FORM_CANNED",
+    "aliases": []
+  },
+  "INGR_01608": {
+    "name": "Canned jalapeños (sliced, pickled)",
+    "category": "Canned & Jarred",
+    "default_form": "FORM_CANNED",
+    "aliases": []
+  },
+  "INGR_01609": {
+    "name": "Chipotle peppers in adobo",
+    "category": "Canned & Jarred",
+    "default_form": "FORM_CANNED",
+    "aliases": []
+  },
+  "INGR_01610": {
+    "name": "Canned tomatillos",
+    "category": "Canned & Jarred",
+    "default_form": "FORM_CANNED",
+    "aliases": []
+  },
+  "INGR_01611": {
+    "name": "Canned enchilada sauce (green)",
+    "category": "Canned & Jarred",
+    "default_form": "FORM_CANNED",
+    "aliases": []
+  },
+  "INGR_01612": {
+    "name": "Canned refried beans",
+    "category": "Canned & Jarred",
+    "default_form": "FORM_CANNED",
+    "aliases": []
+  },
+  "INGR_01613": {
+    "name": "Canned navy beans",
+    "category": "Canned & Jarred",
+    "default_form": "FORM_CANNED",
+    "aliases": []
+  },
+  "INGR_01614": {
+    "name": "Canned great northern beans",
+    "category": "Canned & Jarred",
+    "default_form": "FORM_CANNED",
+    "aliases": []
+  },
+  "INGR_01615": {
+    "name": "Canned cannellini beans (low-sodium)",
+    "category": "Canned & Jarred",
+    "default_form": "FORM_CANNED",
+    "aliases": []
+  },
+  "INGR_01616": {
+    "name": "Canned kidney beans (low-sodium)",
+    "category": "Canned & Jarred",
+    "default_form": "FORM_CANNED",
+    "aliases": []
+  },
+  "INGR_01617": {
+    "name": "Canned pinto beans (low-sodium)",
+    "category": "Canned & Jarred",
+    "default_form": "FORM_CANNED",
+    "aliases": []
+  },
+  "INGR_01618": {
+    "name": "Canned black beans (low-sodium)",
+    "category": "Canned & Jarred",
+    "default_form": "FORM_CANNED",
+    "aliases": []
+  },
+  "INGR_01619": {
+    "name": "Canned tuna (in water)",
+    "category": "Canned & Jarred",
+    "default_form": "FORM_CANNED",
+    "aliases": []
+  },
+  "INGR_01620": {
+    "name": "Canned tuna (in oil)",
+    "category": "Canned & Jarred",
+    "default_form": "FORM_CANNED",
+    "aliases": []
+  },
+  "INGR_01621": {
+    "name": "Jarred marinara sauce",
+    "category": "Canned & Jarred",
+    "default_form": "FORM_JARRED",
+    "aliases": []
+  },
+  "INGR_01622": {
+    "name": "Jarred Alfredo sauce",
+    "category": "Canned & Jarred",
+    "default_form": "FORM_JARRED",
+    "aliases": []
+  },
+  "INGR_01623": {
+    "name": "Jarred pesto (basil)",
+    "category": "Canned & Jarred",
+    "default_form": "FORM_JARRED",
+    "aliases": []
+  },
+  "INGR_01624": {
+    "name": "Sun-dried tomatoes (oil-packed)",
+    "category": "Canned & Jarred",
+    "default_form": "FORM_JARRED",
+    "aliases": []
+  },
+  "INGR_01625": {
+    "name": "Giardiniera (jarred)",
+    "category": "Canned & Jarred",
+    "default_form": "FORM_JARRED",
+    "aliases": []
+  },
+  "INGR_01626": {
+    "name": "Pepperoncini (jarred)",
+    "category": "Canned & Jarred",
+    "default_form": "FORM_JARRED",
+    "aliases": []
+  },
+  "INGR_01627": {
+    "name": "Banana pepper rings (jarred)",
+    "category": "Canned & Jarred",
+    "default_form": "FORM_JARRED",
+    "aliases": []
+  },
+  "INGR_01628": {
+    "name": "Roasted red peppers (jarred)",
+    "category": "Canned & Jarred",
+    "default_form": "FORM_JARRED",
+    "aliases": []
+  },
+  "INGR_01629": {
+    "name": "Pickled beets (jarred)",
+    "category": "Canned & Jarred",
+    "default_form": "FORM_JARRED",
+    "aliases": []
+  },
+  "INGR_01630": {
+    "name": "Bread & butter pickles (jarred)",
+    "category": "Canned & Jarred",
+    "default_form": "FORM_JARRED",
+    "aliases": []
+  },
+  "INGR_01631": {
+    "name": "Dill pickle spears (jarred)",
+    "category": "Canned & Jarred",
+    "default_form": "FORM_JARRED",
+    "aliases": []
+  },
+  "INGR_01632": {
+    "name": "Green peppercorns (brined, jarred)",
+    "category": "Canned & Jarred",
+    "default_form": "FORM_JARRED",
+    "aliases": []
+  },
+  "INGR_01633": {
+    "name": "Chicken broth (canned)",
+    "category": "Canned & Jarred",
+    "default_form": "FORM_CANNED",
+    "aliases": []
+  },
+  "INGR_01634": {
+    "name": "Beef broth (canned)",
+    "category": "Canned & Jarred",
+    "default_form": "FORM_CANNED",
+    "aliases": []
+  }
+}
