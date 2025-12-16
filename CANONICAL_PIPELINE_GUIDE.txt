@@ -1,0 +1,413 @@
+CANONICAL INGREDIENT PIPELINE – RUNBOOK
+=======================================
+
+Goal
+----
+End‑to‑end pipeline to convert raw recipe ingredient lines into **canonical SI format** and upload:
+1. **Reference data** (ingredients, densities, display policies, unit conversions) to Firebase.
+2. **Canonical recipes** (per‑recipe canonical ingredients) to a separate `recipes_canonical` collection.
+
+This document intentionally **skips Flutter/app integration**. It focuses only on:
+- Which files are involved
+- What each script does
+- The exact order of execution and commands
+
+Directory Layout (Base)
+-----------------------
+Base path for all commands below:
+
+`/Users/dakshilkanakia/Downloads/files/`
+
+Key files in this directory:
+
+- Python (Stage 2 pipeline)
+  - `config.py`
+  - `main.py`
+  - `data_loader.py`
+  - `processor.py`
+  - `step2_quantity_parser.py`
+  - `step3_unit_normalizer.py`
+  - `step5_ingredient_linking.py`
+  - `steps6_9_form_and_conversion.py`
+  - Excel reference files:
+    - `Ingredient_Table_Populated_Master 251202.xlsx`
+    - `Density_Table_Populated - Final 251202.xlsx`
+    - `Ingredient Display Policy 251202.xlsx`
+    - `Form_Table_Populated_Complete.xlsx`
+    - `Unit_Conversion_Constants_Table_Populated.xlsx`
+
+- Python helpers (canonical grouping + export)
+  - `group_recipes.py`
+  - `export_reference_data.py`
+
+- Stage 2 I/O
+  - Input examples: `recipe_sample_251212.jsonl`, `recipe_sample_251105.jsonl`
+  - Outputs:
+    - `stage2_output.jsonl`
+    - `stage2_errors.txt`
+    - `stage2_errors.json`
+
+- Canonical recipe JSON
+  - `test_recipes_canonical.json`  ← grouped by `recipe_id`
+
+- Node scripts (Firebase)
+  - `upload_reference_data_to_firebase.js`
+  - `inspect_recipe_structure.js`
+  - `check_test_recipes.js`
+  - `upload_canonical_recipes.js`
+
+- Exported reference JSON (for Firebase)
+  - Directory: `flutter_assets/`
+    - `ingredients.json`
+    - `display_policies.json`
+    - `densities.json`
+    - `conversion_constants.json`
+
+
+Prerequisites
+-------------
+1. **Python venv** already created and activated when needed:
+
+   ```bash
+   cd /Users/dakshilkanakia/Downloads/files
+   source venv/bin/activate
+   ```
+
+2. **Node.js** installed and working.
+
+3. **Firebase Admin service account** JSON exists at:
+
+   `/Users/dakshilkanakia/Desktop/Personalized Medicine/secretkey.json`
+
+
+STEP 1 – Configure Stage 2 Processor
+------------------------------------
+File: `config.py`
+
+- Make sure paths inside `config.py` point to the latest Excel files, e.g.:
+  - `Ingredient_Table_Populated_Master 251202.xlsx`
+  - `Density_Table_Populated - Final 251202.xlsx`
+  - `Ingredient Display Policy 251202.xlsx`
+  - `Form_Table_Populated_Complete.xlsx`
+  - `Unit_Conversion_Constants_Table_Populated.xlsx`
+- Set the input JSONL file (Stage 1 output), e.g.:
+  - `recipe_sample_251212.jsonl`
+
+You normally only touch this file when:
+- Changing which Excel tables to use
+- Changing which Stage 1 recipe batch to process
+
+
+STEP 2 – Run Stage 2 on Recipes (Python)
+----------------------------------------
+File: `main.py`
+
+What it does:
+- Reads Stage 1 JSONL recipes (one ingredient line per JSON).
+- Loads reference data from Excel using `data_loader.py`.
+- Runs each ingredient line through the 9‑step pipeline (quantity parsing, unit normalization, ingredient linking, density + conversion).
+- Writes:
+  - `stage2_output.jsonl` – successful canonicalized lines.
+  - `stage2_errors.txt` / `stage2_errors.json` – everything that failed or needs review.
+
+Command:
+
+```bash
+cd /Users/dakshilkanakia/Downloads/files
+source venv/bin/activate
+python main.py
+```
+
+Key outputs:
+- `stage2_output.jsonl`  
+  Each line is a JSON object with at least:
+  - `recipe_id`
+  - `ingredient_line_number`
+  - `ingredient_original_text`
+  - `ingredient_id`
+  - `ingredient_canonical_name`
+  - `canonical_qty`
+  - `canonical_unit`
+  - `resolved_form_id`
+  - `density_g_per_ml` (if used)
+
+- `stage2_errors.txt` / `stage2_errors.json`  
+  Used later to fix missing ingredients/densities or parsing bugs.
+
+
+STEP 3 – Group Canonical Lines by Recipe (Python)
+-------------------------------------------------
+File: `group_recipes.py`
+
+What it does:
+- Reads `stage2_output.jsonl` (flat list of canonical lines).
+- Groups lines by `recipe_id`.
+- For each recipe, builds:
+  - `recipe_id`
+  - `recipe_name` (default “Unknown Recipe” for now)
+  - `base_servings` (default 4 if not present)
+  - `ingredients_canonical`: list of dicts with:
+    - `line_number` (from `ingredient_line_number`)
+    - `original_text` (from `ingredient_original_text`)
+    - `ingredient_id`
+    - `ingredient_name` (from `ingredient_canonical_name`)
+    - `canonical_qty`
+    - `canonical_unit`
+    - `form_id` (`resolved_form_id`)
+    - `quantity_original`
+    - `unit_original`
+    - `density_g_per_ml`
+    - `conversion_path`
+
+Command:
+
+```bash
+cd /Users/dakshilkanakia/Downloads/files
+source venv/bin/activate
+python group_recipes.py
+```
+
+Output:
+- `test_recipes_canonical.json`
+  - Top‑level keys: recipe IDs as strings (`"127"`, `"129"`, …).
+  - Value: per‑recipe object with `ingredients_canonical` list.
+
+
+STEP 4 – Export Reference Data from Excel → JSON (Python)
+---------------------------------------------------------
+File: `export_reference_data.py`
+
+What it does:
+- Reads curated Excel tables:
+  - `Ingredient_Table_Populated_Master 251202.xlsx`
+  - `Ingredient Display Policy 251202.xlsx`
+  - `Density_Table_Populated - Final 251202.xlsx`
+  - `Unit_Conversion_Constants_Table_Populated.xlsx`
+- Produces compact JSONs for use in Firebase and the app.
+
+Command:
+
+```bash
+cd /Users/dakshilkanakia/Downloads/files
+source venv/bin/activate
+python export_reference_data.py
+```
+
+Output directory:
+- `flutter_assets/`
+
+Files:
+- `ingredients.json`
+  - Map: `ingredient_id` → `{ primary_name, category, aliases, default_form, ... }`
+- `display_policies.json`
+  - Map: `ingredient_id` → `{ default_display_rule, locale_overrides, rationale }`
+- `densities.json`
+  - Map: `ingredient_id_formId` → `{ ingredient_id, form_id, density_g_per_ml }`
+- `conversion_constants.json`
+  - `{ mass_to_grams, volume_to_ml, unit_dimensions }`
+
+
+STEP 5 – Upload Reference Data to Firebase (Node)
+-------------------------------------------------
+File: `upload_reference_data_to_firebase.js`
+
+What it does:
+- Uses Firebase Admin SDK with the service account at:
+  - `/Users/dakshilkanakia/Desktop/Personalized Medicine/secretkey.json`
+- Uploads JSON files from `flutter_assets/` into Firestore collections:
+  - `ingredients`                ← `ingredients.json`
+  - `display_policies`           ← `display_policies.json`
+  - `densities`                  ← `densities.json`
+  - `conversion_constants`       ← `conversion_constants.json` (as a single doc `constants`)
+  - `reference_data_metadata`    ← metadata doc (`version`, `last_updated`, stats)
+
+Command:
+
+```bash
+cd /Users/dakshilkanakia/Downloads/files
+node upload_reference_data_to_firebase.js
+```
+
+After running:
+- Check Firestore console:
+  - Collections: `ingredients`, `display_policies`, `densities`, `conversion_constants`, `reference_data_metadata`.
+
+
+STEP 6 – Inspect Recipe Structure in Firestore (Node, optional)
+---------------------------------------------------------------
+File: `inspect_recipe_structure.js`
+
+What it does:
+- Connects to Firestore using the same service account.
+- Reads one sample document from `recipes_with_scores` to show the structure:
+  - Fields like: `recipe_id`, `recipe_title`, `ingredients_list`, `cooking_instructions`, `nutrition_info`, etc.
+
+Command:
+
+```bash
+cd /Users/dakshilkanakia/Downloads/files
+node inspect_recipe_structure.js
+```
+
+Output:
+- Logs a sample recipe structure to the console.
+- Optionally writes to `sample_recipe_structure.json` for reference.
+
+
+STEP 7 – Confirm Test Recipes Exist in Firestore (Node)
+-------------------------------------------------------
+File: `check_test_recipes.js`
+
+What it does:
+- Checks that the 11 test recipe IDs present in `test_recipes_canonical.json`:
+  - `127, 129, 130, 131, 133, 134, 136, 137, 139, 140, 143`
+- ALL exist in the `recipes_with_scores` collection.
+- For each, prints:
+  - `recipe_id`
+  - `recipe_title`
+
+Command:
+
+```bash
+cd /Users/dakshilkanakia/Downloads/files
+node check_test_recipes.js
+```
+
+Expected:
+- `✅ Found: 127 - "Breakfast of Champions"`
+- …
+- All 11 recipes found.
+
+
+STEP 8 – Upload Canonical Recipes to recipes_canonical (Node)
+-------------------------------------------------------------
+File: `upload_canonical_recipes.js`
+
+What it does:
+1. Reads `test_recipes_canonical.json`.
+2. For each recipe_id:
+   - Fetches the original recipe document from:
+     - `recipes_with_scores` where `recipe_id == <id>` (numeric).
+   - Merges original recipe data with canonical data:
+     - Keeps all original fields (`recipe_title`, `ingredients_list`, `cooking_instructions`, etc.).
+     - Adds:
+       - `base_servings` (from canonical or original or default 4).
+       - `ingredients_canonical` (structured list).
+       - `canonical_ingredients_list` (simple string).
+       - `canonical_processed_date` (ISO timestamp).
+       - `canonical_version` (e.g., `"1.0"`).
+       - `canonical_source` (e.g., `"stage2_processor"`).
+   - Filters out any canonical ingredient lines where:
+     - `ingredient_id` is null OR
+     - `canonical_qty` is null (these were Stage 2 failures / multi‑ingredient lines).
+   - Uses `recipe_id` as the document ID in the new collection.
+3. Writes merged documents into:
+   - `recipes_canonical/{recipe_id}`
+
+Important Fields in `recipes_canonical`:
+- `recipe_id`          – same as in `recipes_with_scores`.
+- `recipe_title`       – copied from original.
+- `ingredients_list`   – original human string (kept for backup).
+- `base_servings`      – base servings used for scaling canonical quantities.
+- `ingredients_canonical` – **structured canonical ingredients**, each with:
+  - `line_number`
+  - `original_text`
+  - `ingredient_id`
+  - `ingredient_name`
+  - `canonical_qty`
+  - `canonical_unit` (`g`, `mL`, `ea`)
+  - `form_id`
+  - `quantity_original`
+  - `unit_original`
+  - `density_g_per_ml`
+  - `conversion_path`
+- `canonical_ingredients_list` – **simple string** representation, e.g.:
+  - `"118.3 mL Chia seeds; 10 g Dried goji berries; 122.6 g Coconut milk; ..."`
+- `canonical_processed_date`
+- `canonical_version`
+- `canonical_source`
+
+Command:
+
+```bash
+cd /Users/dakshilkanakia/Downloads/files
+node upload_canonical_recipes.js
+```
+
+Typical log for a recipe:
+
+```text
+📝 Processing Recipe ID: 127
+   🔍 Fetching original recipe from recipes_with_scores...
+   ✅ Found: "Breakfast of Champions"
+   🔄 Merging canonical data...
+   📊 Canonical ingredients: 7 valid, 1 skipped (null)
+   🧾 canonical_ingredients_list: 118.3 mL Chia seeds; 10 g Dried goji berries; ...
+   💾 Uploading to recipes_canonical...
+   ✅ Successfully uploaded recipe 127
+```
+
+After running:
+- Check Firestore console:
+  - New collection: `recipes_canonical`
+  - Docs: `127`, `129`, ..., `143`
+  - Each doc has both:
+    - Structured `ingredients_canonical`
+    - String `canonical_ingredients_list`
+
+
+High-Level Order of Operations (Summary)
+----------------------------------------
+1. Configure Stage 2 in `config.py` (point to correct Excel + input JSONL).
+2. Run Stage 2:
+   - `python main.py`
+   - Produces `stage2_output.jsonl` + error reports.
+3. Group per recipe:
+   - `python group_recipes.py`
+   - Produces `test_recipes_canonical.json`.
+4. Export reference data from Excel:
+   - `python export_reference_data.py`
+   - Produces JSONs in `flutter_assets/`.
+5. Upload reference data to Firebase:
+   - `node upload_reference_data_to_firebase.js`
+6. (Optional) Inspect recipe structure:
+   - `node inspect_recipe_structure.js`
+7. Confirm test recipes exist:
+   - `node check_test_recipes.js`
+8. Upload canonical recipes to `recipes_canonical`:
+   - `node upload_canonical_recipes.js`
+
+This completes the **backend canonicalization pipeline**:
+- Raw Stage 1 → Canonical SI in Stage 2 → Grouped per recipe → Uploaded reference data + canonical recipes to Firebase.
+
+
+Quick Command Order (For Your Reference)
+----------------------------------------
+From `/Users/dakshilkanakia/Downloads/files`:
+
+1. Activate Python venv (once per shell):
+   - `source venv/bin/activate`
+
+2. Stage 2 processing:
+   - `python main.py`
+
+3. Group canonical lines by recipe:
+   - `python group_recipes.py`
+
+4. Export reference data from Excel:
+   - `python export_reference_data.py`
+
+5. Upload reference data to Firebase:
+   - `node upload_reference_data_to_firebase.js`
+
+6. (Optional) Inspect recipe structure:
+   - `node inspect_recipe_structure.js`
+
+7. (Optional) Verify test recipes exist:
+   - `node check_test_recipes.js`
+
+8. Upload canonical recipes to new collection:
+   - `node upload_canonical_recipes.js`
+
+
+

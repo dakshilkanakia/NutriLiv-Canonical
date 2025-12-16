@@ -1,35 +1,133 @@
 {
-  "generated_at": "2025-12-01T00:27:19.474927",
+  "generated_at": "2025-12-14T01:00:42.337049",
   "summary": {
-    "total": 72,
-    "successful": 62,
-    "failed": 10,
-    "success_rate": 0.8611111111111112,
+    "total": 125,
+    "successful": 79,
+    "failed": 46,
+    "success_rate": 0.632,
     "error_counts": {
-      "missing_densities": 2,
-      "parsing_failures": 7,
+      "missing_ingredients": 15,
+      "missing_densities": 1,
+      "parsing_failures": 29,
       "multi_ingredient_lines": 1
     }
   },
   "errors": {
-    "missing_ingredients": [],
-    "missing_densities": [
+    "missing_ingredients": [
       {
-        "recipe_id": "127",
-        "line_number": 8,
-        "original_text": "1 tsp maca root powder",
-        "ingredient_id": "INGR_01499",
-        "ingredient_name": "Maca root powder",
-        "form_id": "FORM_POWDER",
-        "conversion_needed": "vol→mass"
+        "recipe_id": "136",
+        "line_number": 3,
+        "original_text": "2 medjool dates pitted",
+        "candidate_name": "medjool",
+        "error": "NO_MATCH"
       },
       {
-        "recipe_id": "133",
-        "line_number": 10,
-        "original_text": "1 tsp nutritional yeast flakes",
-        "ingredient_id": "INGR_01264",
-        "ingredient_name": "Nutritional yeast flakes",
-        "form_id": "FORM_DRY",
+        "recipe_id": "137",
+        "line_number": 4,
+        "original_text": "4 dried figs chopped",
+        "candidate_name": "dried",
+        "error": "NO_MATCH"
+      },
+      {
+        "recipe_id": "139",
+        "line_number": 5,
+        "original_text": "4 large red radishes grated",
+        "candidate_name": "red",
+        "error": "NO_MATCH"
+      },
+      {
+        "recipe_id": "140",
+        "line_number": 5,
+        "original_text": "½ tsp ground turmeric",
+        "candidate_name": "ground turmeric",
+        "error": "NO_MATCH"
+      },
+      {
+        "recipe_id": "140",
+        "line_number": 7,
+        "original_text": "Zest of 2 limes",
+        "candidate_name": "zest of 2 lime",
+        "error": "NO_MATCH"
+      },
+      {
+        "recipe_id": "140",
+        "line_number": 8,
+        "original_text": "2 tbsp freshly squeezed lime juice",
+        "candidate_name": "freshly squeezed lime juice",
+        "error": "NO_MATCH"
+      },
+      {
+        "recipe_id": "140",
+        "line_number": 13,
+        "original_text": "1 tsp ground coriander",
+        "candidate_name": "ground coriander",
+        "error": "NO_MATCH"
+      },
+      {
+        "recipe_id": "140",
+        "line_number": 14,
+        "original_text": "1 tsp ground cardamom",
+        "candidate_name": "ground cardamom",
+        "error": "NO_MATCH"
+      },
+      {
+        "recipe_id": "140",
+        "line_number": 16,
+        "original_text": "½ tsp ground mustard",
+        "candidate_name": "ground mustard",
+        "error": "NO_MATCH"
+      },
+      {
+        "recipe_id": "140",
+        "line_number": 20,
+        "original_text": "6 dried apricots minced",
+        "candidate_name": "dried",
+        "error": "NO_MATCH"
+      },
+      {
+        "recipe_id": "140",
+        "line_number": 21,
+        "original_text": "¼ cup unsweetened dried cranberries",
+        "candidate_name": "unsweetened dried cranberry",
+        "error": "NO_MATCH"
+      },
+      {
+        "recipe_id": "140",
+        "line_number": 22,
+        "original_text": "3 tbsp chopped crystallized ginger",
+        "candidate_name": "crystallized ginger",
+        "error": "NO_MATCH"
+      },
+      {
+        "recipe_id": "143",
+        "line_number": 5,
+        "original_text": "1 small red onion minced",
+        "candidate_name": "red",
+        "error": "NO_MATCH"
+      },
+      {
+        "recipe_id": "143",
+        "line_number": 11,
+        "original_text": "2 tbsp unsweetened shredded coconut",
+        "candidate_name": "unsweetened coconut",
+        "error": "NO_MATCH"
+      },
+      {
+        "recipe_id": "143",
+        "line_number": 13,
+        "original_text": "1 tsp ground coriander",
+        "candidate_name": "ground coriander",
+        "error": "NO_MATCH"
+      }
+    ],
+    "missing_densities": [
+      {
+        "recipe_id": "136",
+        "line_number": 5,
+        "original_text": "1 heaping tbsp raw ground almonds",
+        "ingredient_id": "INGR_00175",
+        "ingredient_name": "Almonds",
+        "form_id": "FORM_GROUND",
         "conversion_needed": "vol→mass"
       }
     ],
@@ -42,28 +140,44 @@
         "error": "MULTI_INGREDIENT_LINE"
       },
       {
-        "recipe_id": "127",
-        "line_number": 8,
-        "original_text": "1 tsp maca root powder",
-        "conversion_notes": "missing_density"
-      },
-      {
-        "recipe_id": "130",
-        "line_number": 5,
-        "original_text": "Pinch salt",
-        "conversion_notes": "missing_quantity"
-      },
-      {
         "recipe_id": "130",
         "line_number": 7,
         "original_text": "Juice of ½ lemon",
-        "conversion_notes": "missing_quantity"
+        "conversion_notes": "conversion_path_unknown"
       },
       {
-        "recipe_id": "133",
-        "line_number": 10,
-        "original_text": "1 tsp nutritional yeast flakes",
+        "recipe_id": "136",
+        "line_number": 1,
+        "original_text": "1 ripe banana cut into pieces",
+        "candidate_name": "",
+        "error": "EMPTY_INGREDIENT_NAME"
+      },
+      {
+        "recipe_id": "136",
+        "line_number": 2,
+        "original_text": "½ avocado",
+        "candidate_name": "",
+        "error": "EMPTY_INGREDIENT_NAME"
+      },
+      {
+        "recipe_id": "136",
+        "line_number": 3,
+        "original_text": "2 medjool dates pitted",
+        "candidate_name": "medjool",
+        "error": "NO_MATCH"
+      },
+      {
+        "recipe_id": "136",
+        "line_number": 5,
+        "original_text": "1 heaping tbsp raw ground almonds",
         "conversion_notes": "missing_density"
+      },
+      {
+        "recipe_id": "137",
+        "line_number": 4,
+        "original_text": "4 dried figs chopped",
+        "candidate_name": "dried",
+        "error": "NO_MATCH"
       },
       {
         "recipe_id": "137",
@@ -73,9 +187,146 @@
       },
       {
         "recipe_id": "139",
+        "line_number": 4,
+        "original_text": "2 green onions minced",
+        "candidate_name": "",
+        "error": "EMPTY_INGREDIENT_NAME"
+      },
+      {
+        "recipe_id": "139",
+        "line_number": 5,
+        "original_text": "4 large red radishes grated",
+        "candidate_name": "red",
+        "error": "NO_MATCH"
+      },
+      {
+        "recipe_id": "139",
+        "line_number": 6,
+        "original_text": "1 small jicama peeled and diced",
+        "candidate_name": "",
+        "error": "EMPTY_INGREDIENT_NAME"
+      },
+      {
+        "recipe_id": "139",
         "line_number": 12,
         "original_text": "juice of 2 oranges",
-        "conversion_notes": "missing_quantity"
+        "conversion_notes": "conversion_path_unknown"
+      },
+      {
+        "recipe_id": "140",
+        "line_number": 5,
+        "original_text": "½ tsp ground turmeric",
+        "candidate_name": "ground turmeric",
+        "error": "NO_MATCH"
+      },
+      {
+        "recipe_id": "140",
+        "line_number": 7,
+        "original_text": "Zest of 2 limes",
+        "candidate_name": "zest of 2 lime",
+        "error": "NO_MATCH"
+      },
+      {
+        "recipe_id": "140",
+        "line_number": 8,
+        "original_text": "2 tbsp freshly squeezed lime juice",
+        "candidate_name": "freshly squeezed lime juice",
+        "error": "NO_MATCH"
+      },
+      {
+        "recipe_id": "140",
+        "line_number": 9,
+        "original_text": "Juice of ½ orange",
+        "conversion_notes": "conversion_path_unknown"
+      },
+      {
+        "recipe_id": "140",
+        "line_number": 10,
+        "original_text": "4 green onions minced",
+        "candidate_name": "",
+        "error": "EMPTY_INGREDIENT_NAME"
+      },
+      {
+        "recipe_id": "140",
+        "line_number": 12,
+        "original_text": "1 small jalapeno chile seeded and minced",
+        "conversion_notes": "conversion_path_unknown"
+      },
+      {
+        "recipe_id": "140",
+        "line_number": 13,
+        "original_text": "1 tsp ground coriander",
+        "candidate_name": "ground coriander",
+        "error": "NO_MATCH"
+      },
+      {
+        "recipe_id": "140",
+        "line_number": 14,
+        "original_text": "1 tsp ground cardamom",
+        "candidate_name": "ground cardamom",
+        "error": "NO_MATCH"
+      },
+      {
+        "recipe_id": "140",
+        "line_number": 16,
+        "original_text": "½ tsp ground mustard",
+        "candidate_name": "ground mustard",
+        "error": "NO_MATCH"
+      },
+      {
+        "recipe_id": "140",
+        "line_number": 20,
+        "original_text": "6 dried apricots minced",
+        "candidate_name": "dried",
+        "error": "NO_MATCH"
+      },
+      {
+        "recipe_id": "140",
+        "line_number": 21,
+        "original_text": "¼ cup unsweetened dried cranberries",
+        "candidate_name": "unsweetened dried cranberry",
+        "error": "NO_MATCH"
+      },
+      {
+        "recipe_id": "140",
+        "line_number": 22,
+        "original_text": "3 tbsp chopped crystallized ginger",
+        "candidate_name": "crystallized ginger",
+        "error": "NO_MATCH"
+      },
+      {
+        "recipe_id": "143",
+        "line_number": 5,
+        "original_text": "1 small red onion minced",
+        "candidate_name": "red",
+        "error": "NO_MATCH"
+      },
+      {
+        "recipe_id": "143",
+        "line_number": 6,
+        "original_text": "1½ avocados diced",
+        "candidate_name": "",
+        "error": "EMPTY_INGREDIENT_NAME"
+      },
+      {
+        "recipe_id": "143",
+        "line_number": 8,
+        "original_text": "Juice of 2 lemons",
+        "conversion_notes": "conversion_path_unknown"
+      },
+      {
+        "recipe_id": "143",
+        "line_number": 11,
+        "original_text": "2 tbsp unsweetened shredded coconut",
+        "candidate_name": "unsweetened coconut",
+        "error": "NO_MATCH"
+      },
+      {
+        "recipe_id": "143",
+        "line_number": 13,
+        "original_text": "1 tsp ground coriander",
+        "candidate_name": "ground coriander",
+        "error": "NO_MATCH"
       }
     ],
     "unit_not_recognized": [],

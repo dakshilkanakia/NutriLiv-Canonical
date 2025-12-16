@@ -69,7 +69,7 @@ def export_ingredients():
             aliases = [a.strip() for a in str(aliases_raw).split(";") if a.strip()]
         
         ingredients[ingredient_id] = {
-            "name": primary_name,
+            "primary_name": primary_name,      # Match Dart model field name
             "category": category,
             "default_form": default_form_id,
             "aliases": aliases
@@ -126,7 +126,7 @@ def export_display_policies():
                 pass
         
         policies[ingredient_id] = {
-            "default_rule": default_display if default_display else "prefer_mass",
+            "default_display_rule": default_display if default_display else "prefer_mass",  # Match Dart model
             "locale_overrides": locale_overrides,
             "rationale": rationale if rationale else ""
         }
@@ -178,7 +178,7 @@ def export_densities():
             "density_id": density_id,
             "ingredient_id": ingredient_id,
             "form_id": form_id,
-            "g_per_ml": float(g_per_ml)
+            "density_g_per_ml": float(g_per_ml)  # Match Dart model field name
         }
     
     # Write to JSON

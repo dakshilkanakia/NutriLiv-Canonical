@@ -1,26 +1,98 @@
 ================================================================================
 STAGE 2 PROCESSING ERROR REPORT
-Generated: 2025-12-01 00:27:19
+Generated: 2025-12-14 01:00:42
 ================================================================================
 
-Total ingredients processed: 72
-✓ Successful: 62 (86.1%)
-✗ Failed: 10 (13.9%)
+Total ingredients processed: 125
+✓ Successful: 79 (63.2%)
+✗ Failed: 46 (36.8%)
 
 ================================================================================
-MISSING DENSITIES (2)
+MISSING INGREDIENTS (15)
 ================================================================================
-Recipe 127, Line 8: "1 tsp maca root powder"
-  → Ingredient: Maca root powder (INGR_01499)
-  → Form: FORM_POWDER
+Recipe 136, Line 3: "2 medjool dates pitted"
+  → Candidate name: medjool
+  → Error: NO_MATCH
+  → Action: Add ingredient to Ingredient Table
+
+Recipe 137, Line 4: "4 dried figs chopped"
+  → Candidate name: dried
+  → Error: NO_MATCH
+  → Action: Add ingredient to Ingredient Table
+
+Recipe 139, Line 5: "4 large red radishes grated"
+  → Candidate name: red
+  → Error: NO_MATCH
+  → Action: Add ingredient to Ingredient Table
+
+Recipe 140, Line 5: "½ tsp ground turmeric"
+  → Candidate name: ground turmeric
+  → Error: NO_MATCH
+  → Action: Add ingredient to Ingredient Table
+
+Recipe 140, Line 7: "Zest of 2 limes"
+  → Candidate name: zest of 2 lime
+  → Error: NO_MATCH
+  → Action: Add ingredient to Ingredient Table
+
+Recipe 140, Line 8: "2 tbsp freshly squeezed lime juice"
+  → Candidate name: freshly squeezed lime juice
+  → Error: NO_MATCH
+  → Action: Add ingredient to Ingredient Table
+
+Recipe 140, Line 13: "1 tsp ground coriander"
+  → Candidate name: ground coriander
+  → Error: NO_MATCH
+  → Action: Add ingredient to Ingredient Table
+
+Recipe 140, Line 14: "1 tsp ground cardamom"
+  → Candidate name: ground cardamom
+  → Error: NO_MATCH
+  → Action: Add ingredient to Ingredient Table
+
+Recipe 140, Line 16: "½ tsp ground mustard"
+  → Candidate name: ground mustard
+  → Error: NO_MATCH
+  → Action: Add ingredient to Ingredient Table
+
+Recipe 140, Line 20: "6 dried apricots minced"
+  → Candidate name: dried
+  → Error: NO_MATCH
+  → Action: Add ingredient to Ingredient Table
+
+Recipe 140, Line 21: "¼ cup unsweetened dried cranberries"
+  → Candidate name: unsweetened dried cranberry
+  → Error: NO_MATCH
+  → Action: Add ingredient to Ingredient Table
+
+Recipe 140, Line 22: "3 tbsp chopped crystallized ginger"
+  → Candidate name: crystallized ginger
+  → Error: NO_MATCH
+  → Action: Add ingredient to Ingredient Table
+
+Recipe 143, Line 5: "1 small red onion minced"
+  → Candidate name: red
+  → Error: NO_MATCH
+  → Action: Add ingredient to Ingredient Table
+
+Recipe 143, Line 11: "2 tbsp unsweetened shredded coconut"
+  → Candidate name: unsweetened coconut
+  → Error: NO_MATCH
+  → Action: Add ingredient to Ingredient Table
+
+Recipe 143, Line 13: "1 tsp ground coriander"
+  → Candidate name: ground coriander
+  → Error: NO_MATCH
+  → Action: Add ingredient to Ingredient Table
+
+================================================================================
+MISSING DENSITIES (1)
+================================================================================
+Recipe 136, Line 5: "1 heaping tbsp raw ground almonds"
+  → Ingredient: Almonds (INGR_00175)
+  → Form: FORM_GROUND
   → Conversion needed: vol→mass
-  → Action: Add density for INGR_01499 + FORM_POWDER
-
-Recipe 133, Line 10: "1 tsp nutritional yeast flakes"
-  → Ingredient: Nutritional yeast flakes (INGR_01264)
-  → Form: FORM_DRY
-  → Conversion needed: vol→mass
-  → Action: Add density for INGR_01264 + FORM_DRY
+  → Action: Add density for INGR_00175 + FORM_GROUND
 
 ================================================================================
 MULTI-INGREDIENT LINES (1)
