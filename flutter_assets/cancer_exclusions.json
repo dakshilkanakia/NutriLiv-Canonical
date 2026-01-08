@@ -1,0 +1,48 @@
+{
+  "cancer_exclusions": {
+    "Bladder": {
+      "type_level": {
+        "exclusion_groups": [
+          "Nitrate",
+          "Arsenic",
+          "Pickled_Salted",
+          "Sugar",
+          "High_GI",
+          "Sat_Fat"
+        ],
+        "note": "Food containing nitrates & nitrites are filtered by the kidneys then sit in the bladder, directly irritating the urothelial lining. \n\nFoods commonly grown in high-arsenic soil can contribute to bioactive arsenic in the consumed food, which increases risk of promoting urothelial tumors. \n\nHigh-sodium, pickled foods can exacerbate the chronic irritation of the bladder wall, which is the primary driver of SCC progression.\n\nSpikes in blood sugar triggers insulin releases that can stimulate the growth pathways (PI3K/Akt) commonly found in adenocarcinoma cells.\n\nStudies suggest high saturated fat intake is associated with non-urothelial bladder cancers.",
+        "links": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12708233/, \nhttps://link.springer.com/article/10.1007/s44197-023-00152-x,\nhttps://pmc.ncbi.nlm.nih.gov/articles/PMC2936663/"
+      },
+      "subtypes": {
+        "Urothelial carcinoma": {
+          "exclusion_groups": [
+            "Nitrate",
+            "Arsenic"
+          ],
+          "note": "Food containing nitrates & nitrites are filtered by the kidneys then sit in the bladder, directly irritating the urothelial lining. \n\nFoods commonly grown in high-arsenic soil can contribute to bioactive arsenic in the consumed food, which increases risk of promoting urothelial tumors.",
+          "links": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12708233/, \nhttps://link.springer.com/article/10.1007/s44197-023-00152-x,\nhttps://pmc.ncbi.nlm.nih.gov/articles/PMC2936663/"
+        },
+        "Squamous cell carcinoma": {
+          "exclusion_groups": [
+            "Pickled_Salted"
+          ],
+          "note": "High-sodium, pickled foods can exacerbate the chronic irritation of the bladder wall, which is the primary driver of SCC progression.",
+          "links": ""
+        },
+        "Adenocarcinoma": {
+          "exclusion_groups": [
+            "Sugar",
+            "High_GI",
+            "Sat_Fat"
+          ],
+          "note": "Spikes in blood sugar triggers insulin releases that can stimulate the growth pathways (PI3K/Akt) commonly found in adenocarcinoma cells.\n\nStudies suggest high saturated fat intake is associated with non-urothelial bladder cancers.",
+          "links": ""
+        }
+      }
+    }
+  },
+  "metadata": {
+    "export_date": "2026-01-08T07:56:54.724626",
+    "total_cancer_types": 1
+  }
+}
