@@ -80,12 +80,14 @@ async function uploadCanonicalRecipes() {
       // Step 2: Merge canonical data with original data
       console.log(`   🔄 Merging canonical data...`);
       
+      // Note: yield field comes from originalData (already in recipes_with_scores)
+      // We don't add base_servings - only use yield as source of truth
+      
       const mergedData = {
-        // Copy ALL original fields
+        // Copy ALL original fields (including yield)
         ...originalData,
         
-        // Add/Override with canonical fields
-        base_servings: canonical.base_servings || originalData.servings || 4,
+        // Add canonical fields
         ingredients_canonical: canonical.ingredients_canonical || [],
         
         // Add metadata

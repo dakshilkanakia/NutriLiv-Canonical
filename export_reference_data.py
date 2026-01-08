@@ -69,6 +69,7 @@ def export_ingredients():
             aliases = [a.strip() for a in str(aliases_raw).split(";") if a.strip()]
         
         ingredients[ingredient_id] = {
+            "ingredient_id": ingredient_id,     # Make ID available to Dart models
             "primary_name": primary_name,      # Match Dart model field name
             "category": category,
             "default_form": default_form_id,
@@ -171,8 +172,8 @@ def export_densities():
         if not density_id or not ingredient_id or not form_id or g_per_ml is None:
             continue
         
-        # Use composite key: ingredient_id + form_id
-        key = f"{ingredient_id}_{form_id}"
+        # Use composite key: ingredient_id|form_id (match Dart lookup key)
+        key = f"{ingredient_id}|{form_id}"
         
         densities[key] = {
             "density_id": density_id,

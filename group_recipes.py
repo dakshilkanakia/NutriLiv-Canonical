@@ -24,7 +24,6 @@ def group_recipes():
     recipes = defaultdict(lambda: {
         "recipe_id": None,
         "recipe_name": None,
-        "base_servings": None,
         "ingredients_canonical": []
     })
     
@@ -46,9 +45,22 @@ def group_recipes():
             if recipes[recipe_id]["recipe_id"] is None:
                 recipes[recipe_id]["recipe_id"] = recipe_id
                 recipes[recipe_id]["recipe_name"] = data.get('recipe_name', 'Unknown Recipe')
-                recipes[recipe_id]["base_servings"] = data.get('servings', 4)  # Default 4 if not specified
+                # Note: yield field comes from original recipe data, not from canonical processing
             
             # Add ingredient line to this recipe (extract from stage2 output format)
+            # Handle package_size_raw: use size_descriptor_raw as fallback for count-based ingredients
+            package_size_raw = data.get('package_size_raw', '').strip()
+            size_descriptor = data.get('size_descriptor_raw', '').strip()
+            
+            # If package_size_raw is empty but size_descriptor exists, use it
+            # Format: add parentheses if not already present (e.g., "1-inch" -> "(1-inch)")
+            if not package_size_raw and size_descriptor:
+                # Check if it already has parentheses
+                if not (size_descriptor.startswith('(') and size_descriptor.endswith(')')):
+                    package_size_raw = f"({size_descriptor})"
+                else:
+                    package_size_raw = size_descriptor
+            
             ingredient = {
                 "line_number": data.get('ingredient_line_number'),
                 "original_text": data.get('ingredient_original_text'),
@@ -59,8 +71,14 @@ def group_recipes():
                 "form_id": data.get('resolved_form_id'),
                 "quantity_original": data.get('qty_value_original'),
                 "unit_original": data.get('unit_original'),
-                # Include useful metadata for rendering
+                # Density metadata
+                "density_id": data.get('density_id'),
                 "density_g_per_ml": data.get('density_g_per_ml'),
+                # Package-size metadata (for rare by-package ingredients)
+                "package_size_raw": package_size_raw,
+                "package_size_si_value": None,  # reserved for future canonical package size
+                "package_size_si_unit": None,   # reserved for future canonical package unit
+                # Conversion metadata
                 "conversion_path": data.get('conversion_path')
             }
             
@@ -83,9 +101,8 @@ def group_recipes():
     print(f"\n📊 Recipe Summary:")
     for recipe_id, recipe_data in sorted(recipes_dict.items()):
         name = recipe_data['recipe_name']
-        servings = recipe_data['base_servings']
         num_ingredients = len(recipe_data['ingredients_canonical'])
-        print(f"   • {recipe_id}: {name} ({num_ingredients} ingredients, {servings} servings)")
+        print(f"   • {recipe_id}: {name} ({num_ingredients} ingredients)")
     
     # Write output
     output_file = "test_recipes_canonical.json"
@@ -113,7 +130,6 @@ if __name__ == "__main__":
         sample_id = list(recipes.keys())[0]
         sample = recipes[sample_id]
         print(f"\n📋 SAMPLE RECIPE: {sample['recipe_name']}")
-        print(f"   Base servings: {sample['base_servings']}")
         print(f"   Ingredients:")
         for ing in sample['ingredients_canonical'][:3]:  # Show first 3
             print(f"      {ing['line_number']}. {ing['canonical_qty']} {ing['canonical_unit']} {ing['ingredient_name']}")

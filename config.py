@@ -178,10 +178,6 @@ FORM_TOKEN_MAP = {
     "canned": "FORM_CANNED",
     "tinned": "FORM_CANNED",
     "jarred": "FORM_JARRED",
-    
-    # Seeds
-    "seed": "FORM_SEEDS",
-    "seeds": "FORM_SEEDS",
 }
 
 # ============================================================================

@@ -1,0 +1,205 @@
+{
+  "pantry_levels": {
+    "Basic": [
+      {
+        "ingredient_id": "INGR_00185",
+        "ingredient_name": "Salt"
+      },
+      {
+        "ingredient_id": "INGR_00186",
+        "ingredient_name": "Black Pepper"
+      },
+      {
+        "ingredient_id": "INGR_00219",
+        "ingredient_name": "Olive Oil"
+      },
+      {
+        "ingredient_id": "INGR_00221",
+        "ingredient_name": "Vegetable Oil"
+      }
+    ],
+    "Average": [
+      {
+        "ingredient_id": "INGR_01105",
+        "ingredient_name": "Garlic Powder"
+      },
+      {
+        "ingredient_id": "INGR_01106",
+        "ingredient_name": "Onion Powder"
+      },
+      {
+        "ingredient_id": "INGR_01479",
+        "ingredient_name": "Paprika (Sweet)"
+      },
+      {
+        "ingredient_id": "INGR_00187",
+        "ingredient_name": "Ground Cumin"
+      },
+      {
+        "ingredient_id": "INGR_00197",
+        "ingredient_name": "Red Pepper Flakes"
+      },
+      {
+        "ingredient_id": "INGR_00189",
+        "ingredient_name": "Ground Cinnamon"
+      },
+      {
+        "ingredient_id": "INGR_00198",
+        "ingredient_name": "Dried Oregano"
+      },
+      {
+        "ingredient_id": "INGR_00201",
+        "ingredient_name": "Dried Basil"
+      },
+      {
+        "ingredient_id": "INGR_00199",
+        "ingredient_name": "Dried Thyme"
+      },
+      {
+        "ingredient_id": "INGR_00250",
+        "ingredient_name": "All-Purpose Flour"
+      },
+      {
+        "ingredient_id": "INGR_00259",
+        "ingredient_name": "Granulated Sugar"
+      },
+      {
+        "ingredient_id": "INGR_00260",
+        "ingredient_name": "Brown Sugar"
+      },
+      {
+        "ingredient_id": "INGR_00255",
+        "ingredient_name": "Baking Powder"
+      },
+      {
+        "ingredient_id": "INGR_00256",
+        "ingredient_name": "Baking Soda"
+      },
+      {
+        "ingredient_id": "INGR_00264",
+        "ingredient_name": "Vanilla Extract"
+      },
+      {
+        "ingredient_id": "INGR_00278",
+        "ingredient_name": "Ketchup"
+      },
+      {
+        "ingredient_id": "INGR_00279",
+        "ingredient_name": "Mustard (Yellow or Dijon)"
+      },
+      {
+        "ingredient_id": "INGR_00280",
+        "ingredient_name": "Mayonnaise"
+      },
+      {
+        "ingredient_id": "INGR_00268",
+        "ingredient_name": "Soy Sauce"
+      },
+      {
+        "ingredient_id": "INGR_00285",
+        "ingredient_name": "White Vinegar"
+      }
+    ],
+    "Well-stocked": [
+      {
+        "ingredient_id": "INGR_00196",
+        "ingredient_name": "Cayenne Pepper"
+      },
+      {
+        "ingredient_id": "INGR_01109",
+        "ingredient_name": "Chili Powder"
+      },
+      {
+        "ingredient_id": "INGR_00214",
+        "ingredient_name": "Coriander (Ground)"
+      },
+      {
+        "ingredient_id": "INGR_00205",
+        "ingredient_name": "Curry Powder"
+      },
+      {
+        "ingredient_id": "INGR_00038",
+        "ingredient_name": "Ginger (Ground)"
+      },
+      {
+        "ingredient_id": "INGR_00203",
+        "ingredient_name": "Nutmeg (Ground)"
+      },
+      {
+        "ingredient_id": "INGR_00195",
+        "ingredient_name": "Smoked Paprika"
+      },
+      {
+        "ingredient_id": "INGR_00193",
+        "ingredient_name": "Turmeric"
+      },
+      {
+        "ingredient_id": "INGR_00202",
+        "ingredient_name": "Bay Leaves"
+      },
+      {
+        "ingredient_id": "INGR_00200",
+        "ingredient_name": "Dried Rosemary"
+      },
+      {
+        "ingredient_id": "INGR_00146",
+        "ingredient_name": "Rice (Long-grain white or brown)"
+      },
+      {
+        "ingredient_id": "INGR_00157, INGR_00158",
+        "ingredient_name": "Pasta (e.g., Spaghetti, Penne)"
+      },
+      {
+        "ingredient_id": "INGR_00156",
+        "ingredient_name": "Rolled Oats"
+      },
+      {
+        "ingredient_id": "INGR_00254",
+        "ingredient_name": "Cornstarch"
+      },
+      {
+        "ingredient_id": "INGR_00229",
+        "ingredient_name": "Balsamic Vinegar"
+      },
+      {
+        "ingredient_id": "INGR_00232",
+        "ingredient_name": "Apple Cider Vinegar"
+      },
+      {
+        "ingredient_id": "INGR_00233",
+        "ingredient_name": "Rice Vinegar"
+      },
+      {
+        "ingredient_id": "INGR_00224",
+        "ingredient_name": "Sesame Oil"
+      },
+      {
+        "ingredient_id": "INGR_00286",
+        "ingredient_name": "Worcestershire Sauce"
+      },
+      {
+        "ingredient_id": "INGR_00282",
+        "ingredient_name": "Sriracha (or other hot sauce)"
+      },
+      {
+        "ingredient_id": "INGR_00270",
+        "ingredient_name": "Fish Sauce"
+      },
+      {
+        "ingredient_id": "INGR_00265",
+        "ingredient_name": "Honey"
+      },
+      {
+        "ingredient_id": "INGR_00266",
+        "ingredient_name": "Maple Syrup"
+      }
+    ]
+  },
+  "metadata": {
+    "total_ingredients": 47,
+    "basic_count": 4,
+    "average_count": 20,
+    "well_stocked_count": 23,
+    "export_date": "2025-12-30T05:38:19.122275"
+  }
+}

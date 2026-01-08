@@ -5,9 +5,103 @@ Extract ingredient name and match against Ingredient Table
 
 import re
 from typing import Dict, List, Optional, Tuple
-from difflib import SequenceMatcher
 from config import FUZZY_MATCH_THRESHOLD_ACCEPT, FUZZY_MATCH_THRESHOLD_REVIEW
 
+# Standard units we are confident about stripping from the ingredient text
+STANDARD_UNITS = {
+    'tsp', 'teaspoon', 'teaspoons',
+    'tbsp', 'tablespoon', 'tablespoons',
+    'cup', 'cups',
+    'g', 'gram', 'grams',
+    'kg', 'kilogram', 'kilograms',
+    'mg', 'milligram', 'milligrams',
+    'oz', 'ounce', 'ounces',
+    'lb', 'pound', 'pounds',
+    'ml', 'milliliter', 'milliliters',
+    'l', 'liter', 'liters',
+    'pint', 'pints',
+    'quart', 'quarts',
+    'gallon', 'gallons',
+    'fl oz', 'floz', 'fl. oz',
+}
+
+# Shared modifier list for extraction/normalization
+REMOVE_MODIFIERS = [
+    'fresh', 'organic', 'large', 'small', 'medium',
+    'chopped', 'diced', 'minced', 'sliced', 'shredded', 'grated',
+    'finely', 'coarsely', 'roughly', 'thinly', 'thickly',
+    'ripe', 'unripe', 'raw', 'cooked',
+    'peeled', 'unpeeled', 'pitted', 'seeded',
+    'trimmed', 'cleaned', 'rinsed', 'drained',
+    'thawed', 'frozen',
+    'room temperature', 'cold', 'warm',
+    'cut into pieces', 'cut into', 'pieces',
+    'plus more', 'as needed', 'to taste',
+    'thin', 'thick', 'toasted',
+    # Common color/variety/processing descriptors that should be stripped
+    'red', 'yellow', 'green', 'orange', 'black', 'brown',
+    'medjool', 'dried', 'freshly', 'ground', 'whole'
+]
+
+# --- Jaro-Winkler implementation (lightweight, no extra deps) ---
+def _jaro_distance(s: str, t: str) -> float:
+    if s == t:
+        return 1.0
+    s_len = len(s)
+    t_len = len(t)
+    if s_len == 0 or t_len == 0:
+        return 0.0
+    match_distance = max(s_len, t_len) // 2 - 1
+    s_matches = [False] * s_len
+    t_matches = [False] * t_len
+    matches = 0
+    transpositions = 0
+
+    for i in range(s_len):
+        start = max(0, i - match_distance)
+        end = min(i + match_distance + 1, t_len)
+        for j in range(start, end):
+            if t_matches[j]:
+                continue
+            if s[i] != t[j]:
+                continue
+            s_matches[i] = True
+            t_matches[j] = True
+            matches += 1
+            break
+
+    if matches == 0:
+        return 0.0
+
+    k = 0
+    for i in range(s_len):
+        if not s_matches[i]:
+            continue
+        while not t_matches[k]:
+            k += 1
+        if s[i] != t[k]:
+            transpositions += 1
+        k += 1
+
+    return (
+        (matches / s_len) +
+        (matches / t_len) +
+        ((matches - transpositions / 2) / matches)
+    ) / 3.0
+
+
+def jaro_winkler(s: str, t: str, prefix_scale: float = 0.1, max_prefix: int = 4) -> float:
+    jd = _jaro_distance(s, t)
+    if jd == 0:
+        return 0.0
+    # common prefix length
+    prefix = 0
+    for i in range(min(len(s), len(t), max_prefix)):
+        if s[i] == t[i]:
+            prefix += 1
+        else:
+            break
+    return jd + prefix * prefix_scale * (1 - jd)
 
 def extract_ingredient_name(ingredient_text: str, qty_str: str, unit_str: str, 
                             meaning_tokens: Dict) -> Dict:
@@ -41,8 +135,10 @@ def extract_ingredient_name(ingredient_text: str, qty_str: str, unit_str: str,
         qty_pattern = re.escape(qty_str.strip())
         text = re.sub(f'^{qty_pattern}\\s*', '', text, flags=re.IGNORECASE)
     
-    # Remove unit
+    # Remove unit ONLY if it is a known standard unit; otherwise keep it (it might be part of ingredient)
     if unit_str and unit_str.strip():
+        unit_lower = unit_str.strip().lower()
+        if unit_lower in STANDARD_UNITS:
         unit_pattern = re.escape(unit_str.strip())
         text = re.sub(f'^{unit_pattern}\\s*', '', text, flags=re.IGNORECASE)
         text = re.sub(f'\\s+{unit_pattern}\\s+', ' ', text, flags=re.IGNORECASE)
@@ -96,7 +192,9 @@ def extract_ingredient_name(ingredient_text: str, qty_str: str, unit_str: str,
     for pattern in prep_phrase_patterns:
         text = re.sub(pattern, '', text, flags=re.IGNORECASE)
     
-    result["candidate_text_raw"] = text.strip()
+    # Keep a backup before modifier stripping (for fallback if we strip everything)
+    text_backup_before_modifiers = text.strip()
+    result["candidate_text_raw"] = text_backup_before_modifiers
     
     # Check for "or" (multi-ingredient) - but only if "and" is also present
     # "peeled and minced" is OK, "coconut or flakes" is not
@@ -116,6 +214,16 @@ def extract_ingredient_name(ingredient_text: str, qty_str: str, unit_str: str,
     
     # Normalize for matching
     normalized = normalize_ingredient_name(text, meaning_tokens)
+
+    # Fallback: if normalization stripped everything, rebuild from backup by dropping only modifiers
+    if not normalized:
+        backup_tokens = text_backup_before_modifiers.lower().strip().split()
+        fallback_tokens = [tok for tok in backup_tokens if tok not in REMOVE_MODIFIERS]
+        fallback = ' '.join(fallback_tokens).strip()
+        if not fallback:
+            fallback = text_backup_before_modifiers.lower().strip() or ingredient_text.lower().strip()
+        normalized = fallback
+
     result["candidate_normalized"] = normalized
     
     return result
@@ -137,21 +245,7 @@ def normalize_ingredient_name(text: str, meaning_tokens: Dict) -> str:
     text = ' '.join(text.split())
     
     # Remove prep/quality modifiers that don't identify the ingredient
-    remove_modifiers = [
-        'fresh', 'organic', 'large', 'small', 'medium',
-        'chopped', 'diced', 'minced', 'sliced', 'shredded', 'grated',
-        'finely', 'coarsely', 'roughly', 'thinly', 'thickly',
-        'ripe', 'unripe', 'raw', 'cooked',
-        'peeled', 'unpeeled', 'pitted', 'seeded',
-        'trimmed', 'cleaned', 'rinsed', 'drained',
-        'thawed', 'frozen',
-        'room temperature', 'cold', 'warm',
-        'cut into pieces', 'cut into', 'pieces',
-        'plus more', 'as needed', 'to taste',
-        'thin', 'thick', 'toasted'
-    ]
-    
-    for modifier in remove_modifiers:
+    for modifier in REMOVE_MODIFIERS:
         # Use word boundaries to avoid partial matches
         pattern = r'\b' + re.escape(modifier) + r'\b'
         text = re.sub(pattern, '', text, flags=re.IGNORECASE)
@@ -249,22 +343,14 @@ def match_ingredient(candidate_name: str, reference_data, extraction_notes: List
         result["match_method"] = "alias"
         return result
     
-    # Layer 2: Fuzzy matching (token-set approach)
+    # Layer 2: Fuzzy matching (Jaro-Winkler on normalized strings)
     candidates = []
-    candidate_tokens = set(candidate_normalized.split())
     
     for ing_id, ing_data in reference_data.ingredients.items():
-        primary_name = ing_data["primary_name"].lower()
-        primary_tokens = set(primary_name.split())
-        
-        # Jaccard similarity
-        intersection = candidate_tokens & primary_tokens
-        union = candidate_tokens | primary_tokens
-        
-        if len(union) > 0:
-            score = len(intersection) / len(union)
+        primary_name = ing_data["primary_name"].lower().strip()
+        score = jaro_winkler(candidate_normalized, primary_name)
             
-            if score > 0.5:  # Only consider reasonable matches
+        if score >= 0.5:  # Only consider reasonable matches
                 candidates.append({
                     "ingredient_id": ing_id,
                     "primary_name": ing_data["primary_name"],
@@ -282,7 +368,7 @@ def match_ingredient(candidate_name: str, reference_data, extraction_notes: List
             result["ingredient_id"] = best["ingredient_id"]
             result["ingredient_canonical_name"] = best["primary_name"]
             result["match_score"] = best["score"]
-            result["match_method"] = "fuzzy"
+            result["match_method"] = "fuzzy_jaro_winkler"
             return result
         
         elif best["score"] >= FUZZY_MATCH_THRESHOLD_REVIEW:

@@ -2,20 +2,23 @@
   "127": {
     "recipe_id": "127",
     "recipe_name": "Unknown Recipe",
-    "base_servings": 4,
     "ingredients_canonical": [
       {
         "line_number": 1,
         "original_text": "1/2 cup chia seeds",
         "ingredient_id": "INGR_01091",
         "ingredient_name": "Chia seeds",
-        "canonical_qty": 118.294118,
-        "canonical_unit": "mL",
-        "form_id": "FORM_SEEDS",
+        "canonical_qty": 74.000074,
+        "canonical_unit": "g",
+        "form_id": "FORM_WHOLE",
         "quantity_original": "1/2",
         "unit_original": "cup",
-        "density_g_per_ml": null,
-        "conversion_path": "vol→vol"
+        "density_id": "DENS_00341",
+        "density_g_per_ml": 0.6255600453108358,
+        "package_size_raw": "",
+        "package_size_si_value": null,
+        "package_size_si_unit": null,
+        "conversion_path": "vol→mass via density"
       },
       {
         "line_number": 2,
@@ -27,7 +30,11 @@
         "form_id": "FORM_DRIED",
         "quantity_original": "1",
         "unit_original": "tbsp",
+        "density_id": "DENS_00931",
         "density_g_per_ml": 0.676,
+        "package_size_raw": "",
+        "package_size_si_value": null,
+        "package_size_si_unit": null,
         "conversion_path": "vol→mass via density"
       },
       {
@@ -40,7 +47,11 @@
         "form_id": null,
         "quantity_original": "2½",
         "unit_original": "tbsp",
+        "density_id": null,
         "density_g_per_ml": null,
+        "package_size_raw": "",
+        "package_size_si_value": null,
+        "package_size_si_unit": null,
         "conversion_path": null
       },
       {
@@ -53,7 +64,11 @@
         "form_id": "FORM_CANNED",
         "quantity_original": "½",
         "unit_original": "cup",
+        "density_id": "DENS_00938",
         "density_g_per_ml": 1.036,
+        "package_size_raw": "",
+        "package_size_si_value": null,
+        "package_size_si_unit": null,
         "conversion_path": "vol→mass via density"
       },
       {
@@ -66,7 +81,11 @@
         "form_id": "FORM_POWDER",
         "quantity_original": "1",
         "unit_original": "tbsp",
+        "density_id": "DENS_00569",
         "density_g_per_ml": 0.7185,
+        "package_size_raw": "",
+        "package_size_si_value": null,
+        "package_size_si_unit": null,
         "conversion_path": "vol→mass via density"
       },
       {
@@ -79,7 +98,11 @@
         "form_id": "FORM_GROUND",
         "quantity_original": "1/8",
         "unit_original": "tsp",
+        "density_id": "DENS_00939",
         "density_g_per_ml": 0.0541,
+        "package_size_raw": "",
+        "package_size_si_value": null,
+        "package_size_si_unit": null,
         "conversion_path": "vol→mass via density"
       },
       {
@@ -92,7 +115,11 @@
         "form_id": "FORM_WHOLE",
         "quantity_original": "¼",
         "unit_original": "cup",
+        "density_id": "DENS_00025",
         "density_g_per_ml": 0.609,
+        "package_size_raw": "",
+        "package_size_si_value": null,
+        "package_size_si_unit": null,
         "conversion_path": "vol→mass via density"
       },
       {
@@ -105,7 +132,11 @@
         "form_id": "FORM_POWDER",
         "quantity_original": "1",
         "unit_original": "tsp",
+        "density_id": "DENS_00962",
         "density_g_per_ml": 0.499,
+        "package_size_raw": "",
+        "package_size_si_value": null,
+        "package_size_si_unit": null,
         "conversion_path": "vol→mass via density"
       }
     ]
@@ -113,7 +144,6 @@
   "129": {
     "recipe_id": "129",
     "recipe_name": "Unknown Recipe",
-    "base_servings": 4,
     "ingredients_canonical": [
       {
         "line_number": 1,
@@ -125,7 +155,11 @@
         "form_id": "FORM_LIQUID",
         "quantity_original": "1",
         "unit_original": "cup",
+        "density_id": null,
         "density_g_per_ml": null,
+        "package_size_raw": "",
+        "package_size_si_value": null,
+        "package_size_si_unit": null,
         "conversion_path": "vol→vol"
       },
       {
@@ -138,7 +172,11 @@
         "form_id": "FORM_WHOLE",
         "quantity_original": "½",
         "unit_original": "cup",
+        "density_id": "DENS_00026",
         "density_g_per_ml": 0.626,
+        "package_size_raw": "",
+        "package_size_si_value": null,
+        "package_size_si_unit": null,
         "conversion_path": "vol→mass via density"
       },
       {
@@ -146,13 +184,17 @@
         "original_text": "2 tbsp raw pumpkin seeds",
         "ingredient_id": "INGR_01089",
         "ingredient_name": "Pumpkin seeds",
-        "canonical_qty": 29.57353,
-        "canonical_unit": "mL",
-        "form_id": "FORM_SEEDS",
+        "canonical_qty": 20.00002,
+        "canonical_unit": "g",
+        "form_id": "FORM_WHOLE",
         "quantity_original": "2",
         "unit_original": "tbsp",
-        "density_g_per_ml": null,
-        "conversion_path": "vol→vol"
+        "density_id": "DENS_00337",
+        "density_g_per_ml": 0.6762811300657684,
+        "package_size_raw": "",
+        "package_size_si_value": null,
+        "package_size_si_unit": null,
+        "conversion_path": "vol→mass via density"
       },
       {
         "line_number": 4,
@@ -164,7 +206,11 @@
         "form_id": "FORM_FROZEN",
         "quantity_original": "1",
         "unit_original": "tsp",
+        "density_id": "DENS_00933",
         "density_g_per_ml": 1.2,
+        "package_size_raw": "",
+        "package_size_si_value": null,
+        "package_size_si_unit": null,
         "conversion_path": "vol→mass via density"
       },
       {
@@ -177,7 +223,11 @@
         "form_id": "FORM_GROUND",
         "quantity_original": "1/8",
         "unit_original": "tsp",
+        "density_id": "DENS_00934",
         "density_g_per_ml": 0.473,
+        "package_size_raw": "",
+        "package_size_si_value": null,
+        "package_size_si_unit": null,
         "conversion_path": "vol→mass via density"
       },
       {
@@ -190,7 +240,11 @@
         "form_id": "FORM_CHOPPED",
         "quantity_original": "2",
         "unit_original": "tbsp",
+        "density_id": "DENS_00256",
         "density_g_per_ml": 0.1058,
+        "package_size_raw": "",
+        "package_size_si_value": null,
+        "package_size_si_unit": null,
         "conversion_path": "vol→mass via density"
       }
     ]
@@ -198,7 +252,6 @@
   "130": {
     "recipe_id": "130",
     "recipe_name": "Unknown Recipe",
-    "base_servings": 4,
     "ingredients_canonical": [
       {
         "line_number": 1,
@@ -210,7 +263,11 @@
         "form_id": "FORM_CHOPPED",
         "quantity_original": "½",
         "unit_original": "bunch",
+        "density_id": null,
         "density_g_per_ml": null,
+        "package_size_raw": "",
+        "package_size_si_value": null,
+        "package_size_si_unit": null,
         "conversion_path": "count"
       },
       {
@@ -223,7 +280,11 @@
         "form_id": "FORM_WHOLE",
         "quantity_original": "4",
         "unit_original": "stalks",
+        "density_id": null,
         "density_g_per_ml": null,
+        "package_size_raw": "(½-inch)",
+        "package_size_si_value": null,
+        "package_size_si_unit": null,
         "conversion_path": "count"
       },
       {
@@ -236,7 +297,11 @@
         "form_id": "FORM_CHOPPED",
         "quantity_original": "1",
         "unit_original": "piece",
+        "density_id": null,
         "density_g_per_ml": null,
+        "package_size_raw": "(1-inch)",
+        "package_size_si_value": null,
+        "package_size_si_unit": null,
         "conversion_path": "count"
       },
       {
@@ -249,20 +314,28 @@
         "form_id": "FORM_SOLID",
         "quantity_original": "2½",
         "unit_original": "tbsp",
+        "density_id": "DENS_00935",
         "density_g_per_ml": 1.014,
+        "package_size_raw": "",
+        "package_size_si_value": null,
+        "package_size_si_unit": null,
         "conversion_path": "vol→mass via density"
       },
       {
         "line_number": 5,
         "original_text": "Pinch salt",
-        "ingredient_id": "INGR_00185",
-        "ingredient_name": "Salt",
+        "ingredient_id": null,
+        "ingredient_name": null,
         "canonical_qty": null,
         "canonical_unit": null,
-        "form_id": "FORM_GROUND",
+        "form_id": null,
         "quantity_original": "",
         "unit_original": "Pinch",
+        "density_id": null,
         "density_g_per_ml": null,
+        "package_size_raw": "",
+        "package_size_si_value": null,
+        "package_size_si_unit": null,
         "conversion_path": null
       },
       {
@@ -275,7 +348,11 @@
         "form_id": "FORM_LIQUID",
         "quantity_original": "1",
         "unit_original": "cup",
+        "density_id": null,
         "density_g_per_ml": null,
+        "package_size_raw": "",
+        "package_size_si_value": null,
+        "package_size_si_unit": null,
         "conversion_path": "vol→vol"
       },
       {
@@ -283,20 +360,23 @@
         "original_text": "Juice of ½ lemon",
         "ingredient_id": "INGR_00048",
         "ingredient_name": "Lemon",
-        "canonical_qty": null,
-        "canonical_unit": "g",
+        "canonical_qty": 0.5,
+        "canonical_unit": "ea",
         "form_id": "FORM_WHOLE",
         "quantity_original": "½",
         "unit_original": "lemon",
+        "density_id": null,
         "density_g_per_ml": null,
-        "conversion_path": null
+        "package_size_raw": "",
+        "package_size_si_value": null,
+        "package_size_si_unit": null,
+        "conversion_path": "count"
       }
     ]
   },
   "131": {
     "recipe_id": "131",
     "recipe_name": "Unknown Recipe",
-    "base_servings": 4,
     "ingredients_canonical": [
       {
         "line_number": 1,
@@ -308,7 +388,11 @@
         "form_id": "FORM_RAW",
         "quantity_original": "2",
         "unit_original": "cups",
+        "density_id": "DENS_00149",
         "density_g_per_ml": 0.7185,
+        "package_size_raw": "",
+        "package_size_si_value": null,
+        "package_size_si_unit": null,
         "conversion_path": "vol→mass via density"
       },
       {
@@ -321,7 +405,11 @@
         "form_id": "FORM_LIQUID",
         "quantity_original": "8",
         "unit_original": "cups",
+        "density_id": null,
         "density_g_per_ml": null,
+        "package_size_raw": "",
+        "package_size_si_value": null,
+        "package_size_si_unit": null,
         "conversion_path": "vol→vol"
       },
       {
@@ -334,7 +422,11 @@
         "form_id": "FORM_CANNED",
         "quantity_original": "1",
         "unit_original": "cup",
+        "density_id": "DENS_00938",
         "density_g_per_ml": 1.036,
+        "package_size_raw": "",
+        "package_size_si_value": null,
+        "package_size_si_unit": null,
         "conversion_path": "vol→mass via density"
       },
       {
@@ -347,7 +439,11 @@
         "form_id": "FORM_WHOLE",
         "quantity_original": "½",
         "unit_original": "cup",
+        "density_id": "DENS_00026",
         "density_g_per_ml": 0.626,
+        "package_size_raw": "",
+        "package_size_si_value": null,
+        "package_size_si_unit": null,
         "conversion_path": "vol→mass via density"
       },
       {
@@ -360,7 +456,11 @@
         "form_id": "FORM_SLICED",
         "quantity_original": "1",
         "unit_original": "piece",
+        "density_id": null,
         "density_g_per_ml": null,
+        "package_size_raw": "(1-inch)",
+        "package_size_si_value": null,
+        "package_size_si_unit": null,
         "conversion_path": "count"
       }
     ]
@@ -368,7 +468,6 @@
   "133": {
     "recipe_id": "133",
     "recipe_name": "Unknown Recipe",
-    "base_servings": 4,
     "ingredients_canonical": [
       {
         "line_number": 1,
@@ -380,7 +479,11 @@
         "form_id": "FORM_LIQUID",
         "quantity_original": "2",
         "unit_original": "tbsp",
+        "density_id": null,
         "density_g_per_ml": null,
+        "package_size_raw": "",
+        "package_size_si_value": null,
+        "package_size_si_unit": null,
         "conversion_path": "vol→vol"
       },
       {
@@ -393,7 +496,11 @@
         "form_id": "FORM_GROUND",
         "quantity_original": "½",
         "unit_original": "tsp",
+        "density_id": "DENS_00929",
         "density_g_per_ml": 0.33,
+        "package_size_raw": "",
+        "package_size_si_value": null,
+        "package_size_si_unit": null,
         "conversion_path": "vol→mass via density"
       },
       {
@@ -401,26 +508,34 @@
         "original_text": "½ tsp fennel seeds",
         "ingredient_id": "INGR_00211",
         "ingredient_name": "Fennel seeds",
-        "canonical_qty": 2.464461,
-        "canonical_unit": "mL",
-        "form_id": "FORM_SEEDS",
+        "canonical_qty": null,
+        "canonical_unit": "g",
+        "form_id": "FORM_WHOLE",
         "quantity_original": "½",
         "unit_original": "tsp",
+        "density_id": null,
         "density_g_per_ml": null,
-        "conversion_path": "vol→vol"
+        "package_size_raw": "",
+        "package_size_si_value": null,
+        "package_size_si_unit": null,
+        "conversion_path": null
       },
       {
         "line_number": 4,
         "original_text": "1/2 tsp cumin seeds",
         "ingredient_id": "INGR_00213",
         "ingredient_name": "Cumin seeds",
-        "canonical_qty": 2.464461,
-        "canonical_unit": "mL",
-        "form_id": "FORM_SEEDS",
+        "canonical_qty": null,
+        "canonical_unit": "g",
+        "form_id": "FORM_WHOLE",
         "quantity_original": "1/2",
         "unit_original": "tsp",
+        "density_id": null,
         "density_g_per_ml": null,
-        "conversion_path": "vol→vol"
+        "package_size_raw": "",
+        "package_size_si_value": null,
+        "package_size_si_unit": null,
+        "conversion_path": null
       },
       {
         "line_number": 5,
@@ -432,7 +547,11 @@
         "form_id": "FORM_WHOLE",
         "quantity_original": "½",
         "unit_original": "bunch",
+        "density_id": null,
         "density_g_per_ml": null,
+        "package_size_raw": "",
+        "package_size_si_value": null,
+        "package_size_si_unit": null,
         "conversion_path": "count"
       },
       {
@@ -445,7 +564,11 @@
         "form_id": "FORM_CHOPPED",
         "quantity_original": "1",
         "unit_original": "piece",
+        "density_id": null,
         "density_g_per_ml": null,
+        "package_size_raw": "(½-inch)",
+        "package_size_si_value": null,
+        "package_size_si_unit": null,
         "conversion_path": "count"
       },
       {
@@ -458,7 +581,11 @@
         "form_id": "FORM_DRIED",
         "quantity_original": "¼",
         "unit_original": "cup",
+        "density_id": "DENS_00936",
         "density_g_per_ml": 0.338,
+        "package_size_raw": "",
+        "package_size_si_value": null,
+        "package_size_si_unit": null,
         "conversion_path": "vol→mass via density"
       },
       {
@@ -471,7 +598,11 @@
         "form_id": "FORM_LIQUID",
         "quantity_original": "1",
         "unit_original": "tbsp",
+        "density_id": null,
         "density_g_per_ml": null,
+        "package_size_raw": "",
+        "package_size_si_value": null,
+        "package_size_si_unit": null,
         "conversion_path": "vol→vol"
       },
       {
@@ -484,7 +615,11 @@
         "form_id": "FORM_LIQUID",
         "quantity_original": "1",
         "unit_original": "tsp",
+        "density_id": null,
         "density_g_per_ml": null,
+        "package_size_raw": "",
+        "package_size_si_value": null,
+        "package_size_si_unit": null,
         "conversion_path": "vol→vol"
       },
       {
@@ -497,7 +632,11 @@
         "form_id": "FORM_DRY",
         "quantity_original": "1",
         "unit_original": "tsp",
+        "density_id": "DENS_00961",
         "density_g_per_ml": 0.254,
+        "package_size_raw": "",
+        "package_size_si_value": null,
+        "package_size_si_unit": null,
         "conversion_path": "vol→mass via density"
       },
       {
@@ -510,7 +649,11 @@
         "form_id": "FORM_RAW",
         "quantity_original": "¼",
         "unit_original": "cup",
+        "density_id": "DENS_00313",
         "density_g_per_ml": 0.8749387120225878,
+        "package_size_raw": "",
+        "package_size_si_value": null,
+        "package_size_si_unit": null,
         "conversion_path": "vol→mass via density"
       }
     ]
@@ -518,7 +661,6 @@
   "134": {
     "recipe_id": "134",
     "recipe_name": "Unknown Recipe",
-    "base_servings": 4,
     "ingredients_canonical": [
       {
         "line_number": 1,
@@ -530,7 +672,11 @@
         "form_id": "FORM_RAW",
         "quantity_original": "2",
         "unit_original": "cups",
+        "density_id": "DENS_00141",
         "density_g_per_ml": 0.7481,
+        "package_size_raw": "",
+        "package_size_si_value": null,
+        "package_size_si_unit": null,
         "conversion_path": "vol→mass via density"
       },
       {
@@ -543,7 +689,11 @@
         "form_id": "FORM_LIQUID",
         "quantity_original": "4½",
         "unit_original": "cups",
+        "density_id": null,
         "density_g_per_ml": null,
+        "package_size_raw": "",
+        "package_size_si_value": null,
+        "package_size_si_unit": null,
         "conversion_path": "vol→vol"
       },
       {
@@ -556,7 +706,11 @@
         "form_id": "FORM_GROUND",
         "quantity_original": "1",
         "unit_original": "tsp",
+        "density_id": "DENS_00940",
         "density_g_per_ml": 1.183,
+        "package_size_raw": "",
+        "package_size_si_value": null,
+        "package_size_si_unit": null,
         "conversion_path": "vol→mass via density"
       },
       {
@@ -569,7 +723,11 @@
         "form_id": "FORM_LIQUID",
         "quantity_original": "2",
         "unit_original": "tbsp",
+        "density_id": null,
         "density_g_per_ml": null,
+        "package_size_raw": "",
+        "package_size_si_value": null,
+        "package_size_si_unit": null,
         "conversion_path": "vol→vol"
       }
     ]
@@ -577,46 +735,57 @@
   "136": {
     "recipe_id": "136",
     "recipe_name": "Unknown Recipe",
-    "base_servings": 4,
     "ingredients_canonical": [
       {
         "line_number": 1,
         "original_text": "1 ripe banana cut into pieces",
-        "ingredient_id": null,
-        "ingredient_name": null,
-        "canonical_qty": null,
-        "canonical_unit": null,
-        "form_id": null,
+        "ingredient_id": "INGR_00007",
+        "ingredient_name": "Banana",
+        "canonical_qty": 1.0,
+        "canonical_unit": "ea",
+        "form_id": "FORM_WHOLE",
         "quantity_original": "1",
         "unit_original": "banana",
+        "density_id": null,
         "density_g_per_ml": null,
-        "conversion_path": null
+        "package_size_raw": "",
+        "package_size_si_value": null,
+        "package_size_si_unit": null,
+        "conversion_path": "count"
       },
       {
         "line_number": 2,
         "original_text": "½ avocado",
-        "ingredient_id": null,
-        "ingredient_name": null,
-        "canonical_qty": null,
-        "canonical_unit": null,
-        "form_id": null,
+        "ingredient_id": "INGR_00006",
+        "ingredient_name": "Avocado",
+        "canonical_qty": 0.5,
+        "canonical_unit": "ea",
+        "form_id": "FORM_WHOLE",
         "quantity_original": "½",
         "unit_original": "avocado",
+        "density_id": null,
         "density_g_per_ml": null,
-        "conversion_path": null
+        "package_size_raw": "",
+        "package_size_si_value": null,
+        "package_size_si_unit": null,
+        "conversion_path": "count"
       },
       {
         "line_number": 3,
         "original_text": "2 medjool dates pitted",
-        "ingredient_id": null,
-        "ingredient_name": null,
-        "canonical_qty": null,
-        "canonical_unit": null,
-        "form_id": null,
+        "ingredient_id": "INGR_00030",
+        "ingredient_name": "Dates",
+        "canonical_qty": 2.0,
+        "canonical_unit": "ea",
+        "form_id": "FORM_WHOLE",
         "quantity_original": "2",
         "unit_original": "dates",
+        "density_id": null,
         "density_g_per_ml": null,
-        "conversion_path": null
+        "package_size_raw": "",
+        "package_size_si_value": null,
+        "package_size_si_unit": null,
+        "conversion_path": "count"
       },
       {
         "line_number": 4,
@@ -628,7 +797,11 @@
         "form_id": "FORM_LIQUID",
         "quantity_original": "1",
         "unit_original": "tbsp",
+        "density_id": null,
         "density_g_per_ml": null,
+        "package_size_raw": "",
+        "package_size_si_value": null,
+        "package_size_si_unit": null,
         "conversion_path": "vol→vol"
       },
       {
@@ -641,7 +814,11 @@
         "form_id": "FORM_GROUND",
         "quantity_original": "1",
         "unit_original": "tbsp",
+        "density_id": null,
         "density_g_per_ml": null,
+        "package_size_raw": "",
+        "package_size_si_value": null,
+        "package_size_si_unit": null,
         "conversion_path": null
       },
       {
@@ -654,7 +831,11 @@
         "form_id": "FORM_WHOLE",
         "quantity_original": "½",
         "unit_original": "cup",
+        "density_id": "DENS_00116",
         "density_g_per_ml": 0.52,
+        "package_size_raw": "",
+        "package_size_si_value": null,
+        "package_size_si_unit": null,
         "conversion_path": "vol→mass via density"
       }
     ]
@@ -662,7 +843,6 @@
   "137": {
     "recipe_id": "137",
     "recipe_name": "Unknown Recipe",
-    "base_servings": 4,
     "ingredients_canonical": [
       {
         "line_number": 1,
@@ -674,7 +854,11 @@
         "form_id": "FORM_RAW",
         "quantity_original": "1",
         "unit_original": "cup",
+        "density_id": "DENS_00286",
         "density_g_per_ml": 0.8158,
+        "package_size_raw": "",
+        "package_size_si_value": null,
+        "package_size_si_unit": null,
         "conversion_path": "vol→mass via density"
       },
       {
@@ -687,7 +871,11 @@
         "form_id": "FORM_GROUND",
         "quantity_original": "1",
         "unit_original": "tsp",
+        "density_id": "DENS_00939",
         "density_g_per_ml": 0.0541,
+        "package_size_raw": "",
+        "package_size_si_value": null,
+        "package_size_si_unit": null,
         "conversion_path": "vol→mass via density"
       },
       {
@@ -700,21 +888,29 @@
         "form_id": "FORM_LIQUID",
         "quantity_original": "2",
         "unit_original": "cups",
+        "density_id": null,
         "density_g_per_ml": null,
+        "package_size_raw": "",
+        "package_size_si_value": null,
+        "package_size_si_unit": null,
         "conversion_path": "vol→vol"
       },
       {
         "line_number": 4,
         "original_text": "4 dried figs chopped",
-        "ingredient_id": null,
-        "ingredient_name": null,
-        "canonical_qty": null,
-        "canonical_unit": null,
-        "form_id": null,
+        "ingredient_id": "INGR_00036",
+        "ingredient_name": "Fig",
+        "canonical_qty": 4.0,
+        "canonical_unit": "ea",
+        "form_id": "FORM_CHOPPED",
         "quantity_original": "4",
         "unit_original": "figs",
+        "density_id": null,
         "density_g_per_ml": null,
-        "conversion_path": null
+        "package_size_raw": "",
+        "package_size_si_value": null,
+        "package_size_si_unit": null,
+        "conversion_path": "count"
       },
       {
         "line_number": 5,
@@ -726,7 +922,11 @@
         "form_id": "FORM_WHOLE",
         "quantity_original": "¼",
         "unit_original": "cup",
+        "density_id": "DENS_00115",
         "density_g_per_ml": 0.697,
+        "package_size_raw": "",
+        "package_size_si_value": null,
+        "package_size_si_unit": null,
         "conversion_path": "vol→mass via density"
       },
       {
@@ -734,13 +934,17 @@
         "original_text": "3 tbsp chia seeds",
         "ingredient_id": "INGR_01091",
         "ingredient_name": "Chia seeds",
-        "canonical_qty": 44.360294,
-        "canonical_unit": "mL",
-        "form_id": "FORM_SEEDS",
+        "canonical_qty": 27.750028,
+        "canonical_unit": "g",
+        "form_id": "FORM_WHOLE",
         "quantity_original": "3",
         "unit_original": "tbsp",
-        "density_g_per_ml": null,
-        "conversion_path": "vol→vol"
+        "density_id": "DENS_00341",
+        "density_g_per_ml": 0.6255600453108358,
+        "package_size_raw": "",
+        "package_size_si_value": null,
+        "package_size_si_unit": null,
+        "conversion_path": "vol→mass via density"
       },
       {
         "line_number": 7,
@@ -752,7 +956,11 @@
         "form_id": "FORM_SYRUP",
         "quantity_original": "",
         "unit_original": "",
+        "density_id": null,
         "density_g_per_ml": null,
+        "package_size_raw": "",
+        "package_size_si_value": null,
+        "package_size_si_unit": null,
         "conversion_path": null
       }
     ]
@@ -760,7 +968,6 @@
   "139": {
     "recipe_id": "139",
     "recipe_name": "Unknown Recipe",
-    "base_servings": 4,
     "ingredients_canonical": [
       {
         "line_number": 1,
@@ -772,7 +979,11 @@
         "form_id": "FORM_DRIED",
         "quantity_original": "2",
         "unit_original": "cups",
+        "density_id": "DENS_00937",
         "density_g_per_ml": 0.338,
+        "package_size_raw": "",
+        "package_size_si_value": null,
+        "package_size_si_unit": null,
         "conversion_path": "vol→mass via density"
       },
       {
@@ -785,60 +996,80 @@
         "form_id": "FORM_LIQUID",
         "quantity_original": "4",
         "unit_original": "cups",
+        "density_id": null,
         "density_g_per_ml": null,
+        "package_size_raw": "",
+        "package_size_si_value": null,
+        "package_size_si_unit": null,
         "conversion_path": "vol→vol"
       },
       {
         "line_number": 3,
         "original_text": "4 cups minced red onions",
-        "ingredient_id": "INGR_00073",
-        "ingredient_name": "Red onion",
+        "ingredient_id": "INGR_00057",
+        "ingredient_name": "Onion",
         "canonical_qty": 639.734591,
         "canonical_unit": "g",
         "form_id": "FORM_CHOPPED",
         "quantity_original": "4",
         "unit_original": "cups",
+        "density_id": "DENS_00088",
         "density_g_per_ml": 0.676,
+        "package_size_raw": "",
+        "package_size_si_value": null,
+        "package_size_si_unit": null,
         "conversion_path": "vol→mass via density"
       },
       {
         "line_number": 4,
         "original_text": "2 green onions minced",
-        "ingredient_id": null,
-        "ingredient_name": null,
-        "canonical_qty": null,
-        "canonical_unit": null,
-        "form_id": null,
+        "ingredient_id": "INGR_00057",
+        "ingredient_name": "Onion",
+        "canonical_qty": 2.0,
+        "canonical_unit": "ea",
+        "form_id": "FORM_CHOPPED",
         "quantity_original": "2",
         "unit_original": "green onions",
+        "density_id": null,
         "density_g_per_ml": null,
-        "conversion_path": null
+        "package_size_raw": "",
+        "package_size_si_value": null,
+        "package_size_si_unit": null,
+        "conversion_path": "count"
       },
       {
         "line_number": 5,
         "original_text": "4 large red radishes grated",
-        "ingredient_id": null,
-        "ingredient_name": null,
-        "canonical_qty": null,
-        "canonical_unit": null,
-        "form_id": null,
+        "ingredient_id": "INGR_00070",
+        "ingredient_name": "Radish",
+        "canonical_qty": 4.0,
+        "canonical_unit": "ea",
+        "form_id": "FORM_GRATED",
         "quantity_original": "4",
         "unit_original": "radishes",
+        "density_id": null,
         "density_g_per_ml": null,
-        "conversion_path": null
+        "package_size_raw": "",
+        "package_size_si_value": null,
+        "package_size_si_unit": null,
+        "conversion_path": "count"
       },
       {
         "line_number": 6,
         "original_text": "1 small jicama peeled and diced",
-        "ingredient_id": null,
-        "ingredient_name": null,
-        "canonical_qty": null,
-        "canonical_unit": null,
-        "form_id": null,
+        "ingredient_id": "INGR_01017",
+        "ingredient_name": "Jicama",
+        "canonical_qty": 1.0,
+        "canonical_unit": "ea",
+        "form_id": "FORM_CHOPPED",
         "quantity_original": "1",
         "unit_original": "jicama",
+        "density_id": null,
         "density_g_per_ml": null,
-        "conversion_path": null
+        "package_size_raw": "",
+        "package_size_si_value": null,
+        "package_size_si_unit": null,
+        "conversion_path": "count"
       },
       {
         "line_number": 7,
@@ -850,7 +1081,11 @@
         "form_id": "FORM_CHOPPED",
         "quantity_original": "1",
         "unit_original": "piece",
+        "density_id": null,
         "density_g_per_ml": null,
+        "package_size_raw": "(2-inch)",
+        "package_size_si_value": null,
+        "package_size_si_unit": null,
         "conversion_path": "count"
       },
       {
@@ -858,13 +1093,17 @@
         "original_text": "¼ cup raw sesame seeds",
         "ingredient_id": "INGR_00184",
         "ingredient_name": "Sesame seeds",
-        "canonical_qty": 59.147059,
-        "canonical_unit": "mL",
-        "form_id": "FORM_SEEDS",
+        "canonical_qty": null,
+        "canonical_unit": "g",
+        "form_id": "FORM_WHOLE",
         "quantity_original": "¼",
         "unit_original": "cup",
+        "density_id": null,
         "density_g_per_ml": null,
-        "conversion_path": "vol→vol"
+        "package_size_raw": "",
+        "package_size_si_value": null,
+        "package_size_si_unit": null,
+        "conversion_path": null
       },
       {
         "line_number": 9,
@@ -876,7 +1115,11 @@
         "form_id": "FORM_WHOLE",
         "quantity_original": "¼",
         "unit_original": "cup",
+        "density_id": "DENS_00832",
         "density_g_per_ml": 0.4818498235012627,
+        "package_size_raw": "",
+        "package_size_si_value": null,
+        "package_size_si_unit": null,
         "conversion_path": "vol→mass via density"
       },
       {
@@ -889,7 +1132,11 @@
         "form_id": "FORM_LIQUID",
         "quantity_original": "2",
         "unit_original": "tbsp",
+        "density_id": null,
         "density_g_per_ml": null,
+        "package_size_raw": "",
+        "package_size_si_value": null,
+        "package_size_si_unit": null,
         "conversion_path": "vol→vol"
       },
       {
@@ -902,7 +1149,11 @@
         "form_id": "FORM_LIQUID",
         "quantity_original": "2",
         "unit_original": "tbsp",
+        "density_id": null,
         "density_g_per_ml": null,
+        "package_size_raw": "",
+        "package_size_si_value": null,
+        "package_size_si_unit": null,
         "conversion_path": "vol→vol"
       },
       {
@@ -910,13 +1161,17 @@
         "original_text": "juice of 2 oranges",
         "ingredient_id": "INGR_00306",
         "ingredient_name": "Orange juice",
-        "canonical_qty": null,
-        "canonical_unit": "mL",
+        "canonical_qty": 2.0,
+        "canonical_unit": "ea",
         "form_id": "FORM_LIQUID",
         "quantity_original": "2",
         "unit_original": "oranges",
+        "density_id": null,
         "density_g_per_ml": null,
-        "conversion_path": null
+        "package_size_raw": "",
+        "package_size_si_value": null,
+        "package_size_si_unit": null,
+        "conversion_path": "count"
       },
       {
         "line_number": 13,
@@ -928,7 +1183,11 @@
         "form_id": "FORM_PASTE",
         "quantity_original": "1",
         "unit_original": "tbsp",
+        "density_id": "DENS_00941",
         "density_g_per_ml": 1.217,
+        "package_size_raw": "",
+        "package_size_si_value": null,
+        "package_size_si_unit": null,
         "conversion_path": "vol→mass via density"
       },
       {
@@ -941,7 +1200,11 @@
         "form_id": "FORM_GROUND",
         "quantity_original": "½",
         "unit_original": "tsp",
+        "density_id": "DENS_00940",
         "density_g_per_ml": 1.183,
+        "package_size_raw": "",
+        "package_size_si_value": null,
+        "package_size_si_unit": null,
         "conversion_path": "vol→mass via density"
       },
       {
@@ -954,7 +1217,11 @@
         "form_id": "FORM_WHOLE",
         "quantity_original": "2",
         "unit_original": "cups",
+        "density_id": "DENS_00008",
         "density_g_per_ml": 0.085,
+        "package_size_raw": "",
+        "package_size_si_value": null,
+        "package_size_si_unit": null,
         "conversion_path": "vol→mass via density"
       }
     ]
@@ -962,7 +1229,6 @@
   "140": {
     "recipe_id": "140",
     "recipe_name": "Unknown Recipe",
-    "base_servings": 4,
     "ingredients_canonical": [
       {
         "line_number": 1,
@@ -974,7 +1240,11 @@
         "form_id": "FORM_RAW",
         "quantity_original": "1",
         "unit_original": "cup",
+        "density_id": "DENS_00141",
         "density_g_per_ml": 0.7481,
+        "package_size_raw": "",
+        "package_size_si_value": null,
+        "package_size_si_unit": null,
         "conversion_path": "vol→mass via density"
       },
       {
@@ -987,7 +1257,11 @@
         "form_id": "FORM_LIQUID",
         "quantity_original": "2",
         "unit_original": "cups",
+        "density_id": null,
         "density_g_per_ml": null,
+        "package_size_raw": "",
+        "package_size_si_value": null,
+        "package_size_si_unit": null,
         "conversion_path": "vol→vol"
       },
       {
@@ -995,13 +1269,17 @@
         "original_text": "1 tsp cumin seeds",
         "ingredient_id": "INGR_00213",
         "ingredient_name": "Cumin seeds",
-        "canonical_qty": 4.928922,
-        "canonical_unit": "mL",
-        "form_id": "FORM_SEEDS",
+        "canonical_qty": null,
+        "canonical_unit": "g",
+        "form_id": "FORM_WHOLE",
         "quantity_original": "1",
         "unit_original": "tsp",
+        "density_id": null,
         "density_g_per_ml": null,
-        "conversion_path": "vol→vol"
+        "package_size_raw": "",
+        "package_size_si_value": null,
+        "package_size_si_unit": null,
+        "conversion_path": null
       },
       {
         "line_number": 4,
@@ -1013,20 +1291,28 @@
         "form_id": "FORM_GROUND",
         "quantity_original": "2",
         "unit_original": "tsp",
+        "density_id": "DENS_00929",
         "density_g_per_ml": 0.33,
+        "package_size_raw": "",
+        "package_size_si_value": null,
+        "package_size_si_unit": null,
         "conversion_path": "vol→mass via density"
       },
       {
         "line_number": 5,
         "original_text": "½ tsp ground turmeric",
-        "ingredient_id": null,
-        "ingredient_name": null,
+        "ingredient_id": "INGR_00193",
+        "ingredient_name": "Turmeric",
         "canonical_qty": null,
-        "canonical_unit": null,
-        "form_id": null,
+        "canonical_unit": "g",
+        "form_id": "FORM_GROUND",
         "quantity_original": "½",
         "unit_original": "tsp",
+        "density_id": null,
         "density_g_per_ml": null,
+        "package_size_raw": "",
+        "package_size_si_value": null,
+        "package_size_si_unit": null,
         "conversion_path": null
       },
       {
@@ -1039,7 +1325,11 @@
         "form_id": "FORM_GROUND",
         "quantity_original": "1",
         "unit_original": "tsp",
+        "density_id": "DENS_00940",
         "density_g_per_ml": 1.183,
+        "package_size_raw": "",
+        "package_size_si_value": null,
+        "package_size_si_unit": null,
         "conversion_path": "vol→mass via density"
       },
       {
@@ -1052,7 +1342,11 @@
         "form_id": null,
         "quantity_original": "2",
         "unit_original": "limes",
+        "density_id": null,
         "density_g_per_ml": null,
+        "package_size_raw": "",
+        "package_size_si_value": null,
+        "package_size_si_unit": null,
         "conversion_path": null
       },
       {
@@ -1065,34 +1359,46 @@
         "form_id": null,
         "quantity_original": "2",
         "unit_original": "tbsp",
+        "density_id": null,
         "density_g_per_ml": null,
+        "package_size_raw": "",
+        "package_size_si_value": null,
+        "package_size_si_unit": null,
         "conversion_path": null
       },
       {
         "line_number": 9,
         "original_text": "Juice of ½ orange",
-        "ingredient_id": "INGR_00306",
-        "ingredient_name": "Orange juice",
-        "canonical_qty": null,
-        "canonical_unit": "mL",
-        "form_id": "FORM_LIQUID",
-        "quantity_original": "½",
-        "unit_original": "orange",
-        "density_g_per_ml": null,
-        "conversion_path": null
-      },
-      {
-        "line_number": 10,
-        "original_text": "4 green onions minced",
         "ingredient_id": null,
         "ingredient_name": null,
         "canonical_qty": null,
         "canonical_unit": null,
         "form_id": null,
+        "quantity_original": "½",
+        "unit_original": "orange",
+        "density_id": null,
+        "density_g_per_ml": null,
+        "package_size_raw": "",
+        "package_size_si_value": null,
+        "package_size_si_unit": null,
+        "conversion_path": null
+      },
+      {
+        "line_number": 10,
+        "original_text": "4 green onions minced",
+        "ingredient_id": "INGR_00057",
+        "ingredient_name": "Onion",
+        "canonical_qty": 4.0,
+        "canonical_unit": "ea",
+        "form_id": "FORM_CHOPPED",
         "quantity_original": "4",
         "unit_original": "green onions",
+        "density_id": null,
         "density_g_per_ml": null,
-        "conversion_path": null
+        "package_size_raw": "",
+        "package_size_si_value": null,
+        "package_size_si_unit": null,
+        "conversion_path": "count"
       },
       {
         "line_number": 11,
@@ -1104,46 +1410,62 @@
         "form_id": "FORM_CHOPPED",
         "quantity_original": "1",
         "unit_original": "piece",
+        "density_id": null,
         "density_g_per_ml": null,
+        "package_size_raw": "(2-inch)",
+        "package_size_si_value": null,
+        "package_size_si_unit": null,
         "conversion_path": "count"
       },
       {
         "line_number": 12,
         "original_text": "1 small jalapeno chile seeded and minced",
-        "ingredient_id": "INGR_00044",
-        "ingredient_name": "Jalapeño",
+        "ingredient_id": null,
+        "ingredient_name": null,
         "canonical_qty": null,
-        "canonical_unit": "g",
-        "form_id": "FORM_CHOPPED",
+        "canonical_unit": null,
+        "form_id": null,
         "quantity_original": "1",
         "unit_original": "chile",
+        "density_id": null,
         "density_g_per_ml": null,
+        "package_size_raw": "",
+        "package_size_si_value": null,
+        "package_size_si_unit": null,
         "conversion_path": null
       },
       {
         "line_number": 13,
         "original_text": "1 tsp ground coriander",
-        "ingredient_id": null,
-        "ingredient_name": null,
+        "ingredient_id": "INGR_00188",
+        "ingredient_name": "Coriander seed",
         "canonical_qty": null,
-        "canonical_unit": null,
-        "form_id": null,
+        "canonical_unit": "g",
+        "form_id": "FORM_GROUND",
         "quantity_original": "1",
         "unit_original": "tsp",
+        "density_id": null,
         "density_g_per_ml": null,
+        "package_size_raw": "",
+        "package_size_si_value": null,
+        "package_size_si_unit": null,
         "conversion_path": null
       },
       {
         "line_number": 14,
         "original_text": "1 tsp ground cardamom",
-        "ingredient_id": null,
-        "ingredient_name": null,
+        "ingredient_id": "INGR_00190",
+        "ingredient_name": "Cardamom",
         "canonical_qty": null,
-        "canonical_unit": null,
-        "form_id": null,
+        "canonical_unit": "g",
+        "form_id": "FORM_GROUND",
         "quantity_original": "1",
         "unit_original": "tsp",
+        "density_id": null,
         "density_g_per_ml": null,
+        "package_size_raw": "",
+        "package_size_si_value": null,
+        "package_size_si_unit": null,
         "conversion_path": null
       },
       {
@@ -1151,25 +1473,33 @@
         "original_text": "1 tsp fennel seeds",
         "ingredient_id": "INGR_00211",
         "ingredient_name": "Fennel seeds",
-        "canonical_qty": 4.928922,
-        "canonical_unit": "mL",
-        "form_id": "FORM_SEEDS",
+        "canonical_qty": null,
+        "canonical_unit": "g",
+        "form_id": "FORM_WHOLE",
         "quantity_original": "1",
         "unit_original": "tsp",
+        "density_id": null,
         "density_g_per_ml": null,
-        "conversion_path": "vol→vol"
+        "package_size_raw": "",
+        "package_size_si_value": null,
+        "package_size_si_unit": null,
+        "conversion_path": null
       },
       {
         "line_number": 16,
         "original_text": "½ tsp ground mustard",
-        "ingredient_id": null,
-        "ingredient_name": null,
+        "ingredient_id": "INGR_00279",
+        "ingredient_name": "Mustard",
         "canonical_qty": null,
-        "canonical_unit": null,
-        "form_id": null,
+        "canonical_unit": "g",
+        "form_id": "FORM_GROUND",
         "quantity_original": "½",
         "unit_original": "tsp",
+        "density_id": null,
         "density_g_per_ml": null,
+        "package_size_raw": "",
+        "package_size_si_value": null,
+        "package_size_si_unit": null,
         "conversion_path": null
       },
       {
@@ -1182,7 +1512,11 @@
         "form_id": "FORM_LIQUID",
         "quantity_original": "1/3",
         "unit_original": "cup",
+        "density_id": null,
         "density_g_per_ml": null,
+        "package_size_raw": "",
+        "package_size_si_value": null,
+        "package_size_si_unit": null,
         "conversion_path": "vol→vol"
       },
       {
@@ -1195,7 +1529,11 @@
         "form_id": "FORM_LIQUID",
         "quantity_original": "1",
         "unit_original": "tbsp",
+        "density_id": null,
         "density_g_per_ml": null,
+        "package_size_raw": "",
+        "package_size_si_value": null,
+        "package_size_si_unit": null,
         "conversion_path": "vol→vol"
       },
       {
@@ -1208,21 +1546,29 @@
         "form_id": "FORM_GROUND",
         "quantity_original": "1",
         "unit_original": "tsp",
+        "density_id": "DENS_00940",
         "density_g_per_ml": 1.183,
+        "package_size_raw": "",
+        "package_size_si_value": null,
+        "package_size_si_unit": null,
         "conversion_path": "vol→mass via density"
       },
       {
         "line_number": 20,
         "original_text": "6 dried apricots minced",
-        "ingredient_id": null,
-        "ingredient_name": null,
-        "canonical_qty": null,
-        "canonical_unit": null,
-        "form_id": null,
+        "ingredient_id": "INGR_00002",
+        "ingredient_name": "Apricot",
+        "canonical_qty": 6.0,
+        "canonical_unit": "ea",
+        "form_id": "FORM_CHOPPED",
         "quantity_original": "6",
         "unit_original": "apricots",
+        "density_id": null,
         "density_g_per_ml": null,
-        "conversion_path": null
+        "package_size_raw": "",
+        "package_size_si_value": null,
+        "package_size_si_unit": null,
+        "conversion_path": "count"
       },
       {
         "line_number": 21,
@@ -1234,7 +1580,11 @@
         "form_id": null,
         "quantity_original": "¼",
         "unit_original": "cup",
+        "density_id": null,
         "density_g_per_ml": null,
+        "package_size_raw": "",
+        "package_size_si_value": null,
+        "package_size_si_unit": null,
         "conversion_path": null
       },
       {
@@ -1247,7 +1597,11 @@
         "form_id": null,
         "quantity_original": "3",
         "unit_original": "tbsp",
+        "density_id": null,
         "density_g_per_ml": null,
+        "package_size_raw": "",
+        "package_size_si_value": null,
+        "package_size_si_unit": null,
         "conversion_path": null
       },
       {
@@ -1260,7 +1614,11 @@
         "form_id": "FORM_WHOLE",
         "quantity_original": "½",
         "unit_original": "cup",
+        "density_id": "DENS_00832",
         "density_g_per_ml": 0.4818498235012627,
+        "package_size_raw": "",
+        "package_size_si_value": null,
+        "package_size_si_unit": null,
         "conversion_path": "vol→mass via density"
       },
       {
@@ -1273,7 +1631,11 @@
         "form_id": "FORM_GROUND",
         "quantity_original": "1",
         "unit_original": "tsp",
+        "density_id": "DENS_00939",
         "density_g_per_ml": 0.0541,
+        "package_size_raw": "",
+        "package_size_si_value": null,
+        "package_size_si_unit": null,
         "conversion_path": "vol→mass via density"
       },
       {
@@ -1286,7 +1648,11 @@
         "form_id": "FORM_GROUND",
         "quantity_original": "1/8",
         "unit_original": "tsp",
+        "density_id": "DENS_00934",
         "density_g_per_ml": 0.473,
+        "package_size_raw": "",
+        "package_size_si_value": null,
+        "package_size_si_unit": null,
         "conversion_path": "vol→mass via density"
       },
       {
@@ -1299,7 +1665,11 @@
         "form_id": "FORM_CHOPPED",
         "quantity_original": "1",
         "unit_original": "cup",
+        "density_id": "DENS_00021",
         "density_g_per_ml": 0.169,
+        "package_size_raw": "",
+        "package_size_si_value": null,
+        "package_size_si_unit": null,
         "conversion_path": "vol→mass via density"
       }
     ]
@@ -1307,7 +1677,6 @@
   "143": {
     "recipe_id": "143",
     "recipe_name": "Unknown Recipe",
-    "base_servings": 4,
     "ingredients_canonical": [
       {
         "line_number": 1,
@@ -1319,7 +1688,11 @@
         "form_id": "FORM_CHOPPED",
         "quantity_original": "1",
         "unit_original": "bunch",
+        "density_id": null,
         "density_g_per_ml": null,
+        "package_size_raw": "",
+        "package_size_si_value": null,
+        "package_size_si_unit": null,
         "conversion_path": "count"
       },
       {
@@ -1332,7 +1705,11 @@
         "form_id": "FORM_GROUND",
         "quantity_original": "2",
         "unit_original": "tsp",
+        "density_id": "DENS_00940",
         "density_g_per_ml": 1.183,
+        "package_size_raw": "",
+        "package_size_si_value": null,
+        "package_size_si_unit": null,
         "conversion_path": "vol→mass via density"
       },
       {
@@ -1345,7 +1722,11 @@
         "form_id": "FORM_WHOLE",
         "quantity_original": "½",
         "unit_original": "cup",
+        "density_id": "DENS_00832",
         "density_g_per_ml": 0.4818498235012627,
+        "package_size_raw": "",
+        "package_size_si_value": null,
+        "package_size_si_unit": null,
         "conversion_path": "vol→mass via density"
       },
       {
@@ -1353,39 +1734,51 @@
         "original_text": "½ cup raw pumpkin seeds",
         "ingredient_id": "INGR_01089",
         "ingredient_name": "Pumpkin seeds",
-        "canonical_qty": 118.294118,
-        "canonical_unit": "mL",
-        "form_id": "FORM_SEEDS",
+        "canonical_qty": 80.00008,
+        "canonical_unit": "g",
+        "form_id": "FORM_WHOLE",
         "quantity_original": "½",
         "unit_original": "cup",
-        "density_g_per_ml": null,
-        "conversion_path": "vol→vol"
+        "density_id": "DENS_00337",
+        "density_g_per_ml": 0.6762811300657684,
+        "package_size_raw": "",
+        "package_size_si_value": null,
+        "package_size_si_unit": null,
+        "conversion_path": "vol→mass via density"
       },
       {
         "line_number": 5,
         "original_text": "1 small red onion minced",
-        "ingredient_id": null,
-        "ingredient_name": null,
-        "canonical_qty": null,
-        "canonical_unit": null,
-        "form_id": null,
+        "ingredient_id": "INGR_00057",
+        "ingredient_name": "Onion",
+        "canonical_qty": 1.0,
+        "canonical_unit": "ea",
+        "form_id": "FORM_CHOPPED",
         "quantity_original": "1",
         "unit_original": "onion",
+        "density_id": null,
         "density_g_per_ml": null,
-        "conversion_path": null
+        "package_size_raw": "",
+        "package_size_si_value": null,
+        "package_size_si_unit": null,
+        "conversion_path": "count"
       },
       {
         "line_number": 6,
         "original_text": "1½ avocados diced",
-        "ingredient_id": null,
-        "ingredient_name": null,
-        "canonical_qty": null,
-        "canonical_unit": null,
-        "form_id": null,
+        "ingredient_id": "INGR_00006",
+        "ingredient_name": "Avocado",
+        "canonical_qty": 1.5,
+        "canonical_unit": "ea",
+        "form_id": "FORM_CHOPPED",
         "quantity_original": "1½",
         "unit_original": "avocados",
+        "density_id": null,
         "density_g_per_ml": null,
-        "conversion_path": null
+        "package_size_raw": "",
+        "package_size_si_value": null,
+        "package_size_si_unit": null,
+        "conversion_path": "count"
       },
       {
         "line_number": 7,
@@ -1397,7 +1790,11 @@
         "form_id": "FORM_WHOLE",
         "quantity_original": "1",
         "unit_original": "cup",
+        "density_id": "DENS_00498",
         "density_g_per_ml": 0.1395,
+        "package_size_raw": "",
+        "package_size_si_value": null,
+        "package_size_si_unit": null,
         "conversion_path": "vol→mass via density"
       },
       {
@@ -1405,13 +1802,17 @@
         "original_text": "Juice of 2 lemons",
         "ingredient_id": "INGR_00048",
         "ingredient_name": "Lemon",
-        "canonical_qty": null,
-        "canonical_unit": "g",
+        "canonical_qty": 2.0,
+        "canonical_unit": "ea",
         "form_id": "FORM_WHOLE",
         "quantity_original": "2",
         "unit_original": "lemons",
+        "density_id": null,
         "density_g_per_ml": null,
-        "conversion_path": null
+        "package_size_raw": "",
+        "package_size_si_value": null,
+        "package_size_si_unit": null,
+        "conversion_path": "count"
       },
       {
         "line_number": 9,
@@ -1423,7 +1824,11 @@
         "form_id": "FORM_LIQUID",
         "quantity_original": "¼",
         "unit_original": "cup",
+        "density_id": null,
         "density_g_per_ml": null,
+        "package_size_raw": "",
+        "package_size_si_value": null,
+        "package_size_si_unit": null,
         "conversion_path": "vol→vol"
       },
       {
@@ -1436,46 +1841,62 @@
         "form_id": "FORM_LIQUID",
         "quantity_original": "1",
         "unit_original": "tbsp",
+        "density_id": null,
         "density_g_per_ml": null,
+        "package_size_raw": "",
+        "package_size_si_value": null,
+        "package_size_si_unit": null,
         "conversion_path": "vol→vol"
       },
       {
         "line_number": 11,
         "original_text": "2 tbsp unsweetened shredded coconut",
-        "ingredient_id": null,
-        "ingredient_name": null,
-        "canonical_qty": null,
-        "canonical_unit": null,
-        "form_id": null,
+        "ingredient_id": "INGR_01517",
+        "ingredient_name": "Unsweetened baking chocolate",
+        "canonical_qty": 16.500016,
+        "canonical_unit": "g",
+        "form_id": "FORM_GRATED",
         "quantity_original": "2",
         "unit_original": "tbsp",
-        "density_g_per_ml": null,
-        "conversion_path": null
+        "density_id": "DENS_00553",
+        "density_g_per_ml": 0.5579319323042589,
+        "package_size_raw": "",
+        "package_size_si_value": null,
+        "package_size_si_unit": null,
+        "conversion_path": "vol→mass via density"
       },
       {
         "line_number": 12,
         "original_text": "1 tbsp fennel seeds",
         "ingredient_id": "INGR_00211",
         "ingredient_name": "Fennel seeds",
-        "canonical_qty": 14.786765,
-        "canonical_unit": "mL",
-        "form_id": "FORM_SEEDS",
+        "canonical_qty": null,
+        "canonical_unit": "g",
+        "form_id": "FORM_WHOLE",
         "quantity_original": "1",
         "unit_original": "tbsp",
+        "density_id": null,
         "density_g_per_ml": null,
-        "conversion_path": "vol→vol"
+        "package_size_raw": "",
+        "package_size_si_value": null,
+        "package_size_si_unit": null,
+        "conversion_path": null
       },
       {
         "line_number": 13,
         "original_text": "1 tsp ground coriander",
-        "ingredient_id": null,
-        "ingredient_name": null,
+        "ingredient_id": "INGR_00188",
+        "ingredient_name": "Coriander seed",
         "canonical_qty": null,
-        "canonical_unit": null,
-        "form_id": null,
+        "canonical_unit": "g",
+        "form_id": "FORM_GROUND",
         "quantity_original": "1",
         "unit_original": "tsp",
+        "density_id": null,
         "density_g_per_ml": null,
+        "package_size_raw": "",
+        "package_size_si_value": null,
+        "package_size_si_unit": null,
         "conversion_path": null
       }
     ]

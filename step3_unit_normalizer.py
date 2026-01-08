@@ -61,10 +61,11 @@ def normalize_unit(unit_str: str) -> Dict:
             result["original_dimension"] = UNIT_DIMENSIONS.get(unit_enum, "unknown")
             return result
     
-    # Not found - flag as nonstandard
+    # Not found - flag as nonstandard but default to 'EA' (count) to keep pipeline moving
     result["flag_nonstandard_unit"] = True
-    result["unit_normalization_notes"] = f"unrecognized_unit:{normalized}"
-    
+    result["unit_enum"] = "EA"
+    result["original_dimension"] = "count"
+    result["unit_normalization_notes"] = f"unrecognized_unit:{normalized}|defaulted_to_ea"
     return result
 
 

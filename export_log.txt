@@ -1,0 +1,89 @@
+================================================================================
+GROCERY ITEM CATALOG EXPORTER
+================================================================================
+📁 Using existing directory: flutter_assets/
+
+================================================================================
+EXPORTING GROCERY ITEM CATALOG
+================================================================================
+📖 Reading Excel: Grocery Item Catalog 251226.xlsx
+   📖 Loading workbook (read-only mode for large files)...
+📄 Using sheet: Grocery Item Catalog 251226
+📊 Total rows: 14,363
+📋 Found 13 columns: ['grocery_item_id', 'ingredient_id', 'primary_name', 'category', 'region_code', 'package_size_value_SI', 'package_unit_SI', 'package_label_display', 'priority_rank', 'typical_use']...
+🔄 Processing 14,362 data rows...
+📝 Writing to: flutter_assets/grocery_item_catalog.json
+⏱️  Progress updates every 250 rows
+
+   ⏳ Row 252/14,363 | Valid: 0 | Progress: 1.7% | Rate: 270 rows/sec | ETA: 52s
+   ⏳ Row 502/14,363 | Valid: 0 | Progress: 3.5% | Rate: 146 rows/sec | ETA: 95s
+   ⏳ Row 752/14,363 | Valid: 0 | Progress: 5.2% | Rate: 101 rows/sec | ETA: 135s
+   ⏳ Row 1,002/14,363 | Valid: 0 | Progress: 7.0% | Rate: 77 rows/sec | ETA: 174s
+   ⏳ Row 1,252/14,363 | Valid: 0 | Progress: 8.7% | Rate: 62 rows/sec | ETA: 212s
+   ⏳ Row 1,502/14,363 | Valid: 0 | Progress: 10.4% | Rate: 52 rows/sec | ETA: 249s
+   ⏳ Row 1,752/14,363 | Valid: 0 | Progress: 12.2% | Rate: 44 rows/sec | ETA: 284s
+   ⏳ Row 2,002/14,363 | Valid: 0 | Progress: 13.9% | Rate: 39 rows/sec | ETA: 321s
+   ⏳ Row 2,252/14,363 | Valid: 0 | Progress: 15.7% | Rate: 34 rows/sec | ETA: 357s
+   ⏳ Row 2,502/14,363 | Valid: 0 | Progress: 17.4% | Rate: 30 rows/sec | ETA: 395s
+   ⏳ Row 2,752/14,363 | Valid: 0 | Progress: 19.1% | Rate: 27 rows/sec | ETA: 436s
+   ⏳ Row 3,002/14,363 | Valid: 0 | Progress: 20.9% | Rate: 24 rows/sec | ETA: 476s
+   ⏳ Row 3,252/14,363 | Valid: 0 | Progress: 22.6% | Rate: 22 rows/sec | ETA: 515s
+   ⏳ Row 3,502/14,363 | Valid: 0 | Progress: 24.4% | Rate: 20 rows/sec | ETA: 551s
+   ⏳ Row 3,752/14,363 | Valid: 0 | Progress: 26.1% | Rate: 18 rows/sec | ETA: 583s
+   ⏳ Row 4,002/14,363 | Valid: 0 | Progress: 27.9% | Rate: 17 rows/sec | ETA: 613s
+   ⏳ Row 4,252/14,363 | Valid: 0 | Progress: 29.6% | Rate: 16 rows/sec | ETA: 640s
+   ⏳ Row 4,502/14,363 | Valid: 0 | Progress: 31.3% | Rate: 15 rows/sec | ETA: 667s
+   ⏳ Row 4,752/14,363 | Valid: 0 | Progress: 33.1% | Rate: 14 rows/sec | ETA: 690s
+   ⏳ Row 5,002/14,363 | Valid: 0 | Progress: 34.8% | Rate: 13 rows/sec | ETA: 710s
+   ⏳ Row 5,252/14,363 | Valid: 0 | Progress: 36.6% | Rate: 13 rows/sec | ETA: 728s
+   ⏳ Row 5,502/14,363 | Valid: 0 | Progress: 38.3% | Rate: 12 rows/sec | ETA: 744s
+   ⏳ Row 5,752/14,363 | Valid: 0 | Progress: 40.0% | Rate: 11 rows/sec | ETA: 758s
+   ⏳ Row 6,002/14,363 | Valid: 0 | Progress: 41.8% | Rate: 11 rows/sec | ETA: 769s
+   ⏳ Row 6,252/14,363 | Valid: 0 | Progress: 43.5% | Rate: 10 rows/sec | ETA: 779s
+   ⏳ Row 6,502/14,363 | Valid: 0 | Progress: 45.3% | Rate: 10 rows/sec | ETA: 786s
+   ⏳ Row 6,752/14,363 | Valid: 0 | Progress: 47.0% | Rate: 10 rows/sec | ETA: 791s
+   ⏳ Row 7,002/14,363 | Valid: 0 | Progress: 48.7% | Rate: 9 rows/sec | ETA: 794s
+   ⏳ Row 7,252/14,363 | Valid: 0 | Progress: 50.5% | Rate: 9 rows/sec | ETA: 795s
+   ⏳ Row 7,502/14,363 | Valid: 0 | Progress: 52.2% | Rate: 9 rows/sec | ETA: 794s
+   ⏳ Row 7,752/14,363 | Valid: 0 | Progress: 54.0% | Rate: 8 rows/sec | ETA: 792s
+   ⏳ Row 8,002/14,363 | Valid: 0 | Progress: 55.7% | Rate: 8 rows/sec | ETA: 788s
+   ⏳ Row 8,252/14,363 | Valid: 0 | Progress: 57.4% | Rate: 8 rows/sec | ETA: 781s
+   ⏳ Row 8,502/14,363 | Valid: 0 | Progress: 59.2% | Rate: 8 rows/sec | ETA: 772s
+   ⏳ Row 8,752/14,363 | Valid: 0 | Progress: 60.9% | Rate: 7 rows/sec | ETA: 761s
+   ⏳ Row 9,002/14,363 | Valid: 0 | Progress: 62.7% | Rate: 7 rows/sec | ETA: 748s
+   ⏳ Row 9,252/14,363 | Valid: 0 | Progress: 64.4% | Rate: 7 rows/sec | ETA: 737s
+   ⏳ Row 9,502/14,363 | Valid: 0 | Progress: 66.1% | Rate: 7 rows/sec | ETA: 721s
+   ⏳ Row 9,752/14,363 | Valid: 0 | Progress: 67.9% | Rate: 7 rows/sec | ETA: 703s
+   ⏳ Row 10,002/14,363 | Valid: 0 | Progress: 69.6% | Rate: 6 rows/sec | ETA: 685s
+   ⏳ Row 10,252/14,363 | Valid: 0 | Progress: 71.4% | Rate: 6 rows/sec | ETA: 663s
+   ⏳ Row 10,502/14,363 | Valid: 0 | Progress: 73.1% | Rate: 6 rows/sec | ETA: 638s
+   ⏳ Row 10,752/14,363 | Valid: 0 | Progress: 74.9% | Rate: 6 rows/sec | ETA: 611s
+   ⏳ Row 11,002/14,363 | Valid: 0 | Progress: 76.6% | Rate: 6 rows/sec | ETA: 581s
+   ⏳ Row 11,252/14,363 | Valid: 0 | Progress: 78.3% | Rate: 6 rows/sec | ETA: 549s
+   ⏳ Row 11,502/14,363 | Valid: 0 | Progress: 80.1% | Rate: 6 rows/sec | ETA: 516s
+   ⏳ Row 11,752/14,363 | Valid: 0 | Progress: 81.8% | Rate: 5 rows/sec | ETA: 480s
+   ⏳ Row 12,002/14,363 | Valid: 0 | Progress: 83.6% | Rate: 5 rows/sec | ETA: 441s
+   ⏳ Row 12,252/14,363 | Valid: 0 | Progress: 85.3% | Rate: 5 rows/sec | ETA: 401s
+   ⏳ Row 12,502/14,363 | Valid: 0 | Progress: 87.0% | Rate: 5 rows/sec | ETA: 359s
+   ⏳ Row 12,752/14,363 | Valid: 0 | Progress: 88.8% | Rate: 5 rows/sec | ETA: 316s
+   ⏳ Row 13,002/14,363 | Valid: 0 | Progress: 90.5% | Rate: 5 rows/sec | ETA: 271s
+   ⏳ Row 13,252/14,363 | Valid: 0 | Progress: 92.3% | Rate: 5 rows/sec | ETA: 225s
+   ⏳ Row 13,502/14,363 | Valid: 0 | Progress: 94.0% | Rate: 5 rows/sec | ETA: 178s
+   ⏳ Row 13,752/14,363 | Valid: 0 | Progress: 95.7% | Rate: 5 rows/sec | ETA: 129s
+   ⏳ Row 14,002/14,363 | Valid: 0 | Progress: 97.5% | Rate: 5 rows/sec | ETA: 77s
+   ⏳ Row 14,252/14,363 | Valid: 0 | Progress: 99.2% | Rate: 5 rows/sec | ETA: 24s
+
+✅ Completed!
+   📊 Processed 14,362 rows
+   ✅ Valid items: 0
+   ⏱️  Total time: 3151.1 seconds (52.5 minutes)
+   📝 Output: flutter_assets/grocery_item_catalog.json
+   📦 File size: 0.00 MB (0.0 KB)
+
+📊 Calculating statistics...
+   - Regions: 0 ()
+   - Sample ingredients: 0
+
+================================================================================
+✅ EXPORT COMPLETE
+================================================================================

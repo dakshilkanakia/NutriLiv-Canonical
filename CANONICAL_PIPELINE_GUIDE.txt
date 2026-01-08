@@ -145,7 +145,7 @@ What it does:
 - For each recipe, builds:
   - `recipe_id`
   - `recipe_name` (default “Unknown Recipe” for now)
-  - `base_servings` (default 4 if not present)
+  - Note: `yield` field comes from original recipe data (not stored in canonical JSON)
   - `ingredients_canonical`: list of dicts with:
     - `line_number` (from `ingredient_line_number`)
     - `original_text` (from `ingredient_original_text`)
@@ -291,7 +291,7 @@ What it does:
    - Merges original recipe data with canonical data:
      - Keeps all original fields (`recipe_title`, `ingredients_list`, `cooking_instructions`, etc.).
      - Adds:
-       - `base_servings` (from canonical or original or default 4).
+       - `yield` (from original recipe data, e.g., "Serves 3").
        - `ingredients_canonical` (structured list).
        - `canonical_ingredients_list` (simple string).
        - `canonical_processed_date` (ISO timestamp).
@@ -308,7 +308,7 @@ Important Fields in `recipes_canonical`:
 - `recipe_id`          – same as in `recipes_with_scores`.
 - `recipe_title`       – copied from original.
 - `ingredients_list`   – original human string (kept for backup).
-- `base_servings`      – base servings used for scaling canonical quantities.
+- `yield`              – serving size string (e.g., "Serves 3") from original recipe, used for scaling canonical quantities.
 - `ingredients_canonical` – **structured canonical ingredients**, each with:
   - `line_number`
   - `original_text`
