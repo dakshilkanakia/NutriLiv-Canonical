@@ -18,7 +18,7 @@ import openpyxl
 import json
 import os
 from typing import Dict, List
-from config import MASS_TO_GRAMS, VOLUME_TO_ML, UNIT_DIMENSIONS
+from config import MASS_TO_GRAMS, VOLUME_TO_ML, UNIT_DIMENSIONS, INGREDIENT_TABLE, DENSITY_TABLE
 
 # Output directory
 OUTPUT_DIR = "flutter_assets"
@@ -38,7 +38,7 @@ def export_ingredients():
     print("EXPORTING INGREDIENTS")
     print("=" * 80)
     
-    filepath = "Ingredient_Table_Populated_Master 251202.xlsx"
+    filepath = INGREDIENT_TABLE
     
     if not os.path.exists(filepath):
         print(f"❌ ERROR: File not found: {filepath}")
@@ -151,7 +151,7 @@ def export_densities():
     print("EXPORTING DENSITIES")
     print("=" * 80)
     
-    filepath = "Density_Table_Populated - Final 251202.xlsx"
+    filepath = DENSITY_TABLE
     
     if not os.path.exists(filepath):
         print(f"❌ ERROR: File not found: {filepath}")

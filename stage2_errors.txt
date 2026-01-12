@@ -1,50 +1,18 @@
 ================================================================================
 STAGE 2 PROCESSING ERROR REPORT
-Generated: 2026-01-05 06:54:52
+Generated: 2026-01-12 06:12:27
 ================================================================================
 
-Total ingredients processed: 128
-✓ Successful: 87 (68.0%)
-✗ Failed: 41 (32.0%)
+Total ingredients processed: 113
+✓ Successful: 102 (90.3%)
+✗ Failed: 11 (9.7%)
 
 ================================================================================
-MISSING INGREDIENTS (7)
+MISSING INGREDIENTS (3)
 ================================================================================
-Recipe 130, Line 5: "Pinch salt"
-  → Candidate name: pinch salt
-  → Error: LOW_CONFIDENCE
-  → Top candidates:
-     - Pine nuts (score: 0.79)
-     - Pineapple (score: 0.78)
-     - Garlic salt (score: 0.78)
-  → Action: Add ingredient to Ingredient Table
-
 Recipe 140, Line 7: "Zest of 2 limes"
   → Candidate name: zest of 2 lime
   → Error: NO_MATCH
-  → Action: Add ingredient to Ingredient Table
-
-Recipe 140, Line 8: "2 tbsp freshly squeezed lime juice"
-  → Candidate name: squeezed lime juice
-  → Error: LOW_CONFIDENCE
-  → Top candidates:
-     - Squid (score: 0.78)
-     - Sweet chili sauce (score: 0.70)
-     - Surimi (score: 0.66)
-  → Action: Add ingredient to Ingredient Table
-
-Recipe 140, Line 9: "Juice of ½ orange"
-  → Candidate name: juice
-  → Error: NO_MATCH
-  → Action: Add ingredient to Ingredient Table
-
-Recipe 140, Line 12: "1 small jalapeno chile seeded and minced"
-  → Candidate name: jalapeno chile
-  → Error: LOW_CONFIDENCE
-  → Top candidates:
-     - Jalapeño (score: 0.88)
-     - Jasmine rice (score: 0.73)
-     - Jasmine tea pearls (score: 0.71)
   → Action: Add ingredient to Ingredient Table
 
 Recipe 140, Line 21: "¼ cup unsweetened dried cranberries"
@@ -66,79 +34,13 @@ Recipe 140, Line 22: "3 tbsp chopped crystallized ginger"
   → Action: Add ingredient to Ingredient Table
 
 ================================================================================
-MISSING DENSITIES (12)
+MISSING DENSITIES (1)
 ================================================================================
-Recipe 133, Line 3: "½ tsp fennel seeds"
-  → Ingredient: Fennel seeds (INGR_00211)
-  → Form: FORM_WHOLE
-  → Conversion needed: vol→mass
-  → Action: Add density for INGR_00211 + FORM_WHOLE
-
-Recipe 133, Line 4: "1/2 tsp cumin seeds"
-  → Ingredient: Cumin seeds (INGR_00213)
-  → Form: FORM_WHOLE
-  → Conversion needed: vol→mass
-  → Action: Add density for INGR_00213 + FORM_WHOLE
-
-Recipe 136, Line 5: "1 heaping tbsp raw ground almonds"
-  → Ingredient: Almonds (INGR_00175)
-  → Form: FORM_GROUND
-  → Conversion needed: vol→mass
-  → Action: Add density for INGR_00175 + FORM_GROUND
-
-Recipe 139, Line 8: "¼ cup raw sesame seeds"
-  → Ingredient: Sesame seeds (INGR_00184)
-  → Form: FORM_WHOLE
-  → Conversion needed: vol→mass
-  → Action: Add density for INGR_00184 + FORM_WHOLE
-
-Recipe 140, Line 3: "1 tsp cumin seeds"
-  → Ingredient: Cumin seeds (INGR_00213)
-  → Form: FORM_WHOLE
-  → Conversion needed: vol→mass
-  → Action: Add density for INGR_00213 + FORM_WHOLE
-
-Recipe 140, Line 5: "½ tsp ground turmeric"
-  → Ingredient: Turmeric (INGR_00193)
-  → Form: FORM_GROUND
-  → Conversion needed: vol→mass
-  → Action: Add density for INGR_00193 + FORM_GROUND
-
-Recipe 140, Line 13: "1 tsp ground coriander"
-  → Ingredient: Coriander seed (INGR_00188)
-  → Form: FORM_GROUND
-  → Conversion needed: vol→mass
-  → Action: Add density for INGR_00188 + FORM_GROUND
-
-Recipe 140, Line 14: "1 tsp ground cardamom"
-  → Ingredient: Cardamom (INGR_00190)
-  → Form: FORM_GROUND
-  → Conversion needed: vol→mass
-  → Action: Add density for INGR_00190 + FORM_GROUND
-
-Recipe 140, Line 15: "1 tsp fennel seeds"
-  → Ingredient: Fennel seeds (INGR_00211)
-  → Form: FORM_WHOLE
-  → Conversion needed: vol→mass
-  → Action: Add density for INGR_00211 + FORM_WHOLE
-
 Recipe 140, Line 16: "½ tsp ground mustard"
   → Ingredient: Mustard (INGR_00279)
   → Form: FORM_GROUND
   → Conversion needed: vol→mass
   → Action: Add density for INGR_00279 + FORM_GROUND
-
-Recipe 143, Line 12: "1 tbsp fennel seeds"
-  → Ingredient: Fennel seeds (INGR_00211)
-  → Form: FORM_WHOLE
-  → Conversion needed: vol→mass
-  → Action: Add density for INGR_00211 + FORM_WHOLE
-
-Recipe 143, Line 13: "1 tsp ground coriander"
-  → Ingredient: Coriander seed (INGR_00188)
-  → Form: FORM_GROUND
-  → Conversion needed: vol→mass
-  → Action: Add density for INGR_00188 + FORM_GROUND
 
 ================================================================================
 MULTI-INGREDIENT LINES (1)

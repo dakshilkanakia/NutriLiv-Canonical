@@ -152,7 +152,9 @@
     "primary_name": "Celery",
     "category": "Produce",
     "default_form": "FORM_WHOLE",
-    "aliases": []
+    "aliases": [
+      "Stalk celery"
+    ]
   },
   "INGR_00021": {
     "ingredient_id": "INGR_00021",
@@ -358,7 +360,8 @@
     "category": "Produce",
     "default_form": "FORM_WHOLE",
     "aliases": [
-      "jalapeno"
+      "jalapeno",
+      "jalapeno chile"
     ]
   },
   "INGR_00045": {
@@ -367,7 +370,8 @@
     "category": "Produce",
     "default_form": "FORM_WHOLE",
     "aliases": [
-      "dinosaur kale"
+      "dinosaur kale",
+      "bunch dinosaur kale"
     ]
   },
   "INGR_00046": {
@@ -6296,7 +6300,8 @@
     "default_form": "FORM_DRIED",
     "aliases": [
       "goji",
-      "wolfberries"
+      "wolfberries",
+      "goji berry"
     ]
   },
   "INGR_01498": {

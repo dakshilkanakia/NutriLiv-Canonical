@@ -30,8 +30,8 @@ Key files in this directory:
   - `step5_ingredient_linking.py`
   - `steps6_9_form_and_conversion.py`
   - Excel reference files:
-    - `Ingredient_Table_Populated_Master 251202.xlsx`
-    - `Density_Table_Populated - Final 251202.xlsx`
+    - `Ingredient_Table_Populated_Master 260111.xlsx`
+    - `Density_Table_Populated - Final 260111.xlsx`
     - `Ingredient Display Policy 251202.xlsx`
     - `Form_Table_Populated_Complete.xlsx`
     - `Unit_Conversion_Constants_Table_Populated.xlsx`
@@ -85,8 +85,8 @@ STEP 1 – Configure Stage 2 Processor
 File: `config.py`
 
 - Make sure paths inside `config.py` point to the latest Excel files, e.g.:
-  - `Ingredient_Table_Populated_Master 251202.xlsx`
-  - `Density_Table_Populated - Final 251202.xlsx`
+  - `Ingredient_Table_Populated_Master 260111.xlsx`
+  - `Density_Table_Populated - Final 260111.xlsx`
   - `Ingredient Display Policy 251202.xlsx`
   - `Form_Table_Populated_Complete.xlsx`
   - `Unit_Conversion_Constants_Table_Populated.xlsx`
@@ -179,9 +179,9 @@ File: `export_reference_data.py`
 
 What it does:
 - Reads curated Excel tables:
-  - `Ingredient_Table_Populated_Master 251202.xlsx`
+  - `Ingredient_Table_Populated_Master 260111.xlsx`
   - `Ingredient Display Policy 251202.xlsx`
-  - `Density_Table_Populated - Final 251202.xlsx`
+  - `Density_Table_Populated - Final 260111.xlsx`
   - `Unit_Conversion_Constants_Table_Populated.xlsx`
 - Produces compact JSONs for use in Firebase and the app.
 

@@ -129,7 +129,7 @@ Display: [INGR_00123]
 ```
 Error: No density found for INGR_00456
 ```
-**Fix:** Add density to `Density_Table_Populated - Final 251202.xlsx`:
+**Fix:** Add density to `Density_Table_Populated - Final 260111.xlsx`:
 - Ingredient ID: `INGR_00456`
 - Form ID: (if applicable)
 - Density (g/mL): (value)

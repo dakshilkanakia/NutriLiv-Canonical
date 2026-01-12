@@ -1,104 +1,25 @@
 {
-  "generated_at": "2026-01-05T06:54:52.746782",
+  "generated_at": "2026-01-12T06:12:27.075420",
   "summary": {
-    "total": 128,
-    "successful": 87,
-    "failed": 41,
-    "success_rate": 0.6796875,
+    "total": 113,
+    "successful": 102,
+    "failed": 11,
+    "success_rate": 0.9026548672566371,
     "error_counts": {
-      "missing_ingredients": 7,
-      "missing_densities": 12,
-      "parsing_failures": 21,
+      "missing_ingredients": 3,
+      "missing_densities": 1,
+      "parsing_failures": 6,
       "multi_ingredient_lines": 1
     }
   },
   "errors": {
     "missing_ingredients": [
       {
-        "recipe_id": "130",
-        "line_number": 5,
-        "original_text": "Pinch salt",
-        "candidate_name": "pinch salt",
-        "error": "LOW_CONFIDENCE",
-        "candidates": [
-          {
-            "ingredient_id": "INGR_00182",
-            "primary_name": "Pine nuts",
-            "score": 0.79
-          },
-          {
-            "ingredient_id": "INGR_00065",
-            "primary_name": "Pineapple",
-            "score": 0.7796296296296296
-          },
-          {
-            "ingredient_id": "INGR_01475",
-            "primary_name": "Garlic salt",
-            "score": 0.7787878787878788
-          }
-        ]
-      },
-      {
         "recipe_id": "140",
         "line_number": 7,
         "original_text": "Zest of 2 limes",
         "candidate_name": "zest of 2 lime",
         "error": "NO_MATCH"
-      },
-      {
-        "recipe_id": "140",
-        "line_number": 8,
-        "original_text": "2 tbsp freshly squeezed lime juice",
-        "candidate_name": "squeezed lime juice",
-        "error": "LOW_CONFIDENCE",
-        "candidates": [
-          {
-            "ingredient_id": "INGR_00119",
-            "primary_name": "Squid",
-            "score": 0.7814035087719299
-          },
-          {
-            "ingredient_id": "INGR_01154",
-            "primary_name": "Sweet chili sauce",
-            "score": 0.6996200394033211
-          },
-          {
-            "ingredient_id": "INGR_01200",
-            "primary_name": "Surimi",
-            "score": 0.6631578947368422
-          }
-        ]
-      },
-      {
-        "recipe_id": "140",
-        "line_number": 9,
-        "original_text": "Juice of ½ orange",
-        "candidate_name": "juice",
-        "error": "NO_MATCH"
-      },
-      {
-        "recipe_id": "140",
-        "line_number": 12,
-        "original_text": "1 small jalapeno chile seeded and minced",
-        "candidate_name": "jalapeno chile",
-        "error": "LOW_CONFIDENCE",
-        "candidates": [
-          {
-            "ingredient_id": "INGR_00044",
-            "primary_name": "Jalapeño",
-            "score": 0.875
-          },
-          {
-            "ingredient_id": "INGR_00148",
-            "primary_name": "Jasmine rice",
-            "score": 0.7301587301587301
-          },
-          {
-            "ingredient_id": "INGR_01250",
-            "primary_name": "Jasmine tea pearls",
-            "score": 0.7119576719576719
-          }
-        ]
       },
       {
         "recipe_id": "140",
@@ -151,110 +72,11 @@
     ],
     "missing_densities": [
       {
-        "recipe_id": "133",
-        "line_number": 3,
-        "original_text": "½ tsp fennel seeds",
-        "ingredient_id": "INGR_00211",
-        "ingredient_name": "Fennel seeds",
-        "form_id": "FORM_WHOLE",
-        "conversion_needed": "vol→mass"
-      },
-      {
-        "recipe_id": "133",
-        "line_number": 4,
-        "original_text": "1/2 tsp cumin seeds",
-        "ingredient_id": "INGR_00213",
-        "ingredient_name": "Cumin seeds",
-        "form_id": "FORM_WHOLE",
-        "conversion_needed": "vol→mass"
-      },
-      {
-        "recipe_id": "136",
-        "line_number": 5,
-        "original_text": "1 heaping tbsp raw ground almonds",
-        "ingredient_id": "INGR_00175",
-        "ingredient_name": "Almonds",
-        "form_id": "FORM_GROUND",
-        "conversion_needed": "vol→mass"
-      },
-      {
-        "recipe_id": "139",
-        "line_number": 8,
-        "original_text": "¼ cup raw sesame seeds",
-        "ingredient_id": "INGR_00184",
-        "ingredient_name": "Sesame seeds",
-        "form_id": "FORM_WHOLE",
-        "conversion_needed": "vol→mass"
-      },
-      {
-        "recipe_id": "140",
-        "line_number": 3,
-        "original_text": "1 tsp cumin seeds",
-        "ingredient_id": "INGR_00213",
-        "ingredient_name": "Cumin seeds",
-        "form_id": "FORM_WHOLE",
-        "conversion_needed": "vol→mass"
-      },
-      {
-        "recipe_id": "140",
-        "line_number": 5,
-        "original_text": "½ tsp ground turmeric",
-        "ingredient_id": "INGR_00193",
-        "ingredient_name": "Turmeric",
-        "form_id": "FORM_GROUND",
-        "conversion_needed": "vol→mass"
-      },
-      {
-        "recipe_id": "140",
-        "line_number": 13,
-        "original_text": "1 tsp ground coriander",
-        "ingredient_id": "INGR_00188",
-        "ingredient_name": "Coriander seed",
-        "form_id": "FORM_GROUND",
-        "conversion_needed": "vol→mass"
-      },
-      {
-        "recipe_id": "140",
-        "line_number": 14,
-        "original_text": "1 tsp ground cardamom",
-        "ingredient_id": "INGR_00190",
-        "ingredient_name": "Cardamom",
-        "form_id": "FORM_GROUND",
-        "conversion_needed": "vol→mass"
-      },
-      {
-        "recipe_id": "140",
-        "line_number": 15,
-        "original_text": "1 tsp fennel seeds",
-        "ingredient_id": "INGR_00211",
-        "ingredient_name": "Fennel seeds",
-        "form_id": "FORM_WHOLE",
-        "conversion_needed": "vol→mass"
-      },
-      {
         "recipe_id": "140",
         "line_number": 16,
         "original_text": "½ tsp ground mustard",
         "ingredient_id": "INGR_00279",
         "ingredient_name": "Mustard",
-        "form_id": "FORM_GROUND",
-        "conversion_needed": "vol→mass"
-      },
-      {
-        "recipe_id": "143",
-        "line_number": 12,
-        "original_text": "1 tbsp fennel seeds",
-        "ingredient_id": "INGR_00211",
-        "ingredient_name": "Fennel seeds",
-        "form_id": "FORM_WHOLE",
-        "conversion_needed": "vol→mass"
-      },
-      {
-        "recipe_id": "143",
-        "line_number": 13,
-        "original_text": "1 tsp ground coriander",
-        "ingredient_id": "INGR_00188",
-        "ingredient_name": "Coriander seed",
         "form_id": "FORM_GROUND",
         "conversion_needed": "vol→mass"
       }
@@ -268,70 +90,10 @@
         "error": "MULTI_INGREDIENT_LINE"
       },
       {
-        "recipe_id": "130",
-        "line_number": 5,
-        "original_text": "Pinch salt",
-        "candidate_name": "pinch salt",
-        "error": "LOW_CONFIDENCE",
-        "candidates": [
-          {
-            "ingredient_id": "INGR_00182",
-            "primary_name": "Pine nuts",
-            "score": 0.79
-          },
-          {
-            "ingredient_id": "INGR_00065",
-            "primary_name": "Pineapple",
-            "score": 0.7796296296296296
-          },
-          {
-            "ingredient_id": "INGR_01475",
-            "primary_name": "Garlic salt",
-            "score": 0.7787878787878788
-          }
-        ]
-      },
-      {
-        "recipe_id": "133",
-        "line_number": 3,
-        "original_text": "½ tsp fennel seeds",
-        "conversion_notes": "missing_density"
-      },
-      {
-        "recipe_id": "133",
-        "line_number": 4,
-        "original_text": "1/2 tsp cumin seeds",
-        "conversion_notes": "missing_density"
-      },
-      {
-        "recipe_id": "136",
-        "line_number": 5,
-        "original_text": "1 heaping tbsp raw ground almonds",
-        "conversion_notes": "missing_density"
-      },
-      {
         "recipe_id": "137",
         "line_number": 7,
         "original_text": "molasses taste",
         "conversion_notes": "missing_quantity"
-      },
-      {
-        "recipe_id": "139",
-        "line_number": 8,
-        "original_text": "¼ cup raw sesame seeds",
-        "conversion_notes": "missing_density"
-      },
-      {
-        "recipe_id": "140",
-        "line_number": 3,
-        "original_text": "1 tsp cumin seeds",
-        "conversion_notes": "missing_density"
-      },
-      {
-        "recipe_id": "140",
-        "line_number": 5,
-        "original_text": "½ tsp ground turmeric",
-        "conversion_notes": "missing_density"
       },
       {
         "recipe_id": "140",
@@ -339,79 +101,6 @@
         "original_text": "Zest of 2 limes",
         "candidate_name": "zest of 2 lime",
         "error": "NO_MATCH"
-      },
-      {
-        "recipe_id": "140",
-        "line_number": 8,
-        "original_text": "2 tbsp freshly squeezed lime juice",
-        "candidate_name": "squeezed lime juice",
-        "error": "LOW_CONFIDENCE",
-        "candidates": [
-          {
-            "ingredient_id": "INGR_00119",
-            "primary_name": "Squid",
-            "score": 0.7814035087719299
-          },
-          {
-            "ingredient_id": "INGR_01154",
-            "primary_name": "Sweet chili sauce",
-            "score": 0.6996200394033211
-          },
-          {
-            "ingredient_id": "INGR_01200",
-            "primary_name": "Surimi",
-            "score": 0.6631578947368422
-          }
-        ]
-      },
-      {
-        "recipe_id": "140",
-        "line_number": 9,
-        "original_text": "Juice of ½ orange",
-        "candidate_name": "juice",
-        "error": "NO_MATCH"
-      },
-      {
-        "recipe_id": "140",
-        "line_number": 12,
-        "original_text": "1 small jalapeno chile seeded and minced",
-        "candidate_name": "jalapeno chile",
-        "error": "LOW_CONFIDENCE",
-        "candidates": [
-          {
-            "ingredient_id": "INGR_00044",
-            "primary_name": "Jalapeño",
-            "score": 0.875
-          },
-          {
-            "ingredient_id": "INGR_00148",
-            "primary_name": "Jasmine rice",
-            "score": 0.7301587301587301
-          },
-          {
-            "ingredient_id": "INGR_01250",
-            "primary_name": "Jasmine tea pearls",
-            "score": 0.7119576719576719
-          }
-        ]
-      },
-      {
-        "recipe_id": "140",
-        "line_number": 13,
-        "original_text": "1 tsp ground coriander",
-        "conversion_notes": "missing_density"
-      },
-      {
-        "recipe_id": "140",
-        "line_number": 14,
-        "original_text": "1 tsp ground cardamom",
-        "conversion_notes": "missing_density"
-      },
-      {
-        "recipe_id": "140",
-        "line_number": 15,
-        "original_text": "1 tsp fennel seeds",
-        "conversion_notes": "missing_density"
       },
       {
         "recipe_id": "140",
@@ -466,18 +155,6 @@
             "score": 0.6956220095693779
           }
         ]
-      },
-      {
-        "recipe_id": "143",
-        "line_number": 12,
-        "original_text": "1 tbsp fennel seeds",
-        "conversion_notes": "missing_density"
-      },
-      {
-        "recipe_id": "143",
-        "line_number": 13,
-        "original_text": "1 tsp ground coriander",
-        "conversion_notes": "missing_density"
       }
     ],
     "unit_not_recognized": [],

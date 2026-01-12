@@ -13,9 +13,9 @@ ERROR_TXT_FILE = "stage2_errors.txt"
 ERROR_JSON_FILE = "stage2_errors.json"
 
 # Reference table paths
-INGREDIENT_TABLE = "Ingredient_Table_Populated_Master 251202.xlsx"
+INGREDIENT_TABLE = "Ingredient_Table_Populated_Master 260111.xlsx"
 FORM_TABLE = "Form_Table_Populated_Complete.xlsx"
-DENSITY_TABLE = "Density_Table_Populated - Final 251202.xlsx"
+DENSITY_TABLE = "Density_Table_Populated - Final 260111.xlsx"
 CONVERSION_TABLE = "Unit_Conversion_Constants_Table_Populated.xlsx"
 MEANING_TOKENS_FILE = "Meaning-carrying tokens - allow list.txt"
 

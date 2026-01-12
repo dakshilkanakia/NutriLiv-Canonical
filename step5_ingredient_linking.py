@@ -40,7 +40,10 @@ REMOVE_MODIFIERS = [
     'thin', 'thick', 'toasted',
     # Common color/variety/processing descriptors that should be stripped
     'red', 'yellow', 'green', 'orange', 'black', 'brown',
-    'medjool', 'dried', 'freshly', 'ground', 'whole'
+    'medjool', 'dried', 'freshly', 'ground', 'whole',
+    # Quantity-style descriptors that shouldn't affect ingredient identity
+    # (handled as special quantity/shape, not part of the name)
+    'pinch', 'dash',
 ]
 
 # --- Jaro-Winkler implementation (lightweight, no extra deps) ---
@@ -139,9 +142,9 @@ def extract_ingredient_name(ingredient_text: str, qty_str: str, unit_str: str,
     if unit_str and unit_str.strip():
         unit_lower = unit_str.strip().lower()
         if unit_lower in STANDARD_UNITS:
-        unit_pattern = re.escape(unit_str.strip())
-        text = re.sub(f'^{unit_pattern}\\s*', '', text, flags=re.IGNORECASE)
-        text = re.sub(f'\\s+{unit_pattern}\\s+', ' ', text, flags=re.IGNORECASE)
+            unit_pattern = re.escape(unit_str.strip())
+            text = re.sub(f'^{unit_pattern}\\s*', '', text, flags=re.IGNORECASE)
+            text = re.sub(f'\\s+{unit_pattern}\\s+', ' ', text, flags=re.IGNORECASE)
     
     # Remove "of" after unit (e.g., "1 cup of sugar" -> "sugar")
     text = re.sub(r'^of\s+', '', text, flags=re.IGNORECASE)
@@ -159,6 +162,15 @@ def extract_ingredient_name(ingredient_text: str, qty_str: str, unit_str: str,
     text = re.sub(r'\([^)]*cm[^)]*\)\s*', '', text, flags=re.IGNORECASE)
     text = re.sub(r'\b\d+\s*-?\s*inch\b\s*', '', text, flags=re.IGNORECASE)
     text = re.sub(r'\b\d+\s*-?\s*cm\b\s*', '', text, flags=re.IGNORECASE)
+
+    # Remove simple juicing descriptors in parentheses:
+    # e.g., "1 lime (juiced)" -> "1 lime"
+    text = re.sub(r'\(\s*juiced\s*\)\s*', '', text, flags=re.IGNORECASE)
+
+    # Handle leading "pinch" used as a quantity descriptor:
+    # e.g., "Pinch salt" -> "salt", "a pinch of salt" -> "salt"
+    text = re.sub(r'^(a\s+)?pinch\s+of\s+', '', text, flags=re.IGNORECASE)
+    text = re.sub(r'^(a\s+)?pinch\s+', '', text, flags=re.IGNORECASE)
     
     # Remove "piece" when it's clearly a size descriptor
     text = re.sub(r'\bpiece\s+', '', text, flags=re.IGNORECASE)
@@ -213,7 +225,8 @@ def extract_ingredient_name(ingredient_text: str, qty_str: str, unit_str: str,
                 break
     
     # Normalize for matching
-    normalized = normalize_ingredient_name(text, meaning_tokens)
+    # First, try to preserve compound ingredient names (e.g., "green onion") before stripping color modifiers
+    normalized = normalize_ingredient_name_preserving_compounds(text, meaning_tokens)
 
     # Fallback: if normalization stripped everything, rebuild from backup by dropping only modifiers
     if not normalized:
@@ -229,11 +242,12 @@ def extract_ingredient_name(ingredient_text: str, qty_str: str, unit_str: str,
     return result
 
 
-def normalize_ingredient_name(text: str, meaning_tokens: Dict) -> str:
+def normalize_ingredient_name_preserving_compounds(text: str, meaning_tokens: Dict) -> str:
     """
-    Normalize ingredient name for matching
+    Normalize ingredient name for matching, preserving compound names like "green onion"
     - Lowercase
     - Remove prep modifiers (but keep meaning-carrying descriptors)
+    - Preserve color modifiers if they appear to be part of compound ingredient names
     - Singularize
     """
     if not text:
@@ -244,8 +258,39 @@ def normalize_ingredient_name(text: str, meaning_tokens: Dict) -> str:
     # Remove extra whitespace
     text = ' '.join(text.split())
     
+    # Color modifiers that might be part of compound names
+    COLOR_MODIFIERS = ['red', 'yellow', 'green', 'orange', 'black', 'brown']
+    
+    # Check if text starts with a color modifier followed by a noun
+    # This is a heuristic: if we have "color + noun" pattern, preserve the color
+    # e.g., "green onion", "red radish", "black pepper"
+    words = text.split()
+    preserved_colors = set()
+    
+    # Simple heuristic: if first word is a color and we have 2+ words, preserve it
+    # More sophisticated: check if color + next word forms a common compound pattern
+    if len(words) >= 2 and words[0] in COLOR_MODIFIERS:
+        # Preserve the color - it's likely part of compound name like "green onion"
+        preserved_colors.add(words[0])
+    
+    # Also check for color in middle positions if followed by a noun
+    for i in range(1, len(words) - 1):
+        if words[i] in COLOR_MODIFIERS:
+            # If color is between other words, it might be part of compound
+            # e.g., "large red radish" -> preserve "red" if "red radish" is meaningful
+            preserved_colors.add(words[i])
+    
     # Remove prep/quality modifiers that don't identify the ingredient
+    # BUT preserve color modifiers that are part of potential compound names
+    modifiers_to_remove = []
     for modifier in REMOVE_MODIFIERS:
+        # Skip color modifiers if they're preserved as part of compounds
+        if modifier in COLOR_MODIFIERS and modifier in preserved_colors:
+            continue
+        modifiers_to_remove.append(modifier)
+    
+    # Now remove the modifiers
+    for modifier in modifiers_to_remove:
         # Use word boundaries to avoid partial matches
         pattern = r'\b' + re.escape(modifier) + r'\b'
         text = re.sub(pattern, '', text, flags=re.IGNORECASE)
@@ -288,6 +333,14 @@ def normalize_ingredient_name(text: str, meaning_tokens: Dict) -> str:
     text = ' '.join(singularized_words)
     
     return text.strip()
+
+
+def normalize_ingredient_name(text: str, meaning_tokens: Dict) -> str:
+    """
+    Normalize ingredient name for matching (legacy function, kept for compatibility)
+    Calls the new preserving version
+    """
+    return normalize_ingredient_name_preserving_compounds(text, meaning_tokens)
 
 
 def match_ingredient(candidate_name: str, reference_data, extraction_notes: List[str]) -> Dict:
