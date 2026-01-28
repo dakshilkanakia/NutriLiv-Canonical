@@ -1,0 +1,190 @@
+{
+  "disliked_foods": {
+    "Cilantro": {
+      "ingredient_ids": [
+        "INGR_00024"
+      ]
+    },
+    "Mushrooms": {
+      "ingredient_ids": [
+        "INGR_00053",
+        "INGR_01138",
+        "INGR_01294",
+        "INGR_01295",
+        "INGR_01296",
+        "INGR_01297",
+        "INGR_01298",
+        "INGR_01299",
+        "INGR_01300",
+        "INGR_01553",
+        "INGR_01604"
+      ]
+    },
+    "Onions": {
+      "ingredient_ids": [
+        "INGR_00023",
+        "INGR_00042",
+        "INGR_00047",
+        "INGR_00057",
+        "INGR_00073",
+        "INGR_01042",
+        "INGR_01043",
+        "INGR_01106",
+        "INGR_01402",
+        "INGR_01403",
+        "INGR_01474",
+        "INGR_01484"
+      ]
+    },
+    "Olives": {
+      "ingredient_ids": [
+        "INGR_00056",
+        "INGR_00219",
+        "INGR_00248",
+        "INGR_01374",
+        "INGR_01375",
+        "INGR_01376",
+        "INGR_01377",
+        "INGR_01459",
+        "INGR_01486",
+        "INGR_01487",
+        "INGR_01488"
+      ]
+    },
+    "Brussels sprouts": {
+      "ingredient_ids": [
+        "INGR_00014"
+      ]
+    },
+    "Eggplant": {
+      "ingredient_ids": [
+        "INGR_00035"
+      ]
+    },
+    "Blue cheese": {
+      "ingredient_ids": [
+        "INGR_01439"
+      ]
+    },
+    "Anchovies": {
+      "ingredient_ids": [
+        "INGR_00113",
+        "INGR_00249",
+        "INGR_01196",
+        "INGR_01461"
+      ]
+    },
+    "Tofu": {
+      "ingredient_ids": [
+        "INGR_00330",
+        "INGR_01359",
+        "INGR_01360"
+      ]
+    },
+    "Coconut": {
+      "ingredient_ids": [
+        "INGR_00225",
+        "INGR_00238",
+        "INGR_00301",
+        "INGR_01067",
+        "INGR_01141",
+        "INGR_01184",
+        "INGR_01190",
+        "INGR_01233",
+        "INGR_01500",
+        "INGR_01502",
+        "INGR_01505",
+        "INGR_01506",
+        "INGR_01520"
+      ]
+    },
+    "Shrimp": {
+      "ingredient_ids": [
+        "INGR_00114",
+        "INGR_00315",
+        "INGR_01225"
+      ]
+    },
+    "Scallops": {
+      "ingredient_ids": [
+        "INGR_00115"
+      ]
+    },
+    "Mussels": {
+      "ingredient_ids": [
+        "INGR_00116"
+      ]
+    },
+    "Clams": {
+      "ingredient_ids": [
+        "INGR_00117"
+      ]
+    },
+    "Crab": {
+      "ingredient_ids": [
+        "INGR_00120"
+      ]
+    },
+    "Lobster": {
+      "ingredient_ids": [
+        "INGR_00121"
+      ]
+    },
+    "Fish sauce": {
+      "ingredient_ids": [
+        "INGR_00270"
+      ]
+    },
+    "Mayonnaise": {
+      "ingredient_ids": [
+        "INGR_00280"
+      ]
+    },
+    "Tomatoes": {
+      "ingredient_ids": [
+        "INGR_00081",
+        "INGR_00235",
+        "INGR_00236",
+        "INGR_00237",
+        "INGR_00278",
+        "INGR_00281",
+        "INGR_01044",
+        "INGR_01045",
+        "INGR_01046",
+        "INGR_01174",
+        "INGR_01175",
+        "INGR_01290",
+        "INGR_01291",
+        "INGR_01382",
+        "INGR_01404",
+        "INGR_01405",
+        "INGR_01548",
+        "INGR_01549",
+        "INGR_01550",
+        "INGR_01551",
+        "INGR_01552",
+        "INGR_01621",
+        "INGR_01624"
+      ]
+    },
+    "Beetroot": {
+      "ingredient_ids": [
+        "INGR_00009"
+      ]
+    },
+    "Celery": {
+      "ingredient_ids": [
+        "INGR_00020"
+      ]
+    },
+    "Avocado": {
+      "ingredient_ids": [
+        "INGR_00006"
+      ]
+    }
+  },
+  "metadata": {
+    "export_date": "2026-01-23T09:24:35.141919",
+    "total_dislikes": 22
+  }
+}

@@ -1,0 +1,2081 @@
+{
+  "supplements": {
+    "SUPP_00052": {
+      "supplement_id": "SUPP_00052",
+      "item_name": "Curcumin supplement",
+      "anti_cancer_stem_cell": "YES",
+      "metabolic_pathways_blocked": [
+        "Glucose",
+        "Glutamine",
+        "Fatty Acid"
+      ],
+      "improved_standard_treatments": [
+        "Chemotherapy",
+        "Immunotherapy",
+        "Radiotherapy",
+        "Hormone Therapy"
+      ],
+      "reduced_adverse_effects": [
+        "Chemotherapy",
+        "Radiotherapy",
+        "Hormone Therapy"
+      ],
+      "nutri_points": 300
+    },
+    "SUPP_00026": {
+      "supplement_id": "SUPP_00026",
+      "item_name": "Quercetin supplement",
+      "anti_cancer_stem_cell": "YES",
+      "metabolic_pathways_blocked": [
+        "Glucose",
+        "Glutamine",
+        "Fatty Acid"
+      ],
+      "improved_standard_treatments": [
+        "Chemotherapy",
+        "Immunotherapy",
+        "Radiotherapy",
+        "Hormone Therapy"
+      ],
+      "reduced_adverse_effects": [
+        "Chemotherapy",
+        "Immunotherapy",
+        "Radiotherapy",
+        "Hormone Therapy"
+      ],
+      "nutri_points": 270
+    },
+    "SUPP_00036": {
+      "supplement_id": "SUPP_00036",
+      "item_name": "Ursolic Acid supplement",
+      "anti_cancer_stem_cell": "YES",
+      "metabolic_pathways_blocked": [
+        "Glucose"
+      ],
+      "improved_standard_treatments": [
+        "Chemotherapy",
+        "Immunotherapy",
+        "Radiotherapy"
+      ],
+      "reduced_adverse_effects": [
+        "Chemotherapy",
+        "Immunotherapy",
+        "Radiotherapy"
+      ],
+      "nutri_points": 270
+    },
+    "SUPP_00042": {
+      "supplement_id": "SUPP_00042",
+      "item_name": "Genistein supplement",
+      "anti_cancer_stem_cell": "YES",
+      "metabolic_pathways_blocked": [
+        "Glucose",
+        "Glutamine",
+        "Fatty Acid"
+      ],
+      "improved_standard_treatments": [
+        "Chemotherapy",
+        "Immunotherapy",
+        "Hormone Therapy",
+        "Radiotherapy"
+      ],
+      "reduced_adverse_effects": [
+        "Chemotherapy",
+        "Radiotherapy"
+      ],
+      "nutri_points": 270
+    },
+    "SUPP_00053": {
+      "supplement_id": "SUPP_00053",
+      "item_name": "Apigenin supplement",
+      "anti_cancer_stem_cell": "YES",
+      "metabolic_pathways_blocked": [
+        "Glucose",
+        "Glutamine",
+        "Fatty Acid"
+      ],
+      "improved_standard_treatments": [
+        "Chemotherapy",
+        "Immunotherapy"
+      ],
+      "reduced_adverse_effects": [
+        "Chemotherapy"
+      ],
+      "nutri_points": 270
+    },
+    "SUPP_00075": {
+      "supplement_id": "SUPP_00075",
+      "item_name": "Melatonin supplement",
+      "anti_cancer_stem_cell": "Yes",
+      "metabolic_pathways_blocked": [
+        "Glucose",
+        "Glutamine",
+        "Fatty Acid"
+      ],
+      "improved_standard_treatments": [
+        "Chemotherapy",
+        "Hormone Therapy",
+        "Immunotherapy",
+        "Radiotherapy"
+      ],
+      "reduced_adverse_effects": [
+        "Chemotherapy",
+        "Hormone Therapy",
+        "Immunotherapy",
+        "Radiotherapy"
+      ],
+      "nutri_points": 260
+    },
+    "SUPP_00091": {
+      "supplement_id": "SUPP_00091",
+      "item_name": "Cayenne Pepper supplement",
+      "anti_cancer_stem_cell": "YES",
+      "metabolic_pathways_blocked": [
+        "Glucose",
+        "Fatty Acids"
+      ],
+      "improved_standard_treatments": [
+        "Chemotherapy",
+        "Immunotherapy",
+        "Radiotherapy"
+      ],
+      "reduced_adverse_effects": [
+        "Chemotherapy",
+        "Immunotherapy",
+        "Radiotherapy"
+      ],
+      "nutri_points": 260
+    },
+    "SUPP_00014": {
+      "supplement_id": "SUPP_00014",
+      "item_name": "Ginger supplement",
+      "anti_cancer_stem_cell": "YES",
+      "metabolic_pathways_blocked": [
+        "Glucose",
+        "Glutamine"
+      ],
+      "improved_standard_treatments": [
+        "Chemotherapy"
+      ],
+      "reduced_adverse_effects": [
+        "Chemotherapy",
+        "Radiotherapy"
+      ],
+      "nutri_points": 250
+    },
+    "SUPP_00049": {
+      "supplement_id": "SUPP_00049",
+      "item_name": "Blueberry Extract supplement",
+      "anti_cancer_stem_cell": "YES",
+      "metabolic_pathways_blocked": [
+        "Glucose"
+      ],
+      "improved_standard_treatments": [
+        "Chemotherapy",
+        "Radiotherapy"
+      ],
+      "reduced_adverse_effects": [
+        "Chemotherapy"
+      ],
+      "nutri_points": 250
+    },
+    "SUPP_00101": {
+      "supplement_id": "SUPP_00101",
+      "item_name": "Propolis supplement",
+      "anti_cancer_stem_cell": "YES",
+      "metabolic_pathways_blocked": [
+        "Glucose",
+        "Fatty Acids"
+      ],
+      "improved_standard_treatments": [
+        "Chemotherapy",
+        "Radiotherapy"
+      ],
+      "reduced_adverse_effects": [
+        "Chemotherapy",
+        "Radiotherapy"
+      ],
+      "nutri_points": 250
+    },
+    "SUPP_00108": {
+      "supplement_id": "SUPP_00108",
+      "item_name": "Berberine supplement",
+      "anti_cancer_stem_cell": "YES",
+      "metabolic_pathways_blocked": [
+        "Glucose",
+        "Glutamine",
+        "Fatty Acid"
+      ],
+      "improved_standard_treatments": [
+        "Chemotherapy",
+        "Radiotherapy",
+        "Immunotherapy",
+        "Hormone Therapy"
+      ],
+      "reduced_adverse_effects": [
+        "Chemotherapy",
+        "Radiotherapy",
+        "Immunotherapy",
+        "Hormone Therapy"
+      ],
+      "nutri_points": 250
+    },
+    "SUPP_00009": {
+      "supplement_id": "SUPP_00009",
+      "item_name": "Pomegranate Seed Extract supplement",
+      "anti_cancer_stem_cell": "YES",
+      "metabolic_pathways_blocked": [
+        "Glucose"
+      ],
+      "improved_standard_treatments": [
+        "Chemotherapy",
+        "Radiotherapy",
+        "Immunotherapy",
+        "Hormone Therapy"
+      ],
+      "reduced_adverse_effects": [
+        "Chemotherapy",
+        "Radiotherapy",
+        "Immunotherapy",
+        "Hormone Therapy"
+      ],
+      "nutri_points": 240
+    },
+    "SUPP_00030": {
+      "supplement_id": "SUPP_00030",
+      "item_name": "Artemisinin supplement",
+      "anti_cancer_stem_cell": "YES",
+      "metabolic_pathways_blocked": [
+        "Glucose",
+        "Fatty Acids"
+      ],
+      "improved_standard_treatments": [
+        "Chemotherapy",
+        "Immunotherapy",
+        "Radiotherapy"
+      ],
+      "reduced_adverse_effects": [
+        "Chemotherapy",
+        "Radiotherapy"
+      ],
+      "nutri_points": 240
+    },
+    "SUPP_00040": {
+      "supplement_id": "SUPP_00040",
+      "item_name": "Garlic supplement",
+      "anti_cancer_stem_cell": "YES",
+      "metabolic_pathways_blocked": [
+        "Glucose",
+        "Fatty Acid"
+      ],
+      "improved_standard_treatments": [
+        "Chemotherapy",
+        "Immunotherapy",
+        "Radiotherapy",
+        "Hormone Therapy"
+      ],
+      "reduced_adverse_effects": [
+        "Chemotherapy",
+        "Immunotherapy",
+        "Radiotherapy",
+        "Hormone Therapy"
+      ],
+      "nutri_points": 240
+    },
+    "SUPP_00048": {
+      "supplement_id": "SUPP_00048",
+      "item_name": "Grape supplement",
+      "anti_cancer_stem_cell": "YES",
+      "metabolic_pathways_blocked": [
+        "Glucose",
+        "Fatty Acid"
+      ],
+      "improved_standard_treatments": [
+        "Chemotherapy",
+        "Radiotherapy"
+      ],
+      "reduced_adverse_effects": [
+        "Chemotherapy",
+        "Radiotherapy"
+      ],
+      "nutri_points": 240
+    },
+    "SUPP_00056": {
+      "supplement_id": "SUPP_00056",
+      "item_name": "Green Tea supplement",
+      "anti_cancer_stem_cell": "YES",
+      "metabolic_pathways_blocked": [
+        "Glucose",
+        "Glutamine",
+        "Fatty Acid"
+      ],
+      "improved_standard_treatments": [
+        "Chemotherapy",
+        "Radiotherapy",
+        "Immunotherapy",
+        "Hormone Therapy"
+      ],
+      "reduced_adverse_effects": [
+        "Chemotherapy",
+        "Radiotherapy",
+        "Hormone Therapy"
+      ],
+      "nutri_points": 240
+    },
+    "SUPP_00079": {
+      "supplement_id": "SUPP_00079",
+      "item_name": "Resveratrol supplement",
+      "anti_cancer_stem_cell": "YES",
+      "metabolic_pathways_blocked": [
+        "Glucose",
+        "Glutamine",
+        "Fatty Acid"
+      ],
+      "improved_standard_treatments": [
+        "Chemotherapy",
+        "Hormone Therapy",
+        "Radiotherapy"
+      ],
+      "reduced_adverse_effects": [
+        "Chemotherapy",
+        "Radiotherapy"
+      ],
+      "nutri_points": 240
+    },
+    "SUPP_00084": {
+      "supplement_id": "SUPP_00084",
+      "item_name": "Zinc supplement",
+      "anti_cancer_stem_cell": "No Evidence",
+      "metabolic_pathways_blocked": [
+        "Glucose",
+        "Glutamine"
+      ],
+      "improved_standard_treatments": [
+        "Chemotherapy",
+        "Immunotherapy",
+        "Radiotherapy"
+      ],
+      "reduced_adverse_effects": [
+        "Chemotherapy",
+        "Radiotherapy"
+      ],
+      "nutri_points": 240
+    },
+    "SUPP_00092": {
+      "supplement_id": "SUPP_00092",
+      "item_name": "Dandelion supplement",
+      "anti_cancer_stem_cell": "YES",
+      "metabolic_pathways_blocked": [
+        "Glucose"
+      ],
+      "improved_standard_treatments": [
+        "Chemotherapy"
+      ],
+      "reduced_adverse_effects": [
+        "Chemotherapy"
+      ],
+      "nutri_points": 240
+    },
+    "SUPP_00005": {
+      "supplement_id": "SUPP_00005",
+      "item_name": "Aronia Berry supplement",
+      "anti_cancer_stem_cell": "YES",
+      "metabolic_pathways_blocked": [
+        "Glucose",
+        "Fatty Acid"
+      ],
+      "improved_standard_treatments": [
+        "Chemotherapy",
+        "Radiotherapy"
+      ],
+      "reduced_adverse_effects": [
+        "Chemotherapy",
+        "Radiotherapy"
+      ],
+      "nutri_points": 230
+    },
+    "SUPP_00010": {
+      "supplement_id": "SUPP_00010",
+      "item_name": "Cordyceps supplement",
+      "anti_cancer_stem_cell": "No Evidence",
+      "metabolic_pathways_blocked": [
+        "Glucose"
+      ],
+      "improved_standard_treatments": [
+        "Chemotherapy",
+        "Immunotherapy",
+        "Radiotherapy"
+      ],
+      "reduced_adverse_effects": [
+        "Chemotherapy",
+        "Immunotherapy",
+        "Radiotherapy"
+      ],
+      "nutri_points": 230
+    },
+    "SUPP_00057": {
+      "supplement_id": "SUPP_00057",
+      "item_name": "Mangosteen supplement",
+      "anti_cancer_stem_cell": "YES",
+      "metabolic_pathways_blocked": [
+        "Glucose",
+        "Fatty Acids"
+      ],
+      "improved_standard_treatments": [
+        "Chemotherapy",
+        "Radiotherapy",
+        "Immunotherapy"
+      ],
+      "reduced_adverse_effects": [
+        "Chemotherapy",
+        "Radiotherapy",
+        "Immunotherapy"
+      ],
+      "nutri_points": 230
+    },
+    "SUPP_00070": {
+      "supplement_id": "SUPP_00070",
+      "item_name": "IP6 supplement",
+      "anti_cancer_stem_cell": "YES",
+      "metabolic_pathways_blocked": [
+        "Glucose",
+        "Fatty Acids"
+      ],
+      "improved_standard_treatments": [
+        "Chemotherapy",
+        "Immunotherapy",
+        "Radiotherapy"
+      ],
+      "reduced_adverse_effects": [
+        "Chemotherapy"
+      ],
+      "nutri_points": 230
+    },
+    "SUPP_00085": {
+      "supplement_id": "SUPP_00085",
+      "item_name": "Luteolin supplement",
+      "anti_cancer_stem_cell": "YES",
+      "metabolic_pathways_blocked": [
+        "Glucose"
+      ],
+      "improved_standard_treatments": [
+        "Chemotherapy",
+        "Immunotherapy",
+        "Radiotherapy",
+        "Hormone Therapy"
+      ],
+      "reduced_adverse_effects": [
+        "Chemotherapy",
+        "Immunotherapy",
+        "Radiotherapy",
+        "Hormone Therapy"
+      ],
+      "nutri_points": 230
+    },
+    "SUPP_00090": {
+      "supplement_id": "SUPP_00090",
+      "item_name": "Beta-glucans supplement",
+      "anti_cancer_stem_cell": "YES",
+      "metabolic_pathways_blocked": [
+        "Glucose",
+        "Fatty Acids"
+      ],
+      "improved_standard_treatments": [
+        "Chemotherapy",
+        "Immunotherapy",
+        "Radiotherapy"
+      ],
+      "reduced_adverse_effects": [
+        "Chemotherapy",
+        "Radiotherapy"
+      ],
+      "nutri_points": 230
+    },
+    "SUPP_00098": {
+      "supplement_id": "SUPP_00098",
+      "item_name": "Vitamin C supplement",
+      "anti_cancer_stem_cell": "YES",
+      "metabolic_pathways_blocked": [
+        "Glucose"
+      ],
+      "improved_standard_treatments": [
+        "Chemotherapy",
+        "Immunotherapy",
+        "Radiotherapy"
+      ],
+      "reduced_adverse_effects": [
+        "Chemotherapy",
+        "Immunotherapy",
+        "Radiotherapy"
+      ],
+      "nutri_points": 230
+    },
+    "SUPP_00050": {
+      "supplement_id": "SUPP_00050",
+      "item_name": "Ellagic Acid supplement",
+      "anti_cancer_stem_cell": "YES",
+      "metabolic_pathways_blocked": [
+        "Glucose",
+        "Fatty Acids"
+      ],
+      "improved_standard_treatments": [
+        "Chemotherapy",
+        "Immunotherapy",
+        "Radiotherapy",
+        "Hormone Therapy"
+      ],
+      "reduced_adverse_effects": [
+        "Chemotherapy",
+        "Radiotherapy"
+      ],
+      "nutri_points": 220
+    },
+    "SUPP_00072": {
+      "supplement_id": "SUPP_00072",
+      "item_name": "Beetroot supplement",
+      "anti_cancer_stem_cell": "YES",
+      "metabolic_pathways_blocked": [
+        "Glucose"
+      ],
+      "improved_standard_treatments": [
+        "Chemotherapy",
+        "Immunotherapy"
+      ],
+      "reduced_adverse_effects": [
+        "Chemotherapy",
+        "Immunotherapy"
+      ],
+      "nutri_points": 220
+    },
+    "SUPP_00074": {
+      "supplement_id": "SUPP_00074",
+      "item_name": "Chaga supplement",
+      "anti_cancer_stem_cell": "YES",
+      "metabolic_pathways_blocked": [
+        "Glucose",
+        "Fatty Acids"
+      ],
+      "improved_standard_treatments": [
+        "Chemotherapy"
+      ],
+      "reduced_adverse_effects": [
+        "Chemotherapy"
+      ],
+      "nutri_points": 220
+    },
+    "SUPP_00086": {
+      "supplement_id": "SUPP_00086",
+      "item_name": "Basil supplement",
+      "anti_cancer_stem_cell": "Yes",
+      "metabolic_pathways_blocked": [
+        "Glucose"
+      ],
+      "improved_standard_treatments": [
+        "Chemotherapy"
+      ],
+      "reduced_adverse_effects": [
+        "Chemotherapy"
+      ],
+      "nutri_points": 220
+    },
+    "SUPP_00099": {
+      "supplement_id": "SUPP_00099",
+      "item_name": "I3C supplement",
+      "anti_cancer_stem_cell": "YES",
+      "metabolic_pathways_blocked": [
+        "Glucose",
+        "Fatty Acids"
+      ],
+      "improved_standard_treatments": [
+        "Chemotherapy",
+        "Hormone Therapy",
+        "Radiotherapy"
+      ],
+      "reduced_adverse_effects": [
+        "Chemotherapy",
+        "Hormone Therapy",
+        "Radiotherapy"
+      ],
+      "nutri_points": 220
+    },
+    "SUPP_00107": {
+      "supplement_id": "SUPP_00107",
+      "item_name": "Ashwagandha supplement",
+      "anti_cancer_stem_cell": "YES",
+      "metabolic_pathways_blocked": [
+        "Glucose"
+      ],
+      "improved_standard_treatments": [
+        "Chemotherapy",
+        "Radiotherapy",
+        "Immunotherapy",
+        "Hormone Therapy"
+      ],
+      "reduced_adverse_effects": [
+        "Chemotherapy",
+        "Radiotherapy",
+        "Immunotherapy",
+        "Hormone Therapy"
+      ],
+      "nutri_points": 220
+    },
+    "SUPP_00109": {
+      "supplement_id": "SUPP_00109",
+      "item_name": "Antrodia Camphorata supplement",
+      "anti_cancer_stem_cell": "YES",
+      "metabolic_pathways_blocked": [
+        "Glucose",
+        "Fatty Acids"
+      ],
+      "improved_standard_treatments": [
+        "Chemotherapy",
+        "Radiotherapy"
+      ],
+      "reduced_adverse_effects": [
+        "Chemotherapy",
+        "Radiotherapy"
+      ],
+      "nutri_points": 220
+    },
+    "SUPP_00028": {
+      "supplement_id": "SUPP_00028",
+      "item_name": "Olive Oil supplement",
+      "anti_cancer_stem_cell": "Yes",
+      "metabolic_pathways_blocked": [
+        "Glucose",
+        "Fatty Acid"
+      ],
+      "improved_standard_treatments": [
+        "Chemotherapy",
+        "Radiotherapy",
+        "Hormone Therapy",
+        "Immunotherapy"
+      ],
+      "reduced_adverse_effects": [
+        "Radiotherapy",
+        "Hormone Therapy",
+        "Immunotherapy",
+        "Chemotherapy"
+      ],
+      "nutri_points": 210
+    },
+    "SUPP_00043": {
+      "supplement_id": "SUPP_00043",
+      "item_name": "Noni Fruit supplement",
+      "anti_cancer_stem_cell": "YES",
+      "metabolic_pathways_blocked": [
+        "Glucose"
+      ],
+      "improved_standard_treatments": [
+        "Chemotherapy",
+        "Immunotherapy"
+      ],
+      "reduced_adverse_effects": [
+        "Chemotherapy"
+      ],
+      "nutri_points": 210
+    },
+    "SUPP_00046": {
+      "supplement_id": "SUPP_00046",
+      "item_name": "Honokiol (Magnolia Bark) supplement",
+      "anti_cancer_stem_cell": "YES",
+      "metabolic_pathways_blocked": [
+        "Glucose"
+      ],
+      "improved_standard_treatments": [
+        "Chemotherapy",
+        "Radiotherapy"
+      ],
+      "reduced_adverse_effects": [
+        "Chemotherapy",
+        "Hormone Therapy",
+        "Immunotherapy",
+        "Radiotherapy"
+      ],
+      "nutri_points": 210
+    },
+    "SUPP_00064": {
+      "supplement_id": "SUPP_00064",
+      "item_name": "Glucosamine supplement",
+      "anti_cancer_stem_cell": "YES",
+      "metabolic_pathways_blocked": [
+        "Glucose"
+      ],
+      "improved_standard_treatments": [
+        "Chemotherapy",
+        "Immunotherapy",
+        "Radiotherapy"
+      ],
+      "reduced_adverse_effects": [
+        "Chemotherapy",
+        "Radiotherapy"
+      ],
+      "nutri_points": 210
+    },
+    "SUPP_00088": {
+      "supplement_id": "SUPP_00088",
+      "item_name": "Modified Citrus Pectin supplement",
+      "anti_cancer_stem_cell": "YES",
+      "metabolic_pathways_blocked": [
+        "Glucose"
+      ],
+      "improved_standard_treatments": [
+        "Chemotherapy",
+        "Radiotherapy",
+        "Immunotherapy"
+      ],
+      "reduced_adverse_effects": [
+        "Chemotherapy",
+        "Radiotherapy",
+        "Immunotherapy"
+      ],
+      "nutri_points": 210
+    },
+    "SUPP_00094": {
+      "supplement_id": "SUPP_00094",
+      "item_name": "Lycopene supplement",
+      "anti_cancer_stem_cell": "Yes",
+      "metabolic_pathways_blocked": [
+        "Glucose",
+        "Fatty Acid"
+      ],
+      "improved_standard_treatments": [
+        "Chemotherapy",
+        "Immunotherapy",
+        "Radiotherapy",
+        "Hormone Therapy"
+      ],
+      "reduced_adverse_effects": [
+        "Chemotherapy",
+        "Immunotherapy",
+        "Radiotherapy",
+        "Hormone Therapy"
+      ],
+      "nutri_points": 210
+    },
+    "SUPP_00102": {
+      "supplement_id": "SUPP_00102",
+      "item_name": "Cranberries supplement",
+      "anti_cancer_stem_cell": "Yes",
+      "metabolic_pathways_blocked": [
+        "Glucose"
+      ],
+      "improved_standard_treatments": [
+        "Chemotherapy",
+        "Immunotherapy"
+      ],
+      "reduced_adverse_effects": [
+        "Chemotherapy",
+        "Immunotherapy"
+      ],
+      "nutri_points": 210
+    },
+    "SUPP_00111": {
+      "supplement_id": "SUPP_00111",
+      "item_name": "Soursop supplement",
+      "anti_cancer_stem_cell": "YES",
+      "metabolic_pathways_blocked": [
+        "Glucose"
+      ],
+      "improved_standard_treatments": [
+        "Chemotherapy",
+        "Immunotherapy"
+      ],
+      "reduced_adverse_effects": [
+        "Chemotherapy"
+      ],
+      "nutri_points": 210
+    },
+    "SUPP_00002": {
+      "supplement_id": "SUPP_00002",
+      "item_name": "Omega 3 supplement",
+      "anti_cancer_stem_cell": "Yes",
+      "metabolic_pathways_blocked": [
+        "Fatty Acid"
+      ],
+      "improved_standard_treatments": [
+        "Chemotherapy",
+        "Hormone therapy",
+        "Immunotherapy",
+        "Radiotherapy"
+      ],
+      "reduced_adverse_effects": [
+        "Chemotherapy",
+        "Hormone therapy",
+        "Immunotherapy",
+        "Radiotherapy"
+      ],
+      "nutri_points": 200
+    },
+    "SUPP_00013": {
+      "supplement_id": "SUPP_00013",
+      "item_name": "Papaya Fruit supplement",
+      "anti_cancer_stem_cell": "Yes",
+      "metabolic_pathways_blocked": [
+        "Glucose"
+      ],
+      "improved_standard_treatments": [
+        "Chemotherapy"
+      ],
+      "reduced_adverse_effects": [
+        "Chemotherapy"
+      ],
+      "nutri_points": 200
+    },
+    "SUPP_00045": {
+      "supplement_id": "SUPP_00045",
+      "item_name": "Diindolylmethane supplement",
+      "anti_cancer_stem_cell": "YES",
+      "metabolic_pathways_blocked": [
+        "No Evidence"
+      ],
+      "improved_standard_treatments": [
+        "Chemotherapy",
+        "Immunotherapy",
+        "Hormone Therapy",
+        "Radiotherapy"
+      ],
+      "reduced_adverse_effects": [
+        "Chemotherapy",
+        "Radiotherapy"
+      ],
+      "nutri_points": 200
+    },
+    "SUPP_00061": {
+      "supplement_id": "SUPP_00061",
+      "item_name": "Papaya Seed supplement",
+      "anti_cancer_stem_cell": "Yes",
+      "metabolic_pathways_blocked": [
+        "Glucose"
+      ],
+      "improved_standard_treatments": [
+        "Chemotherapy"
+      ],
+      "reduced_adverse_effects": [
+        "Chemotherapy"
+      ],
+      "nutri_points": 200
+    },
+    "SUPP_00082": {
+      "supplement_id": "SUPP_00082",
+      "item_name": "Selenium supplement",
+      "anti_cancer_stem_cell": "No Evidence",
+      "metabolic_pathways_blocked": [
+        "No Evidence"
+      ],
+      "improved_standard_treatments": [
+        "Chemotherapy",
+        "Immunotherapy",
+        "Radiotherapy"
+      ],
+      "reduced_adverse_effects": [
+        "Chemotherapy",
+        "Radiotherapy"
+      ],
+      "nutri_points": 200
+    },
+    "SUPP_00006": {
+      "supplement_id": "SUPP_00006",
+      "item_name": "Jamun supplement",
+      "anti_cancer_stem_cell": "YES",
+      "metabolic_pathways_blocked": [
+        "Glucose"
+      ],
+      "improved_standard_treatments": [
+        "Chemotherapy"
+      ],
+      "reduced_adverse_effects": [
+        "Chemotherapy"
+      ],
+      "nutri_points": 190
+    },
+    "SUPP_00015": {
+      "supplement_id": "SUPP_00015",
+      "item_name": "Broccoli (Sulforaphane) supplement",
+      "anti_cancer_stem_cell": "YES",
+      "metabolic_pathways_blocked": [
+        "Glucose",
+        "Glutamine"
+      ],
+      "improved_standard_treatments": [
+        "Chemotherapy",
+        "Hormone Therapy",
+        "Immunotherapy",
+        "Radiotherapy"
+      ],
+      "reduced_adverse_effects": [
+        "Chemotherapy",
+        "Hormone Therapy",
+        "Immunotherapy",
+        "Radiotherapy"
+      ],
+      "nutri_points": 190
+    },
+    "SUPP_00016": {
+      "supplement_id": "SUPP_00016",
+      "item_name": "Grape Seed Extract supplement",
+      "anti_cancer_stem_cell": "YES",
+      "metabolic_pathways_blocked": [
+        "Glucose"
+      ],
+      "improved_standard_treatments": [
+        "Chemotherapy",
+        "Radiotherapy"
+      ],
+      "reduced_adverse_effects": [
+        "Chemotherapy",
+        "Radiotherapy"
+      ],
+      "nutri_points": 190
+    },
+    "SUPP_00023": {
+      "supplement_id": "SUPP_00023",
+      "item_name": "Muscadine Grape supplement",
+      "anti_cancer_stem_cell": "YES",
+      "metabolic_pathways_blocked": [
+        "Glucose",
+        "Fatty Acids"
+      ],
+      "improved_standard_treatments": [
+        "Chemotherapy",
+        "Immunotherapy",
+        "Radiotherapy"
+      ],
+      "reduced_adverse_effects": [
+        "Chemotherapy",
+        "Immunotherapy",
+        "Radiotherapy"
+      ],
+      "nutri_points": 190
+    },
+    "SUPP_00025": {
+      "supplement_id": "SUPP_00025",
+      "item_name": "Figs supplement",
+      "anti_cancer_stem_cell": "YES",
+      "metabolic_pathways_blocked": [
+        "No Evidence"
+      ],
+      "improved_standard_treatments": [
+        "Chemotherapy"
+      ],
+      "reduced_adverse_effects": [
+        "Chemotherapy"
+      ],
+      "nutri_points": 190
+    },
+    "SUPP_00033": {
+      "supplement_id": "SUPP_00033",
+      "item_name": "Spirulina supplement",
+      "anti_cancer_stem_cell": "No Evidence",
+      "metabolic_pathways_blocked": [
+        "Glucose"
+      ],
+      "improved_standard_treatments": [
+        "Chemotherapy",
+        "Radiotherapy"
+      ],
+      "reduced_adverse_effects": [
+        "Chemotherapy",
+        "Radiotherapy"
+      ],
+      "nutri_points": 190
+    },
+    "SUPP_00037": {
+      "supplement_id": "SUPP_00037",
+      "item_name": "Quince supplement",
+      "anti_cancer_stem_cell": "YES",
+      "metabolic_pathways_blocked": [
+        "Glucose"
+      ],
+      "improved_standard_treatments": [
+        "Chemotherapy"
+      ],
+      "reduced_adverse_effects": [
+        "Chemotherapy"
+      ],
+      "nutri_points": 190
+    },
+    "SUPP_00062": {
+      "supplement_id": "SUPP_00062",
+      "item_name": "Ashitaba supplement",
+      "anti_cancer_stem_cell": "YES",
+      "metabolic_pathways_blocked": [
+        "No Evidence"
+      ],
+      "improved_standard_treatments": [
+        "Chemotherapy",
+        "Radiotherapy"
+      ],
+      "reduced_adverse_effects": [
+        "Chemotherapy",
+        "Radiotherapy"
+      ],
+      "nutri_points": 190
+    },
+    "SUPP_00076": {
+      "supplement_id": "SUPP_00076",
+      "item_name": "Pineapple supplement",
+      "anti_cancer_stem_cell": "YES",
+      "metabolic_pathways_blocked": [
+        "Glucose"
+      ],
+      "improved_standard_treatments": [
+        "Chemotherapy",
+        "Immunotherapy",
+        "Radiotherapy"
+      ],
+      "reduced_adverse_effects": [
+        "Chemotherapy",
+        "Immunotherapy",
+        "Radiotherapy"
+      ],
+      "nutri_points": 190
+    },
+    "SUPP_00077": {
+      "supplement_id": "SUPP_00077",
+      "item_name": "Houttuynia Cordata supplement",
+      "anti_cancer_stem_cell": "YES",
+      "metabolic_pathways_blocked": [
+        "Glucose"
+      ],
+      "improved_standard_treatments": [
+        "Chemotherapy",
+        "Radiotherapy"
+      ],
+      "reduced_adverse_effects": [
+        "Chemotherapy",
+        "Radiotherapy"
+      ],
+      "nutri_points": 190
+    },
+    "SUPP_00083": {
+      "supplement_id": "SUPP_00083",
+      "item_name": "Bromelain supplement",
+      "anti_cancer_stem_cell": "YES",
+      "metabolic_pathways_blocked": [
+        "Glucose"
+      ],
+      "improved_standard_treatments": [
+        "Chemotherapy",
+        "Immunotherapy",
+        "Radiotherapy"
+      ],
+      "reduced_adverse_effects": [
+        "Chemotherapy",
+        "Immunotherapy",
+        "Radiotherapy"
+      ],
+      "nutri_points": 190
+    },
+    "SUPP_00089": {
+      "supplement_id": "SUPP_00089",
+      "item_name": "Bilberry supplement",
+      "anti_cancer_stem_cell": "Yes",
+      "metabolic_pathways_blocked": [
+        "Glucose"
+      ],
+      "improved_standard_treatments": [
+        "Chemotherapy",
+        "Immunotherapy",
+        "Radiotherapy"
+      ],
+      "reduced_adverse_effects": [
+        "Chemotherapy",
+        "Radiotherapy"
+      ],
+      "nutri_points": 190
+    },
+    "SUPP_00032": {
+      "supplement_id": "SUPP_00032",
+      "item_name": "Fenugreek supplement",
+      "anti_cancer_stem_cell": "No Evidence",
+      "metabolic_pathways_blocked": [
+        "Glucose",
+        "Fatty Acid"
+      ],
+      "improved_standard_treatments": [
+        "Chemotherapy"
+      ],
+      "reduced_adverse_effects": [
+        "Chemotherapy"
+      ],
+      "nutri_points": 180
+    },
+    "SUPP_00035": {
+      "supplement_id": "SUPP_00035",
+      "item_name": "Enoki supplement",
+      "anti_cancer_stem_cell": "YES",
+      "metabolic_pathways_blocked": [
+        "Glucose"
+      ],
+      "improved_standard_treatments": [
+        "Chemotherapy",
+        "Immunotherapy"
+      ],
+      "reduced_adverse_effects": [
+        "Chemotherapy",
+        "Immunotherapy"
+      ],
+      "nutri_points": 180
+    },
+    "SUPP_00047": {
+      "supplement_id": "SUPP_00047",
+      "item_name": "Alpha-Lipoic Acid supplement",
+      "anti_cancer_stem_cell": "No Evidence",
+      "metabolic_pathways_blocked": [
+        "Glucose"
+      ],
+      "improved_standard_treatments": [
+        "Chemotherapy",
+        "Immunotherapy",
+        "Radiotherapy"
+      ],
+      "reduced_adverse_effects": [
+        "Chemotherapy",
+        "Radiotherapy"
+      ],
+      "nutri_points": 180
+    },
+    "SUPP_00051": {
+      "supplement_id": "SUPP_00051",
+      "item_name": "Barley Grass supplement",
+      "anti_cancer_stem_cell": "No Evidence",
+      "metabolic_pathways_blocked": [
+        "Glucose"
+      ],
+      "improved_standard_treatments": [
+        "Chemotherapy"
+      ],
+      "reduced_adverse_effects": [
+        "Chemotherapy"
+      ],
+      "nutri_points": 180
+    },
+    "SUPP_00071": {
+      "supplement_id": "SUPP_00071",
+      "item_name": "Dates (Jujube) supplement",
+      "anti_cancer_stem_cell": "No Evidence",
+      "metabolic_pathways_blocked": [
+        "No Evidence"
+      ],
+      "improved_standard_treatments": [
+        "No Evidence"
+      ],
+      "reduced_adverse_effects": [
+        "Chemotherapy",
+        "Radiotherapy"
+      ],
+      "nutri_points": 180
+    },
+    "SUPP_00081": {
+      "supplement_id": "SUPP_00081",
+      "item_name": "L-Carnitine supplement",
+      "anti_cancer_stem_cell": "No Evidence",
+      "metabolic_pathways_blocked": [
+        "Fatty Acid"
+      ],
+      "improved_standard_treatments": [
+        "Chemotherapy",
+        "Immunotherapy"
+      ],
+      "reduced_adverse_effects": [
+        "Chemotherapy",
+        "Immunotherapy"
+      ],
+      "nutri_points": 180
+    },
+    "SUPP_00038": {
+      "supplement_id": "SUPP_00038",
+      "item_name": "Anise Seed supplement",
+      "anti_cancer_stem_cell": "No Evidence",
+      "metabolic_pathways_blocked": [
+        "No Evidence"
+      ],
+      "improved_standard_treatments": [
+        "Chemotherapy"
+      ],
+      "reduced_adverse_effects": [
+        "Chemotherapy"
+      ],
+      "nutri_points": 170
+    },
+    "SUPP_00039": {
+      "supplement_id": "SUPP_00039",
+      "item_name": "Paprika supplement",
+      "anti_cancer_stem_cell": "No Evidence",
+      "metabolic_pathways_blocked": [
+        "Glucose",
+        "Fatty Acids"
+      ],
+      "improved_standard_treatments": [
+        "Chemotherapy",
+        "Immunotherapy",
+        "Radiotherapy"
+      ],
+      "reduced_adverse_effects": [
+        "Chemotherapy",
+        "Immunotherapy",
+        "Radiotherapy"
+      ],
+      "nutri_points": 170
+    },
+    "SUPP_00060": {
+      "supplement_id": "SUPP_00060",
+      "item_name": "Chamomile supplement",
+      "anti_cancer_stem_cell": "No Evidence",
+      "metabolic_pathways_blocked": [
+        "No Evidence"
+      ],
+      "improved_standard_treatments": [
+        "Chemotherapy",
+        "Radiotherapy"
+      ],
+      "reduced_adverse_effects": [
+        "Chemotherapy",
+        "Radiotherapy"
+      ],
+      "nutri_points": 170
+    },
+    "SUPP_00100": {
+      "supplement_id": "SUPP_00100",
+      "item_name": "Amla supplement",
+      "anti_cancer_stem_cell": "No Evidence",
+      "metabolic_pathways_blocked": [
+        "Glucose"
+      ],
+      "improved_standard_treatments": [
+        "Chemotherapy",
+        "Immunotherapy",
+        "Radiotherapy",
+        "Hormone Therapy"
+      ],
+      "reduced_adverse_effects": [
+        "Chemotherapy",
+        "Immunotherapy",
+        "Radiotherapy",
+        "Hormone Therapy"
+      ],
+      "nutri_points": 170
+    },
+    "SUPP_00003": {
+      "supplement_id": "SUPP_00003",
+      "item_name": "Kale supplement",
+      "anti_cancer_stem_cell": "No Evidence",
+      "metabolic_pathways_blocked": [
+        "No Evidence"
+      ],
+      "improved_standard_treatments": [
+        "Chemotherapy",
+        "Hormone Therapy",
+        "Immunotherapy",
+        "Radiotherapy"
+      ],
+      "reduced_adverse_effects": [
+        "Chemotherapy",
+        "Hormone Therapy",
+        "Immunotherapy",
+        "Radiotherapy"
+      ],
+      "nutri_points": 160
+    },
+    "SUPP_00012": {
+      "supplement_id": "SUPP_00012",
+      "item_name": "Corn Silk supplement",
+      "anti_cancer_stem_cell": "No Evidence",
+      "metabolic_pathways_blocked": [
+        "No Evidence"
+      ],
+      "improved_standard_treatments": [
+        "Chemotherapy"
+      ],
+      "reduced_adverse_effects": [
+        "Chemotherapy"
+      ],
+      "nutri_points": 160
+    },
+    "SUPP_00018": {
+      "supplement_id": "SUPP_00018",
+      "item_name": "Vitamin D3 supplement",
+      "anti_cancer_stem_cell": "No Evidence",
+      "metabolic_pathways_blocked": [
+        "Glucose",
+        "Fatty Acid"
+      ],
+      "improved_standard_treatments": [
+        "Chemotherapy",
+        "Hormone Therapy",
+        "Immunotherapy",
+        "Radiotherapy"
+      ],
+      "reduced_adverse_effects": [
+        "Chemotherapy",
+        "Hormone Therapy",
+        "Immunotherapy",
+        "Radiotherapy"
+      ],
+      "nutri_points": 160
+    },
+    "SUPP_00031": {
+      "supplement_id": "SUPP_00031",
+      "item_name": "Pawpaw Bark supplement",
+      "anti_cancer_stem_cell": "YES",
+      "metabolic_pathways_blocked": [
+        "Glucose"
+      ],
+      "improved_standard_treatments": [
+        "Chemotherapy",
+        "Immunotherapy"
+      ],
+      "reduced_adverse_effects": [
+        "Chemotherapy",
+        "Immunotherapy"
+      ],
+      "nutri_points": 160
+    },
+    "SUPP_00069": {
+      "supplement_id": "SUPP_00069",
+      "item_name": "Grapefruit supplement",
+      "anti_cancer_stem_cell": "No Evidence",
+      "metabolic_pathways_blocked": [
+        "Glucose",
+        "Fatty Acid"
+      ],
+      "improved_standard_treatments": [
+        "Chemotherapy"
+      ],
+      "reduced_adverse_effects": [
+        "Chemotherapy"
+      ],
+      "nutri_points": 160
+    },
+    "SUPP_00106": {
+      "supplement_id": "SUPP_00106",
+      "item_name": "Vitamin E supplement",
+      "anti_cancer_stem_cell": "No Evidence",
+      "metabolic_pathways_blocked": [
+        "No Evidence"
+      ],
+      "improved_standard_treatments": [
+        "Chemotherapy",
+        "Radiotherapy"
+      ],
+      "reduced_adverse_effects": [
+        "Chemotherapy",
+        "Radiotherapy"
+      ],
+      "nutri_points": 160
+    },
+    "SUPP_00114": {
+      "supplement_id": "SUPP_00114",
+      "item_name": "Moringa Seed Extract supplement",
+      "anti_cancer_stem_cell": "No Evidence",
+      "metabolic_pathways_blocked": [
+        "Glucose",
+        "Fatty Acid"
+      ],
+      "improved_standard_treatments": [
+        "Chemotherapy",
+        "Radiotherapy"
+      ],
+      "reduced_adverse_effects": [
+        "Chemotherapy",
+        "Radiotherapy"
+      ],
+      "nutri_points": 160
+    },
+    "SUPP_00020": {
+      "supplement_id": "SUPP_00020",
+      "item_name": "Daikon Radish supplement",
+      "anti_cancer_stem_cell": "No Evidence",
+      "metabolic_pathways_blocked": [
+        "No Evidence"
+      ],
+      "improved_standard_treatments": [
+        "Chemotherapy",
+        "Radiotherapy"
+      ],
+      "reduced_adverse_effects": [
+        "Chemotherapy",
+        "Radiotherapy"
+      ],
+      "nutri_points": 150
+    },
+    "SUPP_00021": {
+      "supplement_id": "SUPP_00021",
+      "item_name": "Jujube supplement",
+      "anti_cancer_stem_cell": "No Evidence",
+      "metabolic_pathways_blocked": [
+        "No Evidence"
+      ],
+      "improved_standard_treatments": [
+        "Chemotherapy",
+        "Radiotherapy"
+      ],
+      "reduced_adverse_effects": [
+        "Chemotherapy",
+        "Radiotherapy"
+      ],
+      "nutri_points": 150
+    },
+    "SUPP_00034": {
+      "supplement_id": "SUPP_00034",
+      "item_name": "Carrots supplement",
+      "anti_cancer_stem_cell": "No Evidence",
+      "metabolic_pathways_blocked": [
+        "No Evidence"
+      ],
+      "improved_standard_treatments": [
+        "Chemotherapy",
+        "Hormone Therapy",
+        "Immunotherapy",
+        "Radiotherapy"
+      ],
+      "reduced_adverse_effects": [
+        "Chemotherapy",
+        "Hormone Therapy",
+        "Immunotherapy",
+        "Radiotherapy"
+      ],
+      "nutri_points": 150
+    },
+    "SUPP_00065": {
+      "supplement_id": "SUPP_00065",
+      "item_name": "Spinach supplement",
+      "anti_cancer_stem_cell": "No Evidence",
+      "metabolic_pathways_blocked": [
+        "No Evidence"
+      ],
+      "improved_standard_treatments": [
+        "Chemotherapy",
+        "Hormone Therapy",
+        "Immunotherapy",
+        "Radiotherapy"
+      ],
+      "reduced_adverse_effects": [
+        "Chemotherapy",
+        "Hormone Therapy",
+        "Immunotherapy",
+        "Radiotherapy"
+      ],
+      "nutri_points": 150
+    },
+    "SUPP_00067": {
+      "supplement_id": "SUPP_00067",
+      "item_name": "Celery supplement",
+      "anti_cancer_stem_cell": "No Evidence",
+      "metabolic_pathways_blocked": [
+        "Glucose"
+      ],
+      "improved_standard_treatments": [
+        "Chemotherapy",
+        "Hormone Therapy"
+      ],
+      "reduced_adverse_effects": [
+        "Chemotherapy",
+        "Hormone Therapy"
+      ],
+      "nutri_points": 150
+    },
+    "SUPP_00068": {
+      "supplement_id": "SUPP_00068",
+      "item_name": "Sweet Potatoes supplement",
+      "anti_cancer_stem_cell": "No Evidence",
+      "metabolic_pathways_blocked": [
+        "No Evidence"
+      ],
+      "improved_standard_treatments": [
+        "Chemotherapy",
+        "Immunotherapy",
+        "Radiotherapy"
+      ],
+      "reduced_adverse_effects": [
+        "Chemotherapy",
+        "Immunotherapy",
+        "Radiotherapy"
+      ],
+      "nutri_points": 150
+    },
+    "SUPP_00078": {
+      "supplement_id": "SUPP_00078",
+      "item_name": "Wasabi supplement",
+      "anti_cancer_stem_cell": "No Evidence",
+      "metabolic_pathways_blocked": [
+        "No Evidence"
+      ],
+      "improved_standard_treatments": [
+        "Chemotherapy",
+        "Radiotherapy"
+      ],
+      "reduced_adverse_effects": [
+        "Chemotherapy",
+        "Radiotherapy"
+      ],
+      "nutri_points": 150
+    },
+    "SUPP_00115": {
+      "supplement_id": "SUPP_00115",
+      "item_name": "Urolithin A supplement",
+      "anti_cancer_stem_cell": "No Evidence",
+      "metabolic_pathways_blocked": [
+        "No Evidence"
+      ],
+      "improved_standard_treatments": [
+        "Chemotherapy",
+        "Immunotherapy",
+        "Radiotherapy"
+      ],
+      "reduced_adverse_effects": [
+        "Chemotherapy",
+        "Immunotherapy",
+        "Radiotherapy"
+      ],
+      "nutri_points": 150
+    },
+    "SUPP_00001": {
+      "supplement_id": "SUPP_00001",
+      "item_name": "Passion Flower supplement",
+      "anti_cancer_stem_cell": "No Evidence",
+      "metabolic_pathways_blocked": [
+        "No Evidenec"
+      ],
+      "improved_standard_treatments": [
+        "Chemotherapy",
+        "Immunotherapy",
+        "Radiotherapy"
+      ],
+      "reduced_adverse_effects": [
+        "Chemotherapy",
+        "Immunotherapy",
+        "Radiotherapy"
+      ],
+      "nutri_points": 140
+    },
+    "SUPP_00004": {
+      "supplement_id": "SUPP_00004",
+      "item_name": "Tarragon supplement",
+      "anti_cancer_stem_cell": "No Evidence",
+      "metabolic_pathways_blocked": [
+        "No Evidence"
+      ],
+      "improved_standard_treatments": [
+        "No Evidence"
+      ],
+      "reduced_adverse_effects": [
+        "No Evidence"
+      ],
+      "nutri_points": 140
+    },
+    "SUPP_00008": {
+      "supplement_id": "SUPP_00008",
+      "item_name": "Passion Fruit supplement",
+      "anti_cancer_stem_cell": "No Evidence",
+      "metabolic_pathways_blocked": [
+        "No Evidenec"
+      ],
+      "improved_standard_treatments": [
+        "Chemotherapy",
+        "Immunotherapy",
+        "Radiotherapy"
+      ],
+      "reduced_adverse_effects": [
+        "Chemotherapy",
+        "Immunotherapy",
+        "Radiotherapy"
+      ],
+      "nutri_points": 140
+    },
+    "SUPP_00011": {
+      "supplement_id": "SUPP_00011",
+      "item_name": "Acacia supplement",
+      "anti_cancer_stem_cell": "No Evidence",
+      "metabolic_pathways_blocked": [
+        "Glucose"
+      ],
+      "improved_standard_treatments": [
+        "Chemotherapy"
+      ],
+      "reduced_adverse_effects": [
+        "Chemotherapy"
+      ],
+      "nutri_points": 140
+    },
+    "SUPP_00044": {
+      "supplement_id": "SUPP_00044",
+      "item_name": "Gac Fruit supplement",
+      "anti_cancer_stem_cell": "No Evidence",
+      "metabolic_pathways_blocked": [
+        "No Evidence"
+      ],
+      "improved_standard_treatments": [
+        "Chemotherapy"
+      ],
+      "reduced_adverse_effects": [
+        "Chemotherapy"
+      ],
+      "nutri_points": 140
+    },
+    "SUPP_00055": {
+      "supplement_id": "SUPP_00055",
+      "item_name": "Grains of Paradise supplement",
+      "anti_cancer_stem_cell": "No Evidence",
+      "metabolic_pathways_blocked": [
+        "No Evidence"
+      ],
+      "improved_standard_treatments": [
+        "Chemotherapy"
+      ],
+      "reduced_adverse_effects": [
+        "Chemotherapy",
+        "Radiotherapy"
+      ],
+      "nutri_points": 140
+    },
+    "SUPP_00066": {
+      "supplement_id": "SUPP_00066",
+      "item_name": "Button Mushroom supplement",
+      "anti_cancer_stem_cell": "No Evidence",
+      "metabolic_pathways_blocked": [
+        "No Evidence"
+      ],
+      "improved_standard_treatments": [
+        "Chemotherapy",
+        "Radiotherapy",
+        "Immunotherapy"
+      ],
+      "reduced_adverse_effects": [
+        "Chemotherapy",
+        "Radiotherapy",
+        "Immunotherapy"
+      ],
+      "nutri_points": 140
+    },
+    "SUPP_00103": {
+      "supplement_id": "SUPP_00103",
+      "item_name": "CoQ10 supplement",
+      "anti_cancer_stem_cell": "No Evidence",
+      "metabolic_pathways_blocked": [
+        "No Evidence"
+      ],
+      "improved_standard_treatments": [
+        "No Evidence"
+      ],
+      "reduced_adverse_effects": [
+        "No Evidence"
+      ],
+      "nutri_points": 140
+    },
+    "SUPP_00105": {
+      "supplement_id": "SUPP_00105",
+      "item_name": "Acai Berries supplement",
+      "anti_cancer_stem_cell": "No Evidence",
+      "metabolic_pathways_blocked": [
+        "No Evidence"
+      ],
+      "improved_standard_treatments": [
+        "Chemotherapy",
+        "Immunotherapy",
+        "Radiotherapy",
+        "Hormone Therapy"
+      ],
+      "reduced_adverse_effects": [
+        "Chemotherapy",
+        "Immunotherapy",
+        "Radiotherapy",
+        "Hormone Therapy"
+      ],
+      "nutri_points": 140
+    },
+    "SUPP_00113": {
+      "supplement_id": "SUPP_00113",
+      "item_name": "Bee Pollen supplement",
+      "anti_cancer_stem_cell": "No Evidence",
+      "metabolic_pathways_blocked": [
+        "No Evidence"
+      ],
+      "improved_standard_treatments": [
+        "Chemotherapy",
+        "Immunotherapy",
+        "Radiotherapy"
+      ],
+      "reduced_adverse_effects": [
+        "Chemotherapy",
+        "Immunotherapy",
+        "Radiotherapy"
+      ],
+      "nutri_points": 140
+    },
+    "SUPP_00019": {
+      "supplement_id": "SUPP_00019",
+      "item_name": "Concord Grapes supplement",
+      "anti_cancer_stem_cell": "No Evidence",
+      "metabolic_pathways_blocked": [
+        "No Evidence"
+      ],
+      "improved_standard_treatments": [
+        "Chemotherapy"
+      ],
+      "reduced_adverse_effects": [
+        "Chemotherapy"
+      ],
+      "nutri_points": 130
+    },
+    "SUPP_00022": {
+      "supplement_id": "SUPP_00022",
+      "item_name": "Eggplant supplement",
+      "anti_cancer_stem_cell": "No Evidence",
+      "metabolic_pathways_blocked": [
+        "No Evidence"
+      ],
+      "improved_standard_treatments": [
+        "Chemotherapy"
+      ],
+      "reduced_adverse_effects": [
+        "Chemotherapy"
+      ],
+      "nutri_points": 130
+    },
+    "SUPP_00059": {
+      "supplement_id": "SUPP_00059",
+      "item_name": "Avocado supplement",
+      "anti_cancer_stem_cell": "No Evidence",
+      "metabolic_pathways_blocked": [
+        "No Evidence"
+      ],
+      "improved_standard_treatments": [
+        "Chemotherapy",
+        "Radiotherapy"
+      ],
+      "reduced_adverse_effects": [
+        "Chemotherapy",
+        "Radiotherapy"
+      ],
+      "nutri_points": 130
+    },
+    "SUPP_00063": {
+      "supplement_id": "SUPP_00063",
+      "item_name": "Jabuticaba supplement",
+      "anti_cancer_stem_cell": "No Evidence",
+      "metabolic_pathways_blocked": [
+        "Glucose"
+      ],
+      "improved_standard_treatments": [
+        "Chemotherapy",
+        "Immunotherapy",
+        "Radiotherapy"
+      ],
+      "reduced_adverse_effects": [
+        "Chemotherapy",
+        "Immunotherapy",
+        "Radiotherapy"
+      ],
+      "nutri_points": 130
+    },
+    "SUPP_00087": {
+      "supplement_id": "SUPP_00087",
+      "item_name": "Bhringraj supplement",
+      "anti_cancer_stem_cell": "No Evidence",
+      "metabolic_pathways_blocked": [
+        "No Evidence"
+      ],
+      "improved_standard_treatments": [
+        "Radiotherapy"
+      ],
+      "reduced_adverse_effects": [
+        "Chemotherapy",
+        "Radiotherapy"
+      ],
+      "nutri_points": 130
+    },
+    "SUPP_00110": {
+      "supplement_id": "SUPP_00110",
+      "item_name": "Artichoke supplement",
+      "anti_cancer_stem_cell": "No Evidence",
+      "metabolic_pathways_blocked": [
+        "No Evidence"
+      ],
+      "improved_standard_treatments": [
+        "No Evidence"
+      ],
+      "reduced_adverse_effects": [
+        "Chemotherapy",
+        "Immunotherapy"
+      ],
+      "nutri_points": 130
+    },
+    "SUPP_00017": {
+      "supplement_id": "SUPP_00017",
+      "item_name": "Arjuna supplement",
+      "anti_cancer_stem_cell": "No Evidence",
+      "metabolic_pathways_blocked": [
+        "No Evidence"
+      ],
+      "improved_standard_treatments": [
+        "Chemotherapy",
+        "Radiotherapy"
+      ],
+      "reduced_adverse_effects": [
+        "Chemotherapy",
+        "Radiotherapy"
+      ],
+      "nutri_points": 120
+    },
+    "SUPP_00041": {
+      "supplement_id": "SUPP_00041",
+      "item_name": "Guarana supplement",
+      "anti_cancer_stem_cell": "No Evidence",
+      "metabolic_pathways_blocked": [
+        "No Evidence"
+      ],
+      "improved_standard_treatments": [
+        "No Evidence"
+      ],
+      "reduced_adverse_effects": [
+        "Chemotherapy"
+      ],
+      "nutri_points": 120
+    },
+    "SUPP_00054": {
+      "supplement_id": "SUPP_00054",
+      "item_name": "Bergamot supplement",
+      "anti_cancer_stem_cell": "No Evidence",
+      "metabolic_pathways_blocked": [
+        "No Evidence"
+      ],
+      "improved_standard_treatments": [
+        "Chemotherapy",
+        "Immunotherapy"
+      ],
+      "reduced_adverse_effects": [
+        "Chemotherapy"
+      ],
+      "nutri_points": 120
+    },
+    "SUPP_00093": {
+      "supplement_id": "SUPP_00093",
+      "item_name": "Agaricus Blazei Mushroom supplement",
+      "anti_cancer_stem_cell": "No Evidence",
+      "metabolic_pathways_blocked": [
+        "No Evidence"
+      ],
+      "improved_standard_treatments": [
+        "Chemotherapy",
+        "Immunotherapy",
+        "Radiotherapy"
+      ],
+      "reduced_adverse_effects": [
+        "Chemotherapy",
+        "Immunotherapy",
+        "Radiotherapy"
+      ],
+      "nutri_points": 120
+    },
+    "SUPP_00007": {
+      "supplement_id": "SUPP_00007",
+      "item_name": "Watermelon supplement",
+      "anti_cancer_stem_cell": "No Evidence",
+      "metabolic_pathways_blocked": [
+        "No Evidence"
+      ],
+      "improved_standard_treatments": [
+        "Chemotherapy",
+        "Radiotherapy"
+      ],
+      "reduced_adverse_effects": [
+        "Chemotherapy",
+        "Radiotherapy"
+      ],
+      "nutri_points": 110
+    },
+    "SUPP_00073": {
+      "supplement_id": "SUPP_00073",
+      "item_name": "Akkermansia supplement",
+      "anti_cancer_stem_cell": "No Evidence",
+      "metabolic_pathways_blocked": [
+        "No Evidence"
+      ],
+      "improved_standard_treatments": [
+        "Chemotherapy",
+        "Immunotherapy",
+        "Radiotherapy"
+      ],
+      "reduced_adverse_effects": [
+        "Chemotherapy",
+        "Immunotherapy",
+        "Radiotherapy"
+      ],
+      "nutri_points": 110
+    },
+    "SUPP_00080": {
+      "supplement_id": "SUPP_00080",
+      "item_name": "Agrimony supplement",
+      "anti_cancer_stem_cell": "No Evidence",
+      "metabolic_pathways_blocked": [
+        "No Evidence"
+      ],
+      "improved_standard_treatments": [
+        "Chemotherapy",
+        "Radiotherapy"
+      ],
+      "reduced_adverse_effects": [
+        "Chemotherapy",
+        "Radiotherapy"
+      ],
+      "nutri_points": 110
+    },
+    "SUPP_00095": {
+      "supplement_id": "SUPP_00095",
+      "item_name": "Maqui Berry supplement",
+      "anti_cancer_stem_cell": "No Evidence",
+      "metabolic_pathways_blocked": [
+        "No Evidence"
+      ],
+      "improved_standard_treatments": [
+        "Chemotherapy",
+        "Immunotherapy"
+      ],
+      "reduced_adverse_effects": [
+        "Chemotherapy",
+        "Immunotherapy"
+      ],
+      "nutri_points": 110
+    },
+    "SUPP_00097": {
+      "supplement_id": "SUPP_00097",
+      "item_name": "Cauliflower Mushroom supplement",
+      "anti_cancer_stem_cell": "No Evidence",
+      "metabolic_pathways_blocked": [
+        "No Evidence"
+      ],
+      "improved_standard_treatments": [
+        "Chemotherapy",
+        "Immunotherapy",
+        "Radiotherapy"
+      ],
+      "reduced_adverse_effects": [
+        "Chemotherapy",
+        "Immunotherapy",
+        "Radiotherapy"
+      ],
+      "nutri_points": 110
+    },
+    "SUPP_00027": {
+      "supplement_id": "SUPP_00027",
+      "item_name": "Peas supplement",
+      "anti_cancer_stem_cell": "No Evidence",
+      "metabolic_pathways_blocked": [
+        "No Evidence"
+      ],
+      "improved_standard_treatments": [
+        "No Evidence"
+      ],
+      "reduced_adverse_effects": [
+        "Chemotherapy",
+        "Immunotherapy",
+        "Radiotherapy"
+      ],
+      "nutri_points": 100
+    },
+    "SUPP_00024": {
+      "supplement_id": "SUPP_00024",
+      "item_name": "White/Yellow Mustard Seed supplement",
+      "anti_cancer_stem_cell": "No Evidence",
+      "metabolic_pathways_blocked": [
+        "No Evidence"
+      ],
+      "improved_standard_treatments": [
+        "No Evidence"
+      ],
+      "reduced_adverse_effects": [
+        "No Evidence"
+      ],
+      "nutri_points": 90
+    },
+    "SUPP_00029": {
+      "supplement_id": "SUPP_00029",
+      "item_name": "White/Yellow Mustard Seed supplement",
+      "anti_cancer_stem_cell": "No Evidence",
+      "metabolic_pathways_blocked": [
+        "No Evidence"
+      ],
+      "improved_standard_treatments": [
+        "No Evidence"
+      ],
+      "reduced_adverse_effects": [
+        "No Evidence"
+      ],
+      "nutri_points": 90
+    },
+    "SUPP_00058": {
+      "supplement_id": "SUPP_00058",
+      "item_name": "Taro Root supplement",
+      "anti_cancer_stem_cell": "No Evidence",
+      "metabolic_pathways_blocked": [
+        "No Evidence"
+      ],
+      "improved_standard_treatments": [
+        "Chemotherapy"
+      ],
+      "reduced_adverse_effects": [
+        "Chemotherapy"
+      ],
+      "nutri_points": 90
+    },
+    "SUPP_00104": {
+      "supplement_id": "SUPP_00104",
+      "item_name": "Acerola Cherry supplement",
+      "anti_cancer_stem_cell": "No Evidence",
+      "metabolic_pathways_blocked": [
+        "No Evidence"
+      ],
+      "improved_standard_treatments": [
+        "No Evidence"
+      ],
+      "reduced_adverse_effects": [
+        "No Evidence"
+      ],
+      "nutri_points": 80
+    },
+    "SUPP_00112": {
+      "supplement_id": "SUPP_00112",
+      "item_name": "Almond Mushroom Powder supplement",
+      "anti_cancer_stem_cell": "No Evidence",
+      "metabolic_pathways_blocked": [
+        "No Evidence"
+      ],
+      "improved_standard_treatments": [
+        "Chemotherapy",
+        "Radiotherapy",
+        "Immunotherapy"
+      ],
+      "reduced_adverse_effects": [
+        "Chemotherapy",
+        "Radiotherapy",
+        "Immunotherapy"
+      ],
+      "nutri_points": 80
+    },
+    "SUPP_00096": {
+      "supplement_id": "SUPP_00096",
+      "item_name": "Wheat Grass supplement",
+      "anti_cancer_stem_cell": "No Evidence",
+      "metabolic_pathways_blocked": [
+        "No Evidence"
+      ],
+      "improved_standard_treatments": [
+        "Chemotherapy",
+        "Immunotherapy",
+        "Radiotherapy"
+      ],
+      "reduced_adverse_effects": [
+        "Chemotherapy",
+        "Immunotherapy",
+        "Radiotherapy"
+      ],
+      "nutri_points": 70
+    }
+  },
+  "metadata": {
+    "export_date": "2026-01-18T15:26:59.193118",
+    "total_supplements": 115
+  }
+}

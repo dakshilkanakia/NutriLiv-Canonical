@@ -1,0 +1,137 @@
+{
+  "treatment_exclusions": {
+    "Chemotherapy": {
+      "type_level": {
+        "excluded_ingredients": [],
+        "excluded_supplements": [],
+        "excluded_teas": [],
+        "note": "",
+        "links": ""
+      },
+      "drugs": {
+        "5-FU (Fluorouracil)": {
+          "excluded_ingredients": [
+            "Red_Meat",
+            "INGR_00040"
+          ],
+          "excluded_supplements": [
+            "SUPP_00075"
+          ],
+          "excluded_teas": [],
+          "note": "The following ingredients, supplements, and teas will be excluded from your mealplan because studies show they may interfere with <Standard_Treatment>:",
+          "links": "www.espn.com"
+        }
+      }
+    },
+    "Radiation Therapy": {
+      "type_level": {
+        "excluded_ingredients": [
+          "Red_Meat",
+          "INGR_00040"
+        ],
+        "excluded_supplements": [
+          "SUPP_00075"
+        ],
+        "excluded_teas": [],
+        "note": "The following ingredients, supplements, and teas will be excluded from your mealplan because studies show they may interfere with <Standard_Treatment>:",
+        "links": "www.espn.com"
+      },
+      "drugs": {}
+    },
+    "Immunotherapy": {
+      "type_level": {
+        "excluded_ingredients": [],
+        "excluded_supplements": [],
+        "excluded_teas": [],
+        "note": "",
+        "links": ""
+      },
+      "drugs": {}
+    },
+    "Targeted Therapy": {
+      "type_level": {
+        "excluded_ingredients": [],
+        "excluded_supplements": [],
+        "excluded_teas": [],
+        "note": "",
+        "links": ""
+      },
+      "drugs": {}
+    },
+    "Hormone Therapy": {
+      "type_level": {
+        "excluded_ingredients": [],
+        "excluded_supplements": [],
+        "excluded_teas": [],
+        "note": "",
+        "links": ""
+      },
+      "drugs": {}
+    },
+    "Stem Cell Transplant": {
+      "type_level": {
+        "excluded_ingredients": [],
+        "excluded_supplements": [],
+        "excluded_teas": [],
+        "note": "",
+        "links": ""
+      },
+      "drugs": {}
+    },
+    "Precision Medicine": {
+      "type_level": {
+        "excluded_ingredients": [],
+        "excluded_supplements": [],
+        "excluded_teas": [],
+        "note": "",
+        "links": ""
+      },
+      "drugs": {}
+    },
+    "Photodynamic Therapy": {
+      "type_level": {
+        "excluded_ingredients": [],
+        "excluded_supplements": [],
+        "excluded_teas": [],
+        "note": "",
+        "links": ""
+      },
+      "drugs": {}
+    },
+    "Cryoablation": {
+      "type_level": {
+        "excluded_ingredients": [],
+        "excluded_supplements": [],
+        "excluded_teas": [],
+        "note": "",
+        "links": ""
+      },
+      "drugs": {}
+    },
+    "Radiofrequency Ablation": {
+      "type_level": {
+        "excluded_ingredients": [],
+        "excluded_supplements": [],
+        "excluded_teas": [],
+        "note": "",
+        "links": ""
+      },
+      "drugs": {}
+    },
+    "Hyperthermia": {
+      "type_level": {
+        "excluded_ingredients": [],
+        "excluded_supplements": [],
+        "excluded_teas": [],
+        "note": "",
+        "links": ""
+      },
+      "drugs": {}
+    }
+  },
+  "metadata": {
+    "export_date": "2026-01-18T15:26:45.646719",
+    "total_treatment_types": 11,
+    "total_drugs": 1
+  }
+}

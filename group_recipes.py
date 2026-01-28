@@ -69,6 +69,7 @@ def group_recipes():
                 "canonical_qty": data.get('canonical_qty'),
                 "canonical_unit": data.get('canonical_unit'),
                 "form_id": data.get('resolved_form_id'),
+                "form_hint_raw": data.get('form_hint_raw', ''),  # Original form hint from recipe text (e.g., "diced", "chopped", "ground")
                 "quantity_original": data.get('qty_value_original'),
                 "unit_original": data.get('unit_original'),
                 # Density metadata
